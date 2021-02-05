@@ -1,5 +1,9 @@
 # Selling Shorts Naked - AKA Naked Short Selling
 
+{{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.5em; font-weight: bold;">UPDATE</span>{{< /rawhtml >}}: Link to [theintercept.com article](https://theintercept.com/2016/09/24/naked-shorts-cant-stay-naked-forever/) that explores the same issue. The article also goes on to discuss something called [Reverse Stock Split](https://www.reddit.com/r/wallstreetbets/comments/lcpwh0/how_gme_can_still_be_a_great_play/) - basicall where (unscrupulous) naked short sellers go to die.  
+
+_Original Post:_  
+
 I think you came here to learn why someone would sell their shorts naked. I can explain, because I read a bunch of papers [link], which helped me recreate the *totally accurate* events between Point72, Citadel and Melvin that led to the greatest Short Squeeze (that is yet to happen) on GameStop (G or R18+ versions available). 
 
 I hope to enlighten you, so please read the entire thing - you won't be disappointed. But if you're busy, or autistic but brilliant, and just want the bullet points, here it is:
