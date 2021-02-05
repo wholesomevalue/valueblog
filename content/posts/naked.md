@@ -1,3 +1,4 @@
+
 # Selling Shorts Naked - AKA Naked Short Selling
 
 {{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.5em; font-weight: bold;">UPDATE</span>{{< /rawhtml >}}: Link to [theintercept.com article](https://theintercept.com/2016/09/24/naked-shorts-cant-stay-naked-forever/) that explores the same issue. The article also goes on to discuss something called [Reverse Stock Split](https://www.reddit.com/r/wallstreetbets/comments/lcpwh0/how_gme_can_still_be_a_great_play/) - basicall where (unscrupulous) naked short sellers go to die.  
