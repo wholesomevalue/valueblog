@@ -1,4 +1,6 @@
 
+# BLAH BLAH
+
 # Selling Shorts Naked - AKA Naked Short Selling
 
 {{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.5em; font-weight: bold;">UPDATE</span>{{< /rawhtml >}}: Link to [theintercept.com article](https://theintercept.com/2016/09/24/naked-shorts-cant-stay-naked-forever/) that explores the same issue. The article also goes on to discuss something called [Reverse Stock Split](https://www.reddit.com/r/wallstreetbets/comments/lcpwh0/how_gme_can_still_be_a_great_play/) - basicall where (unscrupulous) naked short sellers go to die.  
@@ -157,7 +159,7 @@ Problem is, some MMs don't think their trillion dollar fortune is large enough, 
 
 `SugarDaddy`: hey DTCC, just wanted to let you know that somebody created a humongous short position on GME, not me, but somebody. If you don't raise your collateral requirements, then the entire stock market will be history. Get it?  
 
-`DTCC`: sure we will raise the collateral by 500%  
+`DTCC`: sure we will raise the collateral by 500%. Btw, you know about our [Stock Borrow Programme](https://www.researchgate.net/publication/228260887_Naked_Short_Sales_and_Fails_to_Deliver_An_Overview_of_Clearing_and_Settlement_Procedures_for_Stock_Trades_in_the_US) (which [everyone thinks is awesome](https://www.sec.gov/rules/proposed/s72404/s72404-14.pdf)) right? You can borrow whatever how much you need (of GME), {{< rawhtml >}}<span style="background-color:red; color:white; font-weight: bold; padding: 0.5em;">AT 0% INTEREST</span>{{< /rawhtml >}} to cover your tracks. and after 3 days, Just "roll" your FTDs over to the idiot broker who's naked...
 
 [All brockerages shut buying of GME, int the hope of locating *REAL* shares to reduce the number of synthetic shares]  
 
