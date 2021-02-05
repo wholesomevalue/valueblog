@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta name="generator" content="Hugo 0.80.0" />
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Selling Shorts Naked - AKA Naked Short Selling #  Link to another article that explores the same issue explored here. The article also goes on to discuss something called Reverse Stock Split - basicall where (unscrupulous) naked short sellers go to die.
+I think you came here to learn why someone would sell their shorts naked. I can explain, because I read a bunch of papers [link], which helped me recreate the totally accurate events between Point72, Citadel and Melvin that led to the greatest Short Squeeze (that is yet to happen) on GameStop (G or R18&#43; versions available).">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Selling Shorts Naked - AKA Naked Short Selling #  Link to another article that explores the same issue explored here. The article also goes on to discuss something called Reverse Stock Split - basicall where (unscrupulous) naked short sellers go to die.
+I think you came here to learn why someone would sell their shorts naked. I can explain, because I read a bunch of papers [link], which helped me recreate the totally accurate events between Point72, Citadel and Melvin that led to the greatest Short Squeeze (that is yet to happen) on GameStop (G or R18&#43; versions available)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/naked/" />
+
+<title>Naked | My New Hugo Site</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.6c7c6446dfdee7c8c933e9bbc6e80ee3ed6c913b2a59519f2092c3c6a9d63e55.css" integrity="sha256-bHxkRt/e58jJM&#43;m7xugO4&#43;1skTsqWVGfIJLDxqnWPlU=">
+<script defer src="/en.search.min.6e9c2b9306e49458efdf0f980e5b7827082c453176e8a7daaad4bd2fc179fd39.js" integrity="sha256-bpwrkwbklFjv3w&#43;YDlt4JwgsRTF26KfaqtS9L8F5/Tk="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><span>My New Hugo Site</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Naked</strong>
+
+  <label for="toc-control">
+    
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#the-bullets">The Bullets</a></li>
+        <li><a href="#long-live-gme">Long live GME</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#feb-15-2019">Feb 15, 2019</a></li>
+        <li><a href="#jan-11-2020">Jan 11, 2020</a></li>
+        <li><a href="#jan-22-2021">Jan 22, 2021</a></li>
+        <li><a href="#jan-27-2021">Jan 27, 2021</a></li>
+        <li><a href="#jan-28-2021-wsb-day">Jan 28, 2021 (WSB Day)</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#paypalmewholesomevaluepaypalmewholesomevalue"><a href="paypal.me/wholesomevalue">paypal.me/wholesomevalue</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/naked/"></a>
+  </h1>
+  
+
+
+  
+
+  
+
+
+  <p><h1 id="selling-shorts-naked---aka-naked-short-selling">
+  Selling Shorts Naked - AKA Naked Short Selling
+  <a class="anchor" href="#selling-shorts-naked---aka-naked-short-selling">#</a>
+</h1>
+<p>Link to <a href="https://theintercept.com/2016/09/24/naked-shorts-cant-stay-naked-forever/">another article</a> that explores the same issue explored here. The article also goes on to discuss something called <a href="https://www.reddit.com/r/wallstreetbets/comments/lcpwh0/how_gme_can_still_be_a_great_play/">Reverse Stock Split</a> - basicall where (unscrupulous) naked short sellers go to die.</p>
+<p>I think you came here to learn why someone would sell their shorts naked. I can explain, because I read a bunch of papers [link], which helped me recreate the <em>totally accurate</em> events between Point72, Citadel and Melvin that led to the greatest Short Squeeze (that is yet to happen) on GameStop (G or R18+ versions available).</p>
+<p>I hope to enlighten you, so please read the entire thing - you won&rsquo;t be disappointed. But if you&rsquo;re busy, or autistic but brilliant, and just want the bullet points, here it is:</p>
+<h3 id="the-bullets">
+  The Bullets
+  <a class="anchor" href="#the-bullets">#</a>
+</h3>
+<ul>
+<li>Naked Short Selling (<code>NSS</code>) is bascially creating shares out of thin air</li>
+<li>Can be useful for making markets, but can also be abused (think the current GameStop saga)</li>
+<li>Basically only Market Makers (MMs) - think <a href="https://en.wikipedia.org/wiki/Prime_brokerage">prime brokerages</a> ie. elites such as JP Morgan, <em>Point72</em>, <em>Citadel</em> etc - can execute Naked Short Selling</li>
+<li>There is no easy way to detect <code>altruistic NSS</code> (making a market, encourage) vs <code>abusive NSS</code> (predatory short selling, discourage)</li>
+<li>The public can only go by <a href="https://www.sec.gov/data/foiadocsfailsdatahtm">DTSS/NSCC FTDs (Failed-to-Deliver) reports</a> which are published once a month (face palm)</li>
+<li>Even with FTD reports, you simply can&rsquo;t tell who the abusive NSS participants are (because the report only has aggregate data on each stock - no details on who owes what stock, when and why)</li>
+<li>Given this, if you&rsquo;re a <code>crook</code> (think <a href="https://en.wikipedia.org/wiki/Steve_Cohen_%28businessman%29#Racketeering_and_insider_trading_charges">$1B fine for insider trading</a>) that owns one of the larger prime brokers around, why wouldn&rsquo;t you exploit it for your / your friend&rsquo;s benefit? - the formula is fairly easy, NSS the stock to obvlivion, stock = $0, then there is no stock to return - easy peasy <a href="">lemon squeezy</a>? - or so they thought - until they encountered <code>GameStop</code> and a bunch of &lsquo;retarded degenerates&rsquo; from <code>WSB</code>.</li>
+</ul>
+
+ <h1 style="color: red">The Big Picture: The Short Squeeze hasn't even started yet</h1> 
+
+<ul>
+<li>Somebody(s) going to pay for this, and its not going to be the WSB degenerates.</li>
+</ul>
+<p>Alright, here goes the longer version:</p>
+<h3 id="long-live-gme">
+  Long live GME
+  <a class="anchor" href="#long-live-gme">#</a>
+</h3>
+<p>Normal short selling - you know what it is right? ok skip to the next paragraph - is (<code>with pants on</code>), you borrow a share (that you don&rsquo;t own) from your friend who owns the stock (the broker), and sell it to someone else. You then wait a while, buy the share back and return it to your friend (broker). all is well if the price went down and conversely all is bad if the price went up - YOU win or lose, bit deal&hellip; NOTE: the broker actually <em>OWNS</em> 
+<sup>2</sup> 
+ the share.</p>
+<p>Naked Short Selling - AKA <code>Selling Shorts (Pants) Naked</code>, on the other hand, is a much more extreme version of selling - I think the person who coined the term <em>Naked</em> short selling had some very deep intiuitions about what it is&hellip;</p>
+<p><img src="/img/expose.jpg" alt="" /></p>
+<p>First of all, you and I can&rsquo;t sell shorts naked - I can&rsquo;t simply tell my broker, nor would my broker believe me, that I have 70M shares of GameStop (GME) stock to sell. The conversation would go something like this:</p>
+<p>for reference see <a href="https://www.ortex.com/symbol/NYSE/GME/short_interest">Ortex</a></p>
+<p><code>ME</code> (15th Oct 2020): hey bro, I have 70M of GME stock I want you to sell for me</p>
+<p><code>IBKR</code>: You do? congratulations, hold on one sec, let me do some DD (due dilligence),</p>
+<p><code>IBKR</code>: Sorry, <a href="https://www.reddit.com/r/wallstreetbets/comments/kz7ygv/gme_dd_one_dd_to_rule_them_one_dd_to_find_them/">reddit</a> says there is only 46M shares floating <!-- raw HTML omitted -->3<!-- raw HTML omitted --> around, of which we know that <a href="https://www.newsweek.com/who-ryan-cohen-gamestop-investor-3-billion-overnight-1565095">Ryan Cohen</a> of Chewy fame, who also happens to be on the board of GME, <a href="https://www.cnbc.com/2021/01/27/gamestops-surge-has-made-its-3-largest-shareholders-billions-overnight.html#:~:text=The%20chief%20beneficiary%20of%20the,owns%2013%25%20stake%20in%20GameStop.&amp;text=GameStop%20CEO%20George%20Sherman%20has,value%20of%20about%20%24350%20million">owns 13%</a>. Therefore you can&rsquo;t possibly have 150% of the floating shares in the company! if that was the case, you would have more shares than there are shares outstanding<!-- raw HTML omitted -->4 outstanding vs floating<!-- raw HTML omitted --> (69M) of the company!</p>
+<p><code>ME</code> (15th Jan 2020) : Would you believe I have 30M ?</p>
+<p><code>IBKR</code>: Let me check with reddit again, nope, sorry reddit says they&rsquo;re holding their shares, either you identify your self as a prime broker (e.g. Steven Cohen, or Kenny G), or we have to end this call now.</p>
+<p>[End of phone call]</p>
+<h1 id="identify-as-steven-cohen-or-kenny-g">
+  Identify as Steven Cohen or Kenny G???
+  <a class="anchor" href="#identify-as-steven-cohen-or-kenny-g">#</a>
+</h1>
+<p>Thats right, IBKR is correct, you need to be a prime broker, ie. any one of the <a href="https://www.dtcc.com/client-center/dtc-directories">participants in DTCC</a>, in order to bullshit about how much shares you have in a company.</p>
+<p>These elite of the elites are called <code>Market Makers</code> (<code>MM</code>s) because they are meant to make (create) a market when there isn&rsquo;t one (think spread between bid and ask being too large), and <!-- raw HTML omitted -->ONLY MMs are allowed to go naked and sell shorts<!-- raw HTML omitted --> (we simply can&rsquo;t trust anyone else to do so).</p>
+<p>So imagine a hypothetical situation, in which the difference (the <code>spread</code>) between the bids and asks for GameStop were so wide that no body wanted to buy nor sell</p>
+<pre><code> BID                ASK
+       1000.00 3000000     &lt;- What WSB is selling the shares at
+          ....
+          4.20 
+          4.10
+1000000   4.00             &lt;- The price at which Ryan Cohen purchased at
+          0.01             &lt;- What GME board (before Ryan came in) believed the value is at
+          0.00             &lt;- Where Melvin wants the price to be
+
+</code></pre><p>Market makers will come in and use their special powers to facilitate / get trades going between buyers and sellers, by taking both sides (keypoint here is take <em>BOTH</em> sides)</p>
+<p>So the MM would, e.g. sell 5 shares it doesn&rsquo;t own, at the bid price, and buy 5 shares at the ask price, to hopefully kick things off&hellip;</p>
+<p>What the MM did (in the case of selling a share it doesn&rsquo;t own), is <code>execute a naked short sell (NSS)</code>. This is perfectly normal (not the picture, but the act), and often needed - all fine and altruistic:</p>
+<pre><code> BID                ASK
+ [5]MM 1000.00 3000000     &lt;- also, MM takes the opposite side of the short trade, by buying 5 shares @ $1000.00. This is to hedge the risk of the 5 (synthetic) shares sold @ $4.00
+          ....
+          4.20 
+          4.10
+1000000   4.00 [5] MM      &lt;- first the MM will sell 5 shares here to the bidder, note MM doesn't have any shares (i.e. the share is synthetic)
+          0.01                     
+          0.00                     
+
+</code></pre><p>At the end of the day, however, the MM needs to put pants back on, because its cold, and they don&rsquo;t want anyone to see them like this:</p>
+<p><img src="/img/shrink.png" alt="" /></p>
+<p>If the MM did its job of making the market correctly, it should have no risk - i.e. neutral, and make money by playing with the spread&hellip;</p>
+<h1 id="the-risk">
+  The Risk
+  <a class="anchor" href="#the-risk">#</a>
+</h1>
+<p>The risk with selling shorts while naked is that your junk is exposed, actually its not really (which I&rsquo;ll get to in a second), but you are exposed:</p>
+<p>The exposure is VERY REAL if, instead of taking both sides, you (the MM) only takes one side (in relevance to what we&rsquo;re discussing here - taking the short side only).</p>
+<p>The exposure is that you eventually have to deliver the <em>REAL</em> share to the person you sold it to, if you don&rsquo;t then it just becomes a joke right? I mean <a href="https://www.amazon.com.au/I-U-John-Lanchester/dp/1439169861">nothing like this has ever happened!</a> (I havn&rsquo;t read the book btw, I just like the cover).</p>
+<p>So in order to deliver the <em>REAL</em> share to the buyer (you don&rsquo;t have it because you were naked), you have to buy it - <em>AT ANY COST</em> - on the market &lt;- big risk if you ask me.</p>
+
+<h3 style="color:red">Important Point 1: Big Risk - Buy AT ANY COST</h3>
+
+<p>Anyways, back to the narrative that MMs are &lsquo;altruistic&rsquo;, which they&rsquo;re not, and only want to fuck <em>ahem</em>, help the market trade by adding liquidity&hellip;</p>
+<p>So MMs are <em>NOT</em> altruistic, because its called capitalism - and they&rsquo;re in it for the money, which is fair enough - you take the risk to allow the market to trade - you should be compensated for it.</p>
+<p>Problem is, some MMs don&rsquo;t think their trillion dollar fortune is large enough, and so don&rsquo;t just want to play the spread game to earn $dough, they get creative and participate in a much more risky / predatory game, and this is when shit hits the fan/ceiling (and it will this time):</p>
+<!-- raw HTML omitted -->
+<h3 id="feb-15-2019">
+  Feb 15, 2019
+  <a class="anchor" href="#feb-15-2019">#</a>
+</h3>
+<p><code>Melvin</code>: Hey pappa, we have a bit of a problem here, this guy called <a href="https://en.wikipedia.org/wiki/Andrew_Left">Andrew Left</a>, from some wanna be Hedge Fund called &ldquo;ShitTron&rdquo; or something, is copying our trade, with him and all his extended family of idiots copying our TOP SECRET trade on GME. They&rsquo;ve now bought the remaing shares we could have used. I think we need to work some magic. I know what I&rsquo;ll have to do (love emoji, xxx,), I hope to see you at 10? K&hellip;</p>
+<p>[explainer: the magic refered to here is creating a small amount of shares, out of thin air, to use for shorting GME]</p>
+<p><a href="https://www.bloomberg.com/opinion/articles/2021-01-29/gamestop-gme-trading-short-sellers-like-citron-aren-t-the-enemy">checkout this opinion piece by Bloomberge LMFAO</a> - yep, <a href="https://en.wikipedia.org/wiki/Andrew_Left#Citron%27s_reports_on_Chinese_companies">Lefty</a> is one of the good guys because he shits on China&hellip;</p>
+<p><code>SugarDaddy</code>: You&rsquo;ll have to work very hard for this one <em>wink</em> <em>wink</em>, ok see you at 10. Come to my office and be discete.</p>
+<p>[GME price goes further south, <code>note</code>: the game now is not simply to profit from short selling, the game is now to completely <code>KILL off GME</code>, otherwise they have to deliver some <em>REAL</em> shares to the &lsquo;idiots&rsquo; who bought shares&hellip;]</p>
+<h3 id="jan-11-2020">
+  Jan 11, 2020
+  <a class="anchor" href="#jan-11-2020">#</a>
+</h3>
+<p><code>Melvin</code>: Alright, more problems, this time theres a guy called <code>Ryan Cohen</code> who just joined GME&rsquo;s board, is he related to you?</p>
+<p><code>SugarDaddy</code>: No, but see you at 10, same place, same shit (<em>wink</em> xxx)</p>
+<h3 id="jan-22-2021">
+  Jan 22, 2021
+  <a class="anchor" href="#jan-22-2021">#</a>
+</h3>
+<p>[More and more WSB Retards find out about the position]</p>
+<p><code>Melvin</code>: More?</p>
+<p><code>SugarDaddy</code>: Sure</p>
+<p>[Shit explodes]</p>
+<h3 id="jan-27-2021">
+  Jan 27, 2021
+  <a class="anchor" href="#jan-27-2021">#</a>
+</h3>
+<p><code>Melvin</code> to the public: We think you guys are stupid, therefore, we announce that we have exited the trade, taken a big hit. Calm down will ya, simply just trying to survive, making some money to feed my family, geez&hellip;</p>
+<p>[The whole world finds out about the position]</p>
+<p><code>WSB</code> retards: Nah, Melvin no exit, Citadel and Point72 simply bought the short positions, called it a &lsquo;cash injection&rsquo;, so that Melvin can say they &lsquo;lost&rsquo;, we&rsquo;re not as retarded as you think.</p>
+<p><code>CNBC</code>: these <code>WSB</code> guys are so stupid, of course Melvin is out, because they told us so&hellip; and we&rsquo;re smart, you guys don&rsquo;t know anything&hellip;</p>
+<p><code>WSB</code> retards: &ldquo;We don&rsquo;t like CNBC&rdquo;, in the most PG language ever</p>
+<h3 id="jan-28-2021-wsb-day">
+  Jan 28, 2021 (WSB Day)
+  <a class="anchor" href="#jan-28-2021-wsb-day">#</a>
+</h3>
+<p><code>SugarDaddy</code>: hey DTCC, just wanted to let you know that somebody created a humongous short position on GME, not me, but somebody. If you don&rsquo;t raise your collateral requirements, then the entire stock market will be history. Get it?</p>
+<p><code>DTCC</code>: sure we will raise the collateral by 500%</p>
+<p>[All brockerages shut buying of GME, int the hope of locating <em>REAL</em> shares to reduce the number of synthetic shares]</p>
+<p><code>Brokers</code>: Dear retail traders, we&rsquo;re doing this for you, to protect you from harm&hellip;</p>
+<p><code>The world</code>: Fuck you, we&rsquo;re not dumb, if this is not collusion, then what the fuck is?</p>
+<p>Meanwhile, on twitter, our friend <a href="https://en.wikipedia.org/wiki/Steve_Cohen_%28businessman%29#Racketeering_and_insider_trading_charges">Steven Cohen</a>, who is <a href="https://www.prnewswire.com/news-releases/melvin-announces-2-75-billion-investment-from-citadel-and-point72--301214477.html#:~:text=%22I%20am%20incredibly%20proud%20to,these%20two%20great%20investment%20icons.%22"><em>totally unrelated to Melvin</em></a> says:</p>
+<p><img src="/img/steven.jpg" alt="" /></p>
+<p>I think he is telling Melvin (stock jocks?) to bring the <em>REAL</em> shares back to the rightful owners. He is a good guy yep.</p>
+
+ <h3 style="color:red">Important Point #2: Someone is still exposed</h3> 
+
+<p>Because someone created a shit tonne of shares, out of thin air, to try to drive a company to the ground in order to hide the fact that the fake shares were created&hellip; Keyword here is <em>tried</em>, and failed, because they were stupid enough to fight with idiots, and as we all know you shouldn&rsquo;t fight with idiots, because if you do, then they&rsquo;ll drag you down to their level, and beat you fair and square with experience (of being stupid)&hellip;</p>
+<p><em>Disclosure: I am one of them (idiot), WSB variety.</em></p>
+<h1 id="why-is-my-junk-not-exposed-not-because-i-dont-have-one">
+  Why is My Junk Not Exposed (Not because I don&rsquo;t have one)
+  <a class="anchor" href="#why-is-my-junk-not-exposed-not-because-i-dont-have-one">#</a>
+</h1>
+<p>(explainer: not my junk)</p>
+<p>So I hypothesis that someone (or group of people) is still exposed, and they tried to hide it (by trying to bankrupt GME), but failed (thanks to retards).</p>
+<p>And Janet Yellen also knows this, because apparently she wants to <a href="https://www.investing.com/news/economy/yellen-says-wants-to-understand-deeply-gamestop-frenzy-before-taking-action-2409327">understand fully what happened</a> before taking action&hellip;</p>
+<p>Anyways this someone/group can only really be exposed by Yellen, because the public has no way of knowing. To understand why that is so, we have to understand how clearing and settlement works (in the US):</p>
+<p>go read <a href="https://www.researchgate.net/publication/228260887_Naked_Short_Sales_and_Fails_to_Deliver_An_Overview_of_Clearing_and_Settlement_Procedures_for_Stock_Trades_in_the_US">this</a>. I know you probably didn&rsquo;t read it so I&rsquo;ll summarize:</p>
+<ul>
+<li><code>Depository Trust and Clearing Corporation (DTCC)</code> provides clearing &amp; settlement services. DTCC has 2 subsidiaries: NSCC and DTC</li>
+<li>Clearing is done by the <code>National Securities Clearing Corporation (NSCC)</code>, while settlement is handled by the <code>Depository Trust Company (DTC)</code></li>
+<li>Clearing is required to &lsquo;simplify&rsquo; the settelment, e.g. since most shares are held in <a href="">Street Name</a>, we don&rsquo;t need to make transfers for each individual owner, simply aggregate transfers per participant (e.g. broker) will do.</li>
+<li>The clearing is done by NSCC taking both sides of every trade, to produce a <em>NET</em> settlement file. Something like:</li>
+</ul>
+<p>[TODO: pic of clearing]</p>
+<ul>
+<li>The settlement file is then fed into DTC, to effect settlement. This is where things get interesting (for GME at least)&hellip;</li>
+<li>Anyways, the key thing here to note is something called <code>Failed-To-Delivers (FTDs)</code>, for which a report is provided by the SEC <a href="https://www.sec.gov/data/foiadocsfailsdatahtm">every month?</a>.</li>
+<li>So the DTC, while effecting the settlement by going over each line in the settlement file, would mark any shares that could not be located (<code>Failed-to-Deliver</code>) by the participant.</li>
+<li>For GME, for a fairly long time, it has always been in the hundreds of thousands, sometimes even millions of shares -  day after day, week after week!</li>
+</ul>
+<pre><code>
+# This is extracted from the SEC report
+                              date       cusip         ftds         stock                 price
+date=2021-01-05, entry=Entry(2021-01-05,36467W109,GME,490723,GAMESTOP CORP (HLDG CO) CL A,17.25)
+date=2021-01-06, entry=Entry(2021-01-06,36467W109,GME,772112,GAMESTOP CORP (HLDG CO) CL A,17.37)
+date=2021-01-07, entry=Entry(2021-01-07,36467W109,GME,799328,GAMESTOP CORP (HLDG CO) CL A,18.36)
+date=2021-01-08, entry=Entry(2021-01-08,36467W109,GME,555658,GAMESTOP CORP (HLDG CO) CL A,18.08)
+date=2021-01-11, entry=Entry(2021-01-11,36467W109,GME,703110,GAMESTOP CORP (HLDG CO) CL A,17.69)
+date=2021-01-12, entry=Entry(2021-01-12,36467W109,GME,287730,GAMESTOP CORP (HLDG CO) CL A,19.94)
+date=2021-01-13, entry=Entry(2021-01-13,36467W109,GME,662524,GAMESTOP CORP (HLDG CO) CL A,19.95)
+date=2021-01-14, entry=Entry(2021-01-14,36467W109,GME,621483,GAMESTOP CORP (HLDG CO) CL A,31.40)
+
+# Note the latest is first half of January 2021 (ending Jan 14)
+
+# Who knows what the number might be for Jan 15 - Feb 14??? ftds = 50M???
+
+</code></pre><ul>
+<li>This is got to be fishy right? But heres the catch, people can argue that because the numbers are aggregate, its just the way a hotly traded stock is&hellip;</li>
+<li>But it is not (hint: 140% short interest, the ability to naked short selling by MMs without any checks and balances), and we will soon see, because there is no way GME is going to $0&hellip;</li>
+</ul>
+
+ <h3 style="color:red">Important Point #3 - Failed-To-Delivers</h3> 
+
+<!-- raw HTML omitted -->
+<p>Disclosure: I&rsquo;m an idiot.</p>
+<p>Ok, finally I hope you enjoyed this hyperbole bullshit, or is it???, that I just wrote</p>
+<p>My advice would be to <!-- raw HTML omitted -->HODL<!-- raw HTML omitted --> your GME stock, because if you NEVER SELL, YOU NEVER LOSE right? <em>GME is not Enron guys and girls, GME has value. I like the stock</em></p>
+<p>Alright I think I have to spell it out for you retards to understand, since somebody said that if you keep reducing a number by 50% of it self, you will end up with 0. Which totally makes sense to Melvin I&rsquo;m sure, and Andrew&hellip; but not someone like Steven, so here goes:</p>
+
+<h1 style="color: green">HODL GME until you either die or a big payout is given to you, they will cave eventually, or Yellen will be yelling</h1>
+
+<p>BTW if you can spare a few change, do send send a small donation Paypal Address here:</p>
+<h3 id="paypalmewholesomevaluepaypalmewholesomevalue">
+  <a href="paypal.me/wholesomevalue">paypal.me/wholesomevalue</a>
+  <a class="anchor" href="#paypalmewholesomevaluepaypalmewholesomevalue">#</a>
+</h3>
+<p>because I would like to buy more of GME, but I can&rsquo;t afford to because I&rsquo;m broke now (down 70%)&hellip;</p>
+<p>Alternatively my Bitcoin Address is:</p>
+<p><img src="/img/btc_address.png" alt="" /></p>
+<p>3Hia9udRvDb1R7Ljt85EdJJUR5xfhRrtHL</p>
+<p>Note only send BTC to this address, everything else will get rejected.</p>
+<p>Cheers!</p>
+<p>WholesomeValue (an idiot)</p>
+<p><img src="/img/lemon.png" alt="" /></p>
+</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#the-bullets">The Bullets</a></li>
+        <li><a href="#long-live-gme">Long live GME</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#feb-15-2019">Feb 15, 2019</a></li>
+        <li><a href="#jan-11-2020">Jan 11, 2020</a></li>
+        <li><a href="#jan-22-2021">Jan 22, 2021</a></li>
+        <li><a href="#jan-27-2021">Jan 27, 2021</a></li>
+        <li><a href="#jan-28-2021-wsb-day">Jan 28, 2021 (WSB Day)</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#paypalmewholesomevaluepaypalmewholesomevalue"><a href="paypal.me/wholesomevalue">paypal.me/wholesomevalue</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
