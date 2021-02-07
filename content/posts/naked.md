@@ -2,9 +2,7 @@
 
 _Follow me on Twitter: [@empirezhu](https://twitter.com/empirezhu)_  
 
-{{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.3em; font-weight: bold;">UPDATE</span>{{< /rawhtml >}} Link to [theintercept.com article](https://theintercept.com/2016/09/24/naked-shorts-cant-stay-naked-forever/) that explores the same issue. The article also goes on to discuss something called [Reverse Stock Split](https://www.reddit.com/r/wallstreetbets/comments/lcpwh0/how_gme_can_still_be_a_great_play/) - basically how to nuke naked short sellers
-
-{{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.3em; font-weight: bold;">NOTE</span>{{< /rawhtml >}} This post contains mostly facts (e.g. what illegal Naked Short Selling is, how the DTC/NCSS clearing & settlement of securities works, why it doesn't work - i.e. allows illegal naked short selling), and some hyperbole bullshit. Therefore, before going any further, you should [read the disclaimer](#disclaimer) first.  
+{{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.3em; font-weight: bold;">NOTE</span>{{< /rawhtml >}} This post was written after alot of research and digging around. It contains mostly facts (e.g. what illegal Naked Short Selling is, how the DTC/NCSS clearing & settlement of securities works, and why it doesn't work - allowing illegal naked short selling), and some relatable fiction for entertainment purposes only. Therefore, before going any further, you should [read the disclaimer](#disclaimer) first.  
 
 Are you laughing? If not I know you havn't read the [disclaimer](#disclaimer). If so, please continue...  
 
@@ -126,16 +124,14 @@ So in order to deliver the *REAL* share to the buyer (you don't have it because 
 
 {{< rawhtml >}}<h1 style="padding: 0.2em"><span style="color: white; background-color:red; padding: 0.3em">Important Point #1</span> Big Risk - Buy AT ANY COST</h1><br/>{{< /rawhtml >}}  
   
+## Reenactment
+
 Lets watch an reenactment of a recent event, to illustrate how Predatory Naked Short Selling works:
 
 _The following reenactment is for entertainment purposes only, the characters described within are not real, for example, Melvin is the incestual brother of Elmer J. Fudd, CNBC is the name of my black english staffy, who shits 3 times a day, and SugarDaddy is a pedophile that lives in the higher echalons of the church of market makers. The church is called the DTCC_
 
-## Reenactment
-
 {{< rawhtml >}}<h1><span style="color:white; background-color: red; padding: 0.3em;">Reenactment</span> (99.99% accurate)</h1><a href="#disclaimer">Disclaimer</a><br/>{{< /rawhtml >}}
   
-  
-
 ### _Feb 15, 2019_ - Sexting transcript between Melvin and Sugardaddy
 
 `Melvin`: Hey pappa, we have a bit of a problem here, this guy called [Andrew Left](https://en.wikipedia.org/wiki/Andrew_Left), from some wanna be Hedge Fund called "ShitTron" or something, is copying our trade, with him and all his extended family of idiots copying our TOP SECRET trade on GME. They've now bought the remaing shares we could have used. I think we need to work some magic. I know what I'll have to do (love emoji, xxx,), I hope to see you at 10? K...  
@@ -458,6 +454,8 @@ Source: https://www.ortex.com/symbol/NYSE/GME/short_interest
 {{< rawhtml >}}<a name="hypo"></a>{{< /rawhtml >}}
 
 - [Hypothecation](https://www.investopedia.com/terms/h/hypothecation.asp) - bascially broker speak for, if you have margin account with us, then we have the right to lend out whatever you buy.
+
+{{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.3em; font-weight: bold;">UPDATE</span>{{< /rawhtml >}} Link to [theintercept.com article](https://theintercept.com/2016/09/24/naked-shorts-cant-stay-naked-forever/) that explores the same issue. The article also goes on to discuss something called [Reverse Stock Split](https://www.reddit.com/r/wallstreetbets/comments/lcpwh0/how_gme_can_still_be_a_great_play/) - basically how to nuke naked short sellers
 
 ## Disclaimer
 
