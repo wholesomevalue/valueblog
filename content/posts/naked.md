@@ -321,9 +321,9 @@ When SugarDaddy and Melvin enters the arena, things gets complicated:
 - Now `Buy-In` - is what an MM who received a `FTR` (Failed-to-Receive, aka IOU) invokes when the MM *REALLY* wants the shares owed to it...
 - This however, is rarely used in practice - in the same way why states don't assasinate each other's head of states, MMs don't invoke Buy-Ins for fear of retribution, also:
   - MM's clients doesn't know that they're actually holding `IOU`s
-  - the `Continuous Net Settlement` Service, in an ingenious way (whether intentionally designed or not), assigns highest priority to FTRs, therefore people with FTRs actually get delivery of real shares the next EOD or 2 arrives (e.g. via other brokers or SBP) - whats the point of upsetting SugarDaddy when we just wait a few days before actual delivery?
-  - And what happens to the FTD? it doesn't expire, but remember, SBP = 0% interest, so SugarDaddy can sit on it forever, or have Brokers shutdown (28th of Jan, 2021)...
-  - and so in effect, the FTR has been rolled to the next unlucky participant, again and again, in perpetuity
+  - The `Continuous Net Settlement` Service, in an ingenious way (whether intentionally designed or not), assigns highest priority to FTRs, therefore people with FTRs actually get delivery of real shares the next EOD or 2 arrives (e.g. via other brokers or SBP) - whats the point of upsetting SugarDaddy when we just wait a few days before actual delivery?
+  - What happens to the FTD? it doesn't expire, but remember, SBP = 0% interest, so SugarDaddy can sit on it forever, or orchestrate Brokerage shutdowns (28th of Jan, 2021)...
+  - And so in effect, the FTR has been rolled to the next unlucky participant, again and again, in perpetuity
 
 Let me just quote the exact texts from the [Talis. J. Putnins research paper](#references):  
 
