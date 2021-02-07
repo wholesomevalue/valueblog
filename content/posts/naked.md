@@ -296,9 +296,9 @@ When SugarDaddy and Melvin enters the arena, things gets complicated:
 ### Failed-to-Delivers (FTDs)
 
 - So after receiving favours from Melvin, SugarDaddy sells 4x GME shares for him, and says WTF, i'll sell 2x GME for ShitTron and Co just for shits and giggles...
-- `IMPORTANT` - note that SugarDaddy `DOES NOT LOCATE THE SHARES, AND DOES NOT TAKE ON THE OTHER SIDE` (why bother? because he's the big dog, and does whatever he wants...)- So SugarDaddy, the abusive (wink wink) predator goes naked, and executes `Naked Short Sell of 6x GME`
+- `IMPORTANT` - note that SugarDaddy `DOES NOT LOCATE THE SHARES, AND DOES NOT TAKE ON THE OTHER SIDE` (risks means nothing to him)- So SugarDaddy executes `Naked Short Sell of 6x GME` on the Exchange.
 - Because in the real world you can't just create shares out of thin air, `GME's float is still at 4 shares`
-- Anyways the trade is made on the exchange because some lucky dude saw that the GME shares are being sold at _way below intrinsic value_, so quickly instructs Broker A to "buy this shit for me NOW" using `Market Order` (at Ask)
+- Anyways the trade is made on the exchange because some lucky dude saw that the GME shares are being sold at _way below intrinsic value_, so quickly instructs Broker A to "buy this for me NOW" using `Market Order` (at Ask)
 - Now the `Short Interest` (Short Volume / Float) is `150%` of GME's float! (6/4 = 1.5 or 150%)... LMFAO
 - At the EOD, as usual, the trades are transmitted to NSCC via the Exchange
 - NSCC, when doing the netting (clearing) notices something odd -> that SugarDaddy's stock account doesn't have the 6 GME shares sold to Broker A. so records a `Failed-to-Deliver` (`FTD`) against SugarDaddy...
