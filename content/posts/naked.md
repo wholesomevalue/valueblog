@@ -272,7 +272,7 @@ Happy days scenaior, where SugarDaddy, Melvin and Shittron & Co isn't around goe
 - NSCC produces net positions (what stock a participant owes NSCC, and what stock NSCC owes a particpant) for each participant / stock
 - In this simple case, there will be 2 positions: `Broker A: -2 GME`, `Broker B: +2 GME`
 - This net position is passed onto `DTC` as instructions to effect settlement
-- The DTC would record -2 GME from Broker A's stock book, and +2 GME to Broker B's stock book
+- The DTC would record -2 GME from Broker A's stock account, and +2 GME to Broker B's stock account
 - Settling Banks are then sent instructions accordingly (for Broker A, +$1000, and for Broker B, -$1000)
 - Notice the FTD/FTR register is empty - nice and simple...
 
@@ -299,7 +299,7 @@ When SugarDaddy and Melvin enters the arena, things gets complicated:
 - `IMPORTANT` - note that SugarDaddy `DOES NOT LOCATE THE SHARES, AND DOES NOT TAKE ON THE OTHER SIDE` (risks means nothing to him)- So SugarDaddy executes `Naked Short Sell of 6x GME` on the Exchange.
 - Because in the real world you can't just create shares out of thin air, `GME's float is still at 4 shares`
 - Anyways the trade is made on the exchange because some lucky dude saw that the GME shares are being sold at _way below intrinsic value_, so quickly instructs Broker A to "buy this for me NOW" using `Market Order` (at Ask)
-- Now the `Short Interest` (Short Volume / Float) is `150%` of GME's float! (6/4 = 1.5 or 150%)... LMFAO
+- Now the `Short Interest` (Short Volume / Float) is `150%` of GME's float! (6/4 = 1.5 or 150%)...
 - At the EOD, as usual, the trades are transmitted to NSCC via the Exchange
 - NSCC, when doing the netting (clearing) notices something odd -> that SugarDaddy's stock account doesn't have the 6 GME shares sold to Broker A. so records a `Failed-to-Deliver` (`FTD`) against SugarDaddy...
 - At the same time, NSCC will record `Failed-to-Receive` (FTR) against Broker A (like an `IOU`).
@@ -308,8 +308,8 @@ When SugarDaddy and Melvin enters the arena, things gets complicated:
 
 - You might have noticed that only `2x FTRs for GME` were recorded against Broker A (meaning Broker A is owed 2 shares of GME), Why is that???
 - This is due to a very well known trick (for insiders at least) called `Stock Borrow Programme`, which apparently is so well conceived and _"NOT AT ALL"_ abused that DTCC had to write a [letter to the sec of SEC](https://www.sec.gov/rules/proposed/s72404/s72404-14.pdf),  _Jonathan G. Katz_,  proclaiming how perfect it is - and don't listen to people who complain about it being abused because it is perfect...
-- So notice how Broker B, has access to Cash Account Investor's 2x GME shares (assume agreed to let broker lend its shares out) - the Cash Investor obtained the 2x GME shares fair and square previously in the [Simple Scenario](#simple-overview)
-- Broker B is a participant of the DTCC, and participates in its `Stock Borrowing Programme`.
+- So notice how Broker B, has access to Cash Account Investor's 2x GME shares (assume agreed to let broker lend its shares out) - the Cash Investor obtained the 2x GME shares fair and square previously in the [Happy Days Scenario](#simple-overview)
+- Broker B is a participant of the DTCC, and also in its `Stock Borrowing Programme`.
 - Note that very little information is available on the internet (except for the letter to the SEC dated 2004) about DTCC's `Stock Borrow Programme`, I learnt about it, and the inner workings of the DTC/NCSS through the [Research Paper](https://www.researchgate.net/publication/228260887_Naked_Short_Sales_and_Fails_to_Deliver_An_Overview_of_Clearing_and_Settlement_Procedures_for_Stock_Trades_in_the_US) (see [reference](#reference)) by _Talis. J. Putnins_ (University of Sydney, NSW, Australia). The paper was released in October 2009, so be aware some info in there might be out of date (e.g. `T+3` it mentions is now `T+2` i believe).
 - There is some info about this new system called [SFT](https://www.dtcc.com/clearing-services/equities-clearing-services/sft), due to be rolled out in 2021 (pending regulatory approval?), so I'm reading this as, the `Stock Borrow Programme` is still in use (_and still being abused_ for predatory naked short selling)
 - Loving how _OPAQUE_ this whole thing is?
@@ -318,12 +318,12 @@ When SugarDaddy and Melvin enters the arena, things gets complicated:
 {{< rawhtml >}}<h1 style="padding: 0.2em; line-height: 1.5em;"><span style="color: white; background-color:red; padding: 0.3em">Important Point #3</span> BROKEN - The <b>Stock Borrow Programme</b> (SBP) effectively allows SugarDaddy to game the system and borrow at 0% interest to make up for shares it can't deliver</h1>{{< /rawhtml >}}
 
 - Are we approaching _infinite stupidity_ yet? Yes, we are, let me introduce to you the _elusive Buy-In_:
-- Ok, now `Buy-In` - is what an MM who received a `FTR` (Failed to Receive) invokes when the MM *REALLY* wants the shares owed to it... This sounds great, you think - this is the ultimate weapon we can bring this guy down, until you realize that it isn't...
-- `Buy-Ins` are rarely used - in the same way why America doesn't assassinate Iran or Russia's head of state (because they fear that Iran / Russia may do the same to Donald) - by the MMs out of both fear of retribution, and also because there is not really any financial hurt in having it:
+- Now `Buy-In` - is what an MM who received a `FTR` (Failed-to-Receive, aka IOU) invokes when the MM *REALLY* wants the shares owed to it...
+- This however, is rarely used in practice - in the same way why states don't assasinate each other's head of states, MMs don't invoke Buy-Ins for fear of retribution, also:
   - MM's clients doesn't know that they're actually holding `IOU`s
   - the `Continuous Net Settlement` Service, in an ingenious way (whether intentionally designed or not), assigns highest priority to FTRs, therefore people with FTRs actually get delivery of real shares the next EOD or 2 arrives (e.g. via other brokers or SBP) - whats the point of upsetting SugarDaddy when we just wait a few days before actual delivery?
-  - And what happens to the FTD? it doesn't expire, but remember, SBP = 0% interest, so SugarDaddy can sit on it forever...
-  - and so in effect, the FTR has been rolled to the next unlucky participant, and so on, in perpetuity
+  - And what happens to the FTD? it doesn't expire, but remember, SBP = 0% interest, so SugarDaddy can sit on it forever, or have Brokers shutdown (28th of Jan, 2021)...
+  - and so in effect, the FTR has been rolled to the next unlucky participant, again and again, in perpetuity
 
 Let me just quote the exact texts from the [Talis. J. Putnins research paper](#references):  
 
