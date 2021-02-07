@@ -385,10 +385,12 @@ It has been a wild ride the last week or so for me! and I'm sure for you as well
 
 To be perfectly honest, even if I lost the entire amount, I will not have any regrets, because I only played with money I can afford to lose, and also because I think of it as an investment, both in a great company, and in being able to wake up and see the wicked game for what it is - I'm finally an educated ape now!  
 
-This post originated from notes that I took when I began looking into FTDs, FTRs, DTCC etc, terms that I've never heard of before. Eventually, combining with some creative writing abilities which I didn't know existed in me, I turned it into a post that I want to share it with everyone.
+This post originated from notes that I took when I began looking into FTDs, FTRs, DTCC etc, terms that I've never heard of before. Eventually, combining with some creative writing abilities which I didn't know existed in me, I turned it into a post that I want to share with everyone.
 
 {{< rawhtml >}}
 <div style="padding: 1em; background-color: #F0F0F0">
+#shamelessplug
+<br/>
 <p>
 If you like what you read, feel free to donate a small amount (e.g. <a href="https://www.quora.com/What-is-the-smallest-amount-of-Bitcoin-I-can-buy-and-where-do-I-buy-it">1 satoshi</a>) into my bitcoin address (at least i'll know someone read and appreciated my efforts):
 
@@ -399,10 +401,10 @@ If you like what you read, feel free to donate a small amount (e.g. <a href="htt
 Note only send BTC to this address, everything else will get rejected.
 </p>
 <p>
-or through PayPal: <a href="https://paypal.me/wholesomevalue">paypal.me/wholesomevalue</a>
+Alternatively, you can also donate via PayPal: <a href="https://paypal.me/wholesomevalue">paypal.me/wholesomevalue</a>
 </p>
 <p>
-EDIT: Because I'm now down about -$25KAUD, I'm unable to afford the bare essentials, such as <a href="https://bws.com.au/spirits">beer, wine and spirits</a>, let alone food and other things, so if you can relate, again, send me a little so I can survive - in jest
+EDIT: Because I'm now down about -$25KAUD, I'm unable to afford the <i>bare essentials</i> such as <a href="https://bws.com.au/spirits">beer, wine and spirits</a> (let alone less important things like food and mortgage repayments), so if you can relate, again, send me a little so I can survive - in jest
 </p>
 </div>
 {{< /rawhtml >}}
@@ -410,6 +412,8 @@ EDIT: Because I'm now down about -$25KAUD, I'm unable to afford the bare essenti
 Cheers
 
 WholesomeValue
+
+{{< rawhtml >}}<hr/>{{< /rawhtml >}}
 
 ## Appendices (organ)
 
