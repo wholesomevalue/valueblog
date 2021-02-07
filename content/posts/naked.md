@@ -142,7 +142,7 @@ _The following reenactment is for entertainment purposes only, the characters de
 
 Btw, [checkout this opinion piece by Bloomberge LMFAO](https://www.bloomberg.com/opinion/articles/2021-01-29/gamestop-gme-trading-short-sellers-like-citron-aren-t-the-enemy) - yep, [Lefty](https://en.wikipedia.org/wiki/Andrew_Left#Citron's_reports_on_Chinese_companies) is one of the good guys because he shits on China... LMFAO
 
-[NSFW images omitted]
+[Dick pics omitted]
 
 {{< rawhtml >}}
 <div style="background-color: #F0F0F0; padding: 1em;">
@@ -163,7 +163,7 @@ _[ GME price goes further south... but people who actually did DD, and have real
 
 `SugarDaddy`: No, but see you at 10, same place, same shit (*wink* xxx)  
 
-[NSFW images ommitted]
+[Pegging pics ommitted]
 
 _[ More and more WSB Retards find out about the position ]_
 
