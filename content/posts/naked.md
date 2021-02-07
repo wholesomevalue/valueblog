@@ -224,8 +224,6 @@ I think he is telling Melvin (stock jocks?) to bring the *REAL* shares back to t
 
 Someone created a alot of fake shares of GME, and tried to drive the company to the ground in order to hide the act. The deed is done, the company is still around, and so somebody is still very much exposed.
 
-_Disclosure: I am one of them (idiot), WSB variety._  
-
 Lets continue our journey into _infinite stupidity_...
 
 ## Why is My Junk Not Exposed (Not because I don't have one)
