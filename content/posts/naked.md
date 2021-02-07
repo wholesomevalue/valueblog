@@ -58,9 +58,9 @@ First of all, you and I can't sell shorts naked - I can't simply tell my broker,
 
 [End of phone call]
 
-Identify as Steven Cohen or Kenny G??? Thats right, IBKR is correct, you need to be a prime broker, ie. any one of the [participants in DTCC](https://www.dtcc.com/client-center/dtc-directories), in order to bullshit about how much shares you have in a company.
+Identify as Steven Cohen or Kenny G? Thats right, you need to be a prime broker, ie. any one of the [participants in DTCC](https://www.dtcc.com/client-center/dtc-directories), in order to bullshit about how much shares you have in a company.
 
-These elite of the elites are called `Market Makers` (`MM`s) because they are meant to make (create) a market when there isn't one (think spread between bid and ask being too large), and <u>ONLY MMs are allowed to go naked and sell shorts</u> (we simply can't trust anyone else to do so, and must make this process as opaque as possible in order to be 'transparent').  
+These elites are called `Market Makers` (`MM`s) because they are meant to make (create) a market when there isn't one (think spread between bid and ask being too large), and <u>ONLY MMs are allowed to go naked and sell shorts</u> (we simply can't trust anyone else to do so, and must make this process as opaque as possible in order to be 'transparent').  
 
 There are 2 types of MMs:  
 
