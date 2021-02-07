@@ -31,7 +31,7 @@ I hope to make you laugh, but more importantly also to enlighten you, so please 
 
 Alright, here goes the longer version:  
 
-## Long live GME
+## Two types of Market Makers
 
 Normal short selling - refresher - is when you borrow a share from your friend who owns it (the broker), and sell it to someone else. You then wait a while, buy the share back and return the share you bought to your friend (broker). all is well if the price went down and conversely all is bad if the price went up - YOU win or lose.
 
@@ -55,11 +55,11 @@ First of all, you and I can't sell shorts naked - I can't simply tell my broker,
 
 [End of phone call]
 
-## George Constanza - The 'Altruistic' (Risk Adverse) Market Maker
-
 Identify as Steven Cohen or Kenny G??? Thats right, IBKR is correct, you need to be a prime broker, ie. any one of the [participants in DTCC](https://www.dtcc.com/client-center/dtc-directories), in order to bullshit about how much shares you have in a company.
 
 These elite of the elites are called `Market Makers` (`MM`s) because they are meant to make (create) a market when there isn't one (think spread between bid and ask being too large), and <u>ONLY MMs are allowed to go naked and sell shorts</u> (we simply can't trust anyone else to do so, and must make this process as opaque as possible in order to be transparent).  
+
+### Type 1: George Constanza (Mostly Decent & Risk Adverse)
 
 {{< rawhtml >}}<a name="makingmarket"></a>{{< /rawhtml >}}
 So imagine a hypothetical situation, in which the difference (the [spread](https://www.investopedia.com/spread-4184182)) between the bids and asks for GameStop were so wide that no body wanted to buy nor sell
@@ -104,11 +104,13 @@ Anyways, back to the narrative that MMs are 'altruistic', which they're not, and
 
 There exists another type of MM that both loves risk, wants more money, and likes to prey on...  
 
-## Theodore Edgar McCarrick - The Predatory, Abusive (Risk Loving) Market Maker
+### Type 2: Theodore Edgar McCarrick (Predatory, Abusive, and  Risk Loving)
 
 ![](/img/pedo.jpg)
 
-The risk with selling shorts while naked is that your junk is exposed, actually its not really (due to the way the DTCC/NCSS `Continuous Net Settlement (CNS)` system works, which I'll get into [later](#dtcc)), but you are exposed:
+This type of MM just don't give a shit about risk (they're too big to fail), and don't think their trillion dollar fortune is large enough, and so don't just want to play the [spread game](https://www.youtube.com/watch?v=-zTHKcJEGe8) to earn a decent living, nope! they go start grooming and abusing...
+
+Now the risk with selling shorts while naked is that your junk is exposed, actually its not really (due to the way the DTCC/NCSS `Continuous Net Settlement (CNS)` system works, which I'll get into [later](#dtcc)), but you are exposed:
 
 The exposure is VERY REAL if, instead of taking both sides, you (the abusive MM) only takes one side (in relevance to what we're discussing here - taking the short side only).  
 
@@ -120,7 +122,7 @@ So in order to deliver the *REAL* share to the buyer (you don't have it because 
 
 {{< rawhtml >}}<h1 style="padding: 0.2em"><span style="color: white; background-color:red; padding: 0.3em">Important Point #1</span> Big Risk - Buy AT ANY COST</h1><br/>{{< /rawhtml >}}  
   
-Anyways, some MMs just don't give a shit about risk (they're too big to fail anyways), and don't think their trillion dollar fortune is large enough, and so don't just want to play the [spread game](https://www.youtube.com/watch?v=-zTHKcJEGe8) to earn a decent living, nope! they go start grooming and abusing...and this time, shit hits the fan/ceiling (and it will explode this time, i hope, otherwise i'm gonna go buy some bitcoins, because fuck this [bullshit rigged stock market](https://twitter.com/empirezhu/status/1357195925504942080)):  
+Lets watch an reenactment of a recent event, to illustrate how Predatory Naked Short Selling is:
 
 _The following reenactment is for entertainment purposes only, the characters described within are not real, for example, Melvin is the incestual brother of Elmer J. Fudd, CNBC is the name of my black english staffy, who shits 3 times a day, and SugarDaddy is a pedophile that lives in the higher echalons of the church of market makers. The church is called the DTCC_
 
@@ -135,6 +137,8 @@ _The following reenactment is for entertainment purposes only, the characters de
 `Melvin`: Hey pappa, we have a bit of a problem here, this guy called [Andrew Left](https://en.wikipedia.org/wiki/Andrew_Left), from some wanna be Hedge Fund called "ShitTron" or something, is copying our trade, with him and all his extended family of idiots copying our TOP SECRET trade on GME. They've now bought the remaing shares we could have used. I think we need to work some magic. I know what I'll have to do (love emoji, xxx,), I hope to see you at 10? K...  
 
 Btw, [checkout this opinion piece by Bloomberge LMFAO](https://www.bloomberg.com/opinion/articles/2021-01-29/gamestop-gme-trading-short-sellers-like-citron-aren-t-the-enemy) - yep, [Lefty](https://en.wikipedia.org/wiki/Andrew_Left#Citron's_reports_on_Chinese_companies) is one of the good guys because he shits on China... LMFAO
+
+[NSFW images omitted]
 
 {{< rawhtml >}}
 <div style="background-color: #F0F0F0; padding: 1em;">
@@ -154,6 +158,8 @@ _[ GME price goes further south... but people who actually did DD, and have real
 `Melvin`: Alright, more problems, this time theres a guy called `Ryan Cohen` who just joined GME's board, is he related to you?  
 
 `SugarDaddy`: No, but see you at 10, same place, same shit (*wink* xxx)  
+
+[NSFW images ommitted]
 
 _[ More and more WSB Retards find out about the position ]_
 
