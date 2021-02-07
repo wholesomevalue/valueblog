@@ -244,7 +244,7 @@ Anyways, the point is - don't use short interest alone to evaluate the situation
 
 {{< rawhtml >}}<a name="dtcc"></a>{{< /rawhtml >}}
 
-## The Dark Side of the `DTCC` Settlements and Clearing Process (AKA Twilight Zone)
+## The Dark Side of the `DTCC` Settlements and Clearing Process
 
 All on board the train to _infinite stupidity_, aka the DTCC...
 
@@ -254,7 +254,7 @@ When SugarDaddy/Melvin isn't around (and for simplicity sake), clearing/settleme
 
 ![](/img/dtcc_normal.png)
 
-- For simplicity, we assume `GME's float is 4 shares` (3 held in the "Pool of lendable shares", and 1 held by the Cash Account Seller)
+- Assume `GME's float is 4 shares` (3 held in the "Pool of lendable shares", and 1 held by the Cash Account Seller)
 - `Short seller` and `Seller (with cash account)`, both clients of `Broker A`, instructs Broker A to sell 2x GME shares in aggregate.
 - The responsible broker then tries to locate 1x GME share (because the Short Seller doesn't own any) from the pool of lendable GME shares.
 - This pool is created from shares of [hypothecable](#hypo) (i.e. margin accounts), and also through e.g institutional lending programs (i.e. institutional investors who are LONG GME, holding unencumbered? shares), other brokers etc. Note the 2 located shares are marked {{< rawhtml >}}<span style="color:red">red</span>{{< /rawhtml >}}, to denote they are being sold, and to be delivered to the counterparty.
