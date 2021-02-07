@@ -278,7 +278,7 @@ Happy days scenaior, where SugarDaddy, Melvin and Shittron & Co isn't around goe
 
 ### Clearing & Settlement - Sad Days
 
-SugarDaddy and Melvin enters the arena...  
+When SugarDaddy and Melvin enters the arena, things gets complicated:  
 
 ![](/img/dtcc_sugar.png)
 
@@ -289,9 +289,8 @@ SugarDaddy and Melvin enters the arena...
   - The claims are satisfied by the Short Seller's collateral ($500, ignoring daily mark-to-market adjustments), interest paid etc.
   - So what happens when the OO wants to SELL?
   - Simple - Broker A first locates another share in its `Pool of lendable GME shares`, sell it on the market (key point is that the share being sold is located), with the proceeds going to `OO`.
-  - Broker A also marks the newly sold share as being lent to the Short Seller, effecting the same claim and accounting as for `OO` to the new lender (new OO) - how is this possible? see [hypothecation](#hypothecation), and investopedia article in [references](#references) section.
-- _ALL IS GOOD_ so far... but now lets enter the _twilight zone_, where Melvin and the SugarDaddy resides, a place where if you [repeatedly reduce the price of a stock by 50% of its price, you get 0](https://twitter.com/empirezhu/status/1357363202854588420), (instead of an infinitely small number, but never zero). and 1 + 1 does not equal to 2 but 3...
-- A dark place full of `FTDs`, `FTRs`, `SBP`, `IOUs`, and the elusive `Buy-Ins`...
+  - Broker A also marks the newly sold share as being lent to the Short Seller, effecting the same claim and accounting as for `OO` to the new lender (new OO).
+- _ALL IS GOOD_ so far... but now lets enter the _twilight zone_, where Melvin and the SugarDaddy resides, a dark place full of `FTDs`, `FTRs`, `SBP`, `IOUs`, and the elusive `Buy-Ins`...
 
 {{< rawhtml >}}<a name="ftd"></a>{{< /rawhtml >}}
 ### Failed-to-Delivers (FTDs)
