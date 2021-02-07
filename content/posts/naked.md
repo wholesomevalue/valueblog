@@ -261,15 +261,18 @@ Happy days scenaior, where SugarDaddy, Melvin and Shittron & Co isn't around goe
 
 - Assume `GME's float is 4 shares` (3 held in the "Pool of lendable shares", and 1 held by the Cash Account Seller)
 - `Short seller` and `Seller (with cash account)`, both clients of `Broker A`, instructs Broker A to sell 2x GME shares in aggregate.
-- The responsible broker then tries to locate 1x GME share (because the Short Seller doesn't own any) from the pool of lendable GME shares.
-- This pool is created from shares of [hypothecable](#hypo) (i.e. margin accounts), and also through e.g institutional lending programs (i.e. institutional investors who are LONG GME, holding unencumbered? shares), other brokers etc. Note the 2 located shares are marked {{< rawhtml >}}<span style="color:red">red</span>{{< /rawhtml >}}, to denote they are being sold, and to be delivered to the counterparty.
+- The responsible broker then tries to `locate` 1x GME share (because the Short Seller doesn't own any) from the pool of lendable GME shares.
+- This pool is created from shares of [hypothecable](#hypo) (i.e. margin accounts), institutional lending programs (i.e. institutional investors who are LONG GME, holding unencumbered? shares) and other brokers.
+- Note the 2 located shares are marked {{< rawhtml >}}<span style="color:red">red</span>{{< /rawhtml >}}, to denote they are being sold, to be delivered to the counterparty during settlement.
 - Broker A sends sell instructions to the `Stock Exchange`
-- `Broker B` also, under instruction from `Cash Investor`, instruction to buy 2 x share of GME for $500, sends buy instruction to Exchange
+- `Broker B` who is also under instruction from its `Cash Investor`, sends instruction to buy 2 x share of GME for $500 to the exchange
 - Stock Exchange records the trade happening, and at the end of day (EOD), sends the trade information to NSCC (a [subsidiary of DTCC](https://www.dtcc.com/about/businesses-and-subsidiaries/nscc))
-- `NSCC` does the job of clearing - it places itself as the central counter party to ALL trades, so in this case, the NSCC is both the buyer of 2x shares of GME from Broker A, and also the seller of 2x shares of GME to Broker B
-- NSCC produces net positions (what stock a participant owes NSCC, and what stock NSCC owes a particpant) for each participant / stock, in this simple case, there will be 2 positions: `Broker A: -2 GME`, `Broker B: +2 GME`
-- this net position is passed onto `DTC` as instructions to effect settlement
-- so the DTC would record -2 GME from Broker A's book, and +2 GME to Broker B's book
+- `NSCC` does the job of clearing by placing itself as the central counter party to ALL trades.
+- So in this case, the NSCC is both the buyer of 2x shares of GME from Broker A, and also the seller of 2x shares of GME to Broker B
+- NSCC produces net positions (what stock a participant owes NSCC, and what stock NSCC owes a particpant) for each participant / stock
+- In this simple case, there will be 2 positions: `Broker A: -2 GME`, `Broker B: +2 GME`
+- This net position is passed onto `DTC` as instructions to effect settlement
+- The DTC would record -2 GME from Broker A's stock book, and +2 GME to Broker B's stock book
 - Settling Banks are then sent instructions accordingly (for Broker A, +$1000, and for Broker B, -$1000)
 - Notice the FTD/FTR register is empty - nice and simple...
 
