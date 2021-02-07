@@ -246,15 +246,14 @@ But, do you know what a [FTD (Fail-to-Deliver)](#ftd) is? Do you think the FTD c
 
 Some data aggregators now reports SI% to be only 38%, but if the FTD was e.g. 50M, and if we also take FTD into account, then what does that make the SI%? 150%??? 200%??? 300%???
 
-Anyways, the point is - don't use short interest alone to evaluate the situation, try and understand how things work underneath by reading [this](https://www.researchgate.net/publication/228260887_Naked_Short_Sales_and_Fails_to_Deliver_An_Overview_of_Clearing_and_Settlement_Procedures_for_Stock_Trades_in_the_US). Come back when you're done...
-
+Anyways, the point is - don't use short interest alone to evaluate the situation, try and understand how things work underneath:  
 {{< rawhtml >}}<a name="dtcc"></a>{{< /rawhtml >}}
 
 ## The Dark Side of the `DTCC` Settlements and Clearing Process
 
 All on board the train to _infinite stupidity_, aka the DTCC...
 
-### Simple Overview
+### Clearing & Settlement - Happy Days
 
 When SugarDaddy/Melvin isn't around (and for simplicity sake), clearing/settlement works like this:
 
@@ -274,7 +273,9 @@ When SugarDaddy/Melvin isn't around (and for simplicity sake), clearing/settleme
 - Settling Banks are then sent instructions accordingly (for Broker A, +$1000, and for Broker B, -$1000)
 - Notice the FTD/FTR register is empty - nice and simple...
 
-### SugarDaddy and Melvin enters the arena...
+### Clearing & Settlement - Sad Days
+
+SugarDaddy and Melvin enters the arena...  
 
 ![](/img/dtcc_sugar.png)
 
