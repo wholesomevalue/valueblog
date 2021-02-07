@@ -19,11 +19,15 @@ However, if you're busy, or autistic but brilliant, and just want the bullet poi
 - Naked Short Selling (`NSS`) = creating shares out of thin air
 - It can be useful for [making markets](#makingmarket), but also be abused (e.g. the current GameStop saga)
 - Basically only [Market Makers (MMs)](#two-types-of-market-makers) - [prime brokerages](https://en.wikipedia.org/wiki/Prime_brokerage) ie. elites such as JP Morgan, _Point72_, _Citadel_ etc - are able to execute Naked Short Selling 
-- There is no easy way to differentiate `NSS for market making` (altruistic) vs `predatory NSS` (risky market manipulation) - due to the way the [`DTCC` does clearing & settlements](#dtcc)
-- The DTCC (being at the end of [infinite stupidity](#dtcc)), only publishes a handful of public reports, e.g. [DTSS/NSCC FTDs (Failed-to-Deliver) reports](https://www.sec.gov/data/foiadocsfailsdatahtm) (effectively once a month)
-- Even with these public reports, the system remains so opaque due to lack of publicly available information, dumbed down reporting (e.g. FTD report is aggregate only - [no details on who when and why](#dtcc_ftd)), [FTRs](#dtcc_ftr) being reduced by the [Stock Borrowing Programme](#dtcc_sbp), unwillingness to invoke [Buy-In](#elusive-buy-ins) thus allowing [FTDs](#dtcc_ftd) to existing in perpetuity without consequence
-- Given all this, if you've made mistakes before (think [$1B fine for insider trading](https://en.wikipedia.org/wiki/Steve_Cohen_(businessman)#Racketeering_and_insider_trading_charges)) and owns one of the larger prime brokers around, why wouldn't you (at least consider) exploit it for your / your friend's benefit? - the formula is fairly easy: step (1). _NSS the stock to obvlivion_, step (2). _rinse & repeat NSS, wait till stock = $0_, culminating in step (3): _no stock to return - easy peasy lemon squeezy_? - except they encountered a [cat](https://www.youtube.com/channel/UC0patpmwYbhcEUap0bTX3JQ) called [DFV](https://www.reddit.com/user/DeepFuckingValue/) and bunch of die-hard 'retarded degenerates' from [WSB](https://www.reddit.com/r/wallstreetbets/)  
-- Finally, I propose that the short squeeze hasn't happened yet, because the MM(s) are still holding onto the bags (of FTDs), in perpetuity, without cost/consequences (so far)
+- The DTCC (whose system is at the end of [infinite stupdity](#dtcc)), is being gamed by these MMs due to:
+  - The lack of transparency & public information, dumbed down reporting, and infrequency of reporting
+  - Unwillingness of participants to invoke [Buy-Ins](#elusive-buy-ins) to force delivery of FTDs
+  - The [Stock Borrowing Programme](#failed-to-receives-ftrs) artificially reducing [FTRs](#failed-to-receives-ftrs) at _0% interest_,
+  - Which allows [FTDs](#failed-to-delivers-ftds) to remain in perpetuity without consequence (neither financial nor regulartory)
+  - And finally, the _Lack of oversight_ by the SEC
+- MMs who are meant to be staying neutral, making markets and maintaining liquidity, instead use their special market making previleges to play risqué  games with their shorts down - using Naked Short Selling to take on risky single sided positions for predatory means
+- E.g.  if you've made mistakes before (think [$1B fine for insider trading](https://en.wikipedia.org/wiki/Steve_Cohen_(businessman)#Racketeering_and_insider_trading_charges)) and owns one of the larger prime brokers around, why wouldn't you (at least consider) exploit it for your / your friend's benefit? - the formula is fairly easy: step (1). _NSS the stock to obvlivion_, step (2). _rinse & repeat NSS, wait till stock = $0_, culminating in step (3): _no stock to return - easy peasy lemon squeezy_? - except they encountered a [cat](https://www.youtube.com/channel/UC0patpmwYbhcEUap0bTX3JQ) called [DFV](https://www.reddit.com/user/DeepFuckingValue/) and bunch of die-hard 'retarded degenerates' from [WSB](https://www.reddit.com/r/wallstreetbets/)  
+- Finally, I propose that the short squeeze hasn't happened yet, because the MM(s) are still holding onto the bags (of FTDs) without much cost/consequences (so far)
 - However, what the MMs have been (wrongfully) discounting is how strongly willed some of these GME investors are at holding the stock till they die
 - So sooner rather than later, the game will stop, with a liquidity crunch coming after them faster than they could ever hope to cover - they'll have no choice but to make deals or get annihilated (taking others down with them as collateral damage)
 
@@ -254,7 +258,7 @@ All on board the train to _infinite stupidity_, aka the DTCC...
 
 ### Clearing & Settlement - Happy Days
 
-Happy days scenaior, where SugarDaddy, Melvin and Shittron & Co isn't around goes like this:  
+This is the Happy days scenaior, where SugarDaddy, Melvin and Shittron & Co isn't around goes like this:  
 
 ![](/img/dtcc_normal.png)
 
@@ -275,6 +279,8 @@ Happy days scenaior, where SugarDaddy, Melvin and Shittron & Co isn't around goe
 - Settling Banks are then sent instructions accordingly (for Broker A, +$1000, and for Broker B, -$1000)
 - Notice the FTD/FTR register is empty - nice and simple...
 
+_Note that in practice a small amount of FTD/FTRs is common, due to various reasons such as physical certificates, human error etc_
+
 ### Clearing & Settlement - Sad Days
 
 When SugarDaddy and Melvin enters the arena, things gets complicated:  
@@ -283,8 +289,8 @@ When SugarDaddy and Melvin enters the arena, things gets complicated:
 
 - Before digging into FTD this and FTR that, lets pause for a moment, and consider the float...
 - It might seem like there is now 5 shares of GME floating around! - Did the process of the normal short selling create 1 share out of thin air?
-- The Answer is _NO_, the float is still _4_ - because the share that was borrowed by Short Seller in the previous scenario (now {{< rawhtml >}}<span style="color: lightgrey">greyed out</span>{{< /rawhtml >}}) should no longer be counted towards the float, while Broker B's investor's 2x GME holdings ({{< rawhtml >}}<span style="color: green">in green</span>{{< /rawhtml >}}) should, and so the net effect is still _GME float = 4 shares_ as explained below:
-  - The Original Owner (`OO`) of the the share sold short is now simply holding a claim to it (e.g. claim to the fluctuating price, and dividends), but no voting rights anymore - i.e. as far as GME is concerned, the OO is not their share holder anymore - the owner's equity now belongs to Broker B's investor.
+- The Answer is _NO_, the float is still _4_, as explained below:
+  - The Original Owner (`OO`) of the the share sold short (now {{< rawhtml >}}<span style="color: lightgrey">greyed out</span>{{< /rawhtml >}}) is now simply holding a claim to it (e.g. claim to the fluctuating price, and dividends), but no voting rights anymore - i.e. as far as GME is concerned, the OO is not their share holder anymore - the owner's equity now belongs to Broker B's investor ({{< rawhtml >}}<span style="color: green">in green</span>{{< /rawhtml >}}).
   - The claims are satisfied by the Short Seller's collateral ($500, ignoring daily mark-to-market adjustments), interest paid etc.
   - So what happens when the OO wants to SELL?
   - Simple - Broker A first locates another share in its `Pool of lendable GME shares`, sell it on the market (key point is that the share being sold is located), with the proceeds going to `OO`.
