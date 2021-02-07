@@ -6,8 +6,6 @@ _Follow me on Twitter: [@empirezhu](https://twitter.com/empirezhu)_
 
 Are you laughing? If not I know you havn't read the [disclaimer](#disclaimer). If so, please continue...  
 
-_Original Post_ (Full revision history [available](https://github.com/wholesomevalue/valueblog/commits/master/content/posts/naked.md)):  
-
 I think you came here to learn why someone would sell their shorts naked. I can explain, not because I do so, but because I read a bunch of [papers and articles](#references), which helped me understand the situation alot better.  
 
 After receiving englightenment, I was able to recreate a [*99.99% accurate* reenactment of the events](#reenactment) that led to the greatest Short Squeeze (that could have been / yet to happen) in history (the cast includes SugarDaddy,  Melvin, Shittron and their dog CNBC).
