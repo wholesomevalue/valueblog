@@ -234,7 +234,7 @@ So by now you should understand what my hypothesis is:
 
 {{< rawhtml >}}
 <div style="padding: 1em; background-color: #f0f0f0;">
-Someone (or group of people), and by someone I mean a prime broker/mm, created alot of fake shares of GameStop using Naked Short Selling,  and _tried_ to use it to bankrupt GME, after which no one would be ask/care about the fake shares
+Someone (or group of people), and by someone I mean a prime broker/mm, created alot of fake shares of GameStop using Naked Short Selling,  attempted to bury the evidence by bankrupting GME - after which no one would ask/care about the fake shares
 </div>
 {{< /rawhtml >}}
 
