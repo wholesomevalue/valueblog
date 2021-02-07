@@ -244,9 +244,7 @@ You might say, well its not anymore, because now, the short interest as a percen
 
 But, do you know what a [FTD (Fail-to-Deliver)](#ftd) is? Do you think the FTD count is/should be added to the numerator of the SI% formula (short volume / float)? i.e. for the various SI% reported publicly (I think they all differ a bit), do they take FTD into account?
 
-So, yeah some now reports SI% to be 38%, but if the FTD was e.g. 50M, and you should take FTD into account, then what does that make the SI%? 150%??? 200%??? 300%???
-
-Note: Janet Yellen should also knows this, because apparently she wants to [understand fully what happened](https://www.investing.com/news/economy/yellen-says-wants-to-understand-deeply-gamestop-frenzy-before-taking-action-2409327) before 'taking action'...
+Some data aggregators now reports SI% to be only 38%, but if the FTD was e.g. 50M, and if we also take FTD into account, then what does that make the SI%? 150%??? 200%??? 300%???
 
 Anyways, the point is - don't use short interest alone to evaluate the situation, try and understand how things work underneath by reading [this](https://www.researchgate.net/publication/228260887_Naked_Short_Sales_and_Fails_to_Deliver_An_Overview_of_Clearing_and_Settlement_Procedures_for_Stock_Trades_in_the_US). Come back when you're done...
 
