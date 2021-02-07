@@ -222,7 +222,7 @@ I think he is telling Melvin (stock jocks?) to bring the *REAL* shares back to t
 
 {{< rawhtml >}} <h1 style="padding: 0.3em;"><span style="color: white; background-color: red; padding: 0.3em;">Important Point #2</span> Someone is still exposed</h1>{{< / rawhtml >}}
 
-Because someone created a shit tonne of shares, out of thin air, to try to drive a company to the ground in order to hide the fact that the fake shares were created... Keyword here is _tried_, and failed, because they were stupid enough to fight with idiots, and as we all know you shouldn't fight with idiots, because if you do, then they'll drag you down to their level, and beat you fair and square with experience (of being stupid)...
+Someone created a alot of fake shares of GME, and tried to drive the company to the ground in order to hide the act. The deed is done, the company is still around, and so somebody is still very much exposed.
 
 _Disclosure: I am one of them (idiot), WSB variety._  
 
