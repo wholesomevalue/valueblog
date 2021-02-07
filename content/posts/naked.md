@@ -20,10 +20,10 @@ However, if you're busy, or autistic but brilliant, and just want the bullet poi
 
 - Naked Short Selling (`NSS`) = creating shares out of thin air
 - It can be useful for [making markets](#makingmarket), but also be abused (e.g. the current GameStop saga)
-- Basically only Market Makers (MMs) - [prime brokerages](https://en.wikipedia.org/wiki/Prime_brokerage) ie. elites such as JP Morgan, _Point72_, _Citadel_ etc - are able to execute Naked Short Selling 
-- There is no easy way to detect `market making NSS` (altruistic) vs `manipulative NSS` (risky market manipulation, predatory) due to the way the `DTCC` does clearing & settlements
-- The DTCC (being at the end of [infinite stupidity](#dtcc)), only publishes a handful of public reports, e.g. [DTSS/NSCC FTDs (Failed-to-Deliver) reports](https://www.sec.gov/data/foiadocsfailsdatahtm) (effectively published once a month - face palm)
-- And even with these public reports, the system remains so opaque, that there is no easy way to tell if illegal/manipulative naked short selling has occurred (e.g. the FTD report is aggregate only - [no details on who when and why](#dtcc_ftd)), also e.g. [FTRs](#dtcc_ftr) being reduced by the [Stock Borrowing Programme](#dtcc_sbp), [FTDs = toothless tiger](#dtcc_ftd) because no one is willing to [Buy-In](#dtcc_buyin) etc...
+- Basically only [Market Makers (MMs)](#two-types-of-market-makers) - [prime brokerages](https://en.wikipedia.org/wiki/Prime_brokerage) ie. elites such as JP Morgan, _Point72_, _Citadel_ etc - are able to execute Naked Short Selling 
+- There is no easy way to differentiate `NSS for market making` (altruistic) vs `predatory NSS` (risky market manipulation) - due to the way the [`DTCC` does clearing & settlements](#dtcc)
+- The DTCC (being at the end of [infinite stupidity](#dtcc)), only publishes a handful of public reports, e.g. [DTSS/NSCC FTDs (Failed-to-Deliver) reports](https://www.sec.gov/data/foiadocsfailsdatahtm) (effectively once a month)
+- Even with these public reports, the system remains so opaque due to lack of publicly available information, dumbed down reporting (e.g. FTD report is aggregate only - [no details on who when and why](#dtcc_ftd)), [FTRs](#dtcc_ftr) being reduced by the [Stock Borrowing Programme](#dtcc_sbp), unwillingness to invoke [Buy-In](#elusive-buy-ins) thus allowing [FTDs](#dtcc_ftd) to existing in perpetuity without consequence
 - Given all this, if you've made mistakes before (think [$1B fine for insider trading](https://en.wikipedia.org/wiki/Steve_Cohen_(businessman)#Racketeering_and_insider_trading_charges)) and owns one of the larger prime brokers around, why wouldn't you (at least consider) exploit it for your / your friend's benefit? - the formula is fairly easy using steps 1, 2, 3: (1). _NSS the stock to obvlivion_, (2). _rinse & repeat NSS, wait till stock = $0_, then there is (3). _no stock to return - easy peasy [lemon squeezy]()_? - or so they thought - until they encountered a [cat](https://www.youtube.com/channel/UC0patpmwYbhcEUap0bTX3JQ) called [DFV](https://www.reddit.com/user/DeepFuckingValue/) and bunch of die-hard 'retarded degenerates' from [WSB](https://www.reddit.com/r/wallstreetbets/)  
 
 
@@ -315,9 +315,11 @@ When SugarDaddy and Melvin enters the arena, things gets complicated:
 
 {{< rawhtml >}}<h1 style="padding: 0.2em; line-height: 1.5em;"><span style="color: white; background-color:red; padding: 0.3em">Important Point #3</span> BROKEN - The <b>Stock Borrow Programme</b> (SBP) effectively allows SugarDaddy to game the system and borrow at 0% interest to make up for shares it can't deliver</h1>{{< /rawhtml >}}
 
+### Elusive Buy-ins
+
 - Are we approaching _infinite stupidity_ yet? Yes, we are, let me introduce to you the _elusive Buy-In_:
-- Now `Buy-In` - is what an MM who received a `FTR` (Failed-to-Receive, aka IOU) invokes when the MM *REALLY* wants the shares owed to it...
-- This however, is rarely used in practice - in the same way why states don't assasinate each other's head of states, MMs don't invoke Buy-Ins for fear of retribution, also:
+- `Buy-Ins` - are MMs who receive a `FTRs` (Failed-to-Receives, aka IOUs) invokes when the they *REALLY* wants the shares owed to them...
+- This however, is rarely invoked in practice - in the same way why states don't assasinate each other's head of states, MMs don't invoke Buy-Ins for fear of retribution, and:
   - MM's clients doesn't know that they're actually holding `IOU`s
   - The `Continuous Net Settlement` Service, in an ingenious way (whether intentionally designed or not), assigns highest priority to FTRs, therefore people with FTRs actually get delivery of real shares the next EOD or 2 arrives (e.g. via other brokers or SBP) - whats the point of upsetting SugarDaddy when we just wait a few days before actual delivery?
   - What happens to the FTD? it doesn't expire, but remember, SBP = 0% interest, so SugarDaddy can sit on it forever, or orchestrate Brokerage shutdowns (28th of Jan, 2021)...
