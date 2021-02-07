@@ -458,11 +458,19 @@ Source: https://www.ortex.com/symbol/NYSE/GME/short_interest
 - Dayen, David (2016) [_Naked Shorts Can't Stay Naked Forever_](https://theintercept.com/2016/09/24/naked-shorts-cant-stay-naked-forever/) The Intercept
 {{< rawhtml >}}<a name="disclaimer"></a>{{< /rawhtml >}}
 
+- Smith, Larry (2019) [_Part 7: Illegal Naked Shorting: DTCC Continuous Net Settlement and Stock Borrowing Programs Have Loopholes That Facilitate Illegal Naked Shorting_](https://smithonstocks.com/part-7-illegal-naked-shorting-dtcc-continuous-net-settlement-and-stock-borrowing-programs-have-loopholes-that-facilitate-illegal-naked-shorting/) smithonstocks.com
+
+- No Auther [_Execution, Clearing and Settlement_](https://thismatter.com/money/stocks/settlement-and-clearing.htm) Internet Article
+
 - Investopedia Staff / Anderson, Somer [Who Benefits From Lending Shares in a Short Sale?](https://www.investopedia.com/ask/answers/05/shortsalebenefit.asp) Investopedia.com
 
 {{< rawhtml >}}<a name="hypo"></a>{{< /rawhtml >}}
 
+- [SEC Fails-to-Deliver Data](https://www.sec.gov/data/foiadocsfailsdatahtm)
+
 - [Hypothecation](https://www.investopedia.com/terms/h/hypothecation.asp) - bascially broker speak for, if you have margin account with us, then we have the right to lend out whatever you buy.
+
+- [r/wallstreetbets Subreddit Stats](https://subredditstats.com/r/Wallstreetbets)
 
 {{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.3em; font-weight: bold;">UPDATE</span>{{< /rawhtml >}} Link to [theintercept.com article](https://theintercept.com/2016/09/24/naked-shorts-cant-stay-naked-forever/) that explores the same issue. The article also goes on to discuss something called [Reverse Stock Split](https://www.reddit.com/r/wallstreetbets/comments/lcpwh0/how_gme_can_still_be_a_great_play/) - basically how to nuke naked short sellers
 
