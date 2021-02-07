@@ -126,7 +126,7 @@ So in order to deliver the *REAL* share to the buyer (you don't have it because 
 
 {{< rawhtml >}}<h1 style="padding: 0.2em"><span style="color: white; background-color:red; padding: 0.3em">Important Point #1</span> Big Risk - Buy AT ANY COST</h1><br/>{{< /rawhtml >}}  
   
-Lets watch an reenactment of a recent event, to illustrate how Predatory Naked Short Selling is:
+Lets watch an reenactment of a recent event, to illustrate how Predatory Naked Short Selling works:
 
 _The following reenactment is for entertainment purposes only, the characters described within are not real, for example, Melvin is the incestual brother of Elmer J. Fudd, CNBC is the name of my black english staffy, who shits 3 times a day, and SugarDaddy is a pedophile that lives in the higher echalons of the church of market makers. The church is called the DTCC_
 
