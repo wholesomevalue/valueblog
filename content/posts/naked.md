@@ -57,9 +57,13 @@ First of all, you and I can't sell shorts naked - I can't simply tell my broker,
 
 Identify as Steven Cohen or Kenny G??? Thats right, IBKR is correct, you need to be a prime broker, ie. any one of the [participants in DTCC](https://www.dtcc.com/client-center/dtc-directories), in order to bullshit about how much shares you have in a company.
 
-These elite of the elites are called `Market Makers` (`MM`s) because they are meant to make (create) a market when there isn't one (think spread between bid and ask being too large), and <u>ONLY MMs are allowed to go naked and sell shorts</u> (we simply can't trust anyone else to do so, and must make this process as opaque as possible in order to be transparent).  
+These elite of the elites are called `Market Makers` (`MM`s) because they are meant to make (create) a market when there isn't one (think spread between bid and ask being too large), and <u>ONLY MMs are allowed to go naked and sell shorts</u> (we simply can't trust anyone else to do so, and must make this process as opaque as possible in order to be 'transparent').  
 
-### Type 1: George Constanza (Mostly Decent & Risk Adverse)
+There are 2 types of MMs:  
+
+### Type 1: George Constanza (Mostly PBTR, Risk Adverse)
+
+PBTR = play by the rules  
 
 {{< rawhtml >}}<a name="makingmarket"></a>{{< /rawhtml >}}
 So imagine a hypothetical situation, in which the difference (the [spread](https://www.investopedia.com/spread-4184182)) between the bids and asks for GameStop were so wide that no body wanted to buy nor sell
@@ -108,7 +112,7 @@ There exists another type of MM that both loves risk, wants more money, and like
 
 ![](/img/pedo.jpg)
 
-This type of MM just don't give a shit about risk (they're too big to fail), and don't think their trillion dollar fortune is large enough, and so don't just want to play the [spread game](https://www.youtube.com/watch?v=-zTHKcJEGe8) to earn a decent living, nope! they go start grooming and abusing...
+This type of MM just don't give a shit about risk (they're too big to fail), and don't think their trillion dollar fortune is large enough, and so don't just want to play the [spread game](https://www.youtube.com/watch?v=-zTHKcJEGe8) to earn a decent living - they abuse, groom and play dirty...
 
 Now the risk with selling shorts while naked is that your junk is exposed, actually its not really (due to the way the DTCC/NCSS `Continuous Net Settlement (CNS)` system works, which I'll get into [later](#dtcc)), but you are exposed:
 
