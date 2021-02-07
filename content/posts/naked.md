@@ -255,7 +255,7 @@ All on board the train to _infinite stupidity_, aka the DTCC...
 
 ### Clearing & Settlement - Happy Days
 
-When SugarDaddy/Melvin isn't around (and for simplicity sake), clearing/settlement works like this:
+Happy days scenaior, where SugarDaddy, Melvin and Shittron & Co isn't around goes like this:  
 
 ![](/img/dtcc_normal.png)
 
