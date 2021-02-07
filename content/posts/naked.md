@@ -10,9 +10,11 @@ _Original Post_ (Full revision history [available](https://github.com/wholesomev
 
 I think you came here to learn why someone would sell their shorts naked. I can explain, not because I do so, but because I read a bunch of [papers and articles](#references), which helped me understand the situation alot better.  
 
-After receiving englightenment, I was able to recreate a [*99.99% accurate* reenactment of the events](#reenactment) that led to the greatest Short Squeeze (that could have been / yet to happen) in history (the cast includes Point72, Citadel, Melvin, Shittron and their dog CNBC).
+After receiving englightenment, I was able to recreate a [*99.99% accurate* reenactment of the events](#reenactment) that led to the greatest Short Squeeze (that could have been / yet to happen) in history (the cast includes SugarDaddy,  Melvin, Shittron and their dog CNBC).
 
-I hope to make you laugh, but more importantly also to enlighten you, so please read the entire thing - you won't be disappointed. However, if you're busy, or autistic but brilliant, and just want the bullet points, here it is:
+I hope to make you laugh, but more importantly also to enlighten you, so please read the entire thing - you won't be disappointed. 
+
+However, if you're busy, or autistic but brilliant, and just want the bullet points, here it is:
 
 ## Bullet Points
 
