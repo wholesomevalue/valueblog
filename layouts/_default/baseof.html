@@ -41,6 +41,15 @@
         {{ partial "docs/inject/footer" . }}
       </footer>
 
+  <div id="hyvor-talk-view"></div>
+<script type="text/javascript">
+    var HYVOR_TALK_WEBSITE = 3160; // DO NOT CHANGE THIS
+    var HYVOR_TALK_CONFIG = {
+        url: "https://blog.wholesomevalue.com/posts/naked/",
+        id: "naked"
+    };
+</script>
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
       {{ template "comments" . }} <!-- Comments block -->
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
@@ -56,15 +65,6 @@
   </main>
 
   {{ partial "docs/inject/body" . }}
-  <div id="hyvor-talk-view"></div>
-<script type="text/javascript">
-    var HYVOR_TALK_WEBSITE = 3160; // DO NOT CHANGE THIS
-    var HYVOR_TALK_CONFIG = {
-        url: "https://blog.wholesomevalue.com/posts/naked/",
-        id: "naked"
-    };
-</script>
-<script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
 </body>
 
 </html>
