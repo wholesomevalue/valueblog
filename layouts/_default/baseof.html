@@ -8,11 +8,15 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LWK02CNHSE"></script>
 <script>
+if (window.location.hostname === "localhost") {
+  console.log("Analytics not running on local dev.");
+  return;
+} else {
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-LWK02CNHSE');
+}
 </script>
 
 </head>
