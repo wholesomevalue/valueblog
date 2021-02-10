@@ -28,6 +28,9 @@ if (window.location.hostname === "localhost") {
     <aside class="book-menu">
       <div class="book-menu-content">
         {{ template "menu" . }} <!-- Left menu Content -->
+  <a href="https://twitter.com/empirezhu?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @empirezhu</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <br/>
+  {{ partial "subscribe.html" . }}
       </div>
     </aside>
 
@@ -69,6 +72,7 @@ if (window.location.hostname === "localhost") {
   </main>
 
   {{ partial "docs/inject/body" . }}
+
 </body>
 
 </html>
