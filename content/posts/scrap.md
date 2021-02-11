@@ -1,3 +1,4 @@
+# Follow up on
 - [AlgoFlow](https://www.youtube.com/watch?v=CZR3WMAPNJ8&feature=youtu.be)
 - [Dark Pools](https://www.investopedia.com/articles/markets/050614/introduction-dark-pools.asp)
   - private exchanges, for block trades
@@ -5,4 +6,8 @@
   - 2020, > 50, all registered with SEC
   - `Broker Dealer Pools` - Credit Suisse's CrossFinder, Goldman Sachs’ Sigma X, Citibank’s Citi-Match, and Morgan Stanley’s MS Pool
   - `Exchange-Owned Dark Pool` - using National Best Bid and Offer (NBBO) prices (no price discovery)
-  
+- Inflationary figures = [CPI](https://www.investopedia.com/terms/c/consumerpriceindex.asp#:~:text=The%20Consumer%20Price%20Index%20(CPI,of%20goods%20and%20averaging%20them.)?
+  - but does CPI include stock/equities?
+  - who is actually buying house in the pandemic - have to be low right? therefore that component of the CPI can't be high
+  - who is travelling during pandemic - so this component again is not relevant...
+- `$TDC (Teradata)` - [DD](https://www.reddit.com/r/wallstreetbetsOGs/comments/lh0z5v/tdc_teradata_longtime_leader_in_data_warehousing/?sort=new)
