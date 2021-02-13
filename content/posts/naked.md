@@ -479,7 +479,7 @@ put it in her bitter batter, made her bitter batter better.
 So ‘t was better Betty Botter bought some better butter.  
 
 I invoke the Tucker Carlson disclaimer which basically says that no person of reasonable intelligence should mistake this hyperbole bullshit to be of any factual substance. Therefore you can't sue me unless you admit you are an idiot of super low intelligence on national TV. Even if you did, you still can't sue me. Regarding the reenactment, while it might be 99.99% accurate, there is a 100% margin of error. She sells seashells on the seashore.
-The reenactment is for entertainment purposes only, the characters described within are not real, for example, Melvin is the incestual brother of Elmer J. Fudd, CNBC is the name of my black english staffy, who shits 3 times a day, and SugarDaddy is a pedophile that lives in the higher echalons of the church of market makers. The church is called the DTCC
+The reenactment is for entertainment purposes only, the characters described within are not real, for example, Melvin is the incestual brother of Elmer J. Fudd, CNBC is the name of my black english staffy, who shits 3 times a day, and SugarDaddy is a pedophile that lives in the higher echalons of the church of market makers. The church is called the DTCC. Nothing on this page should be mistaken for investment advice - although full of facts, this was written by an idiot intended for idiots. So if you're smart like Andrew Left, please stay away from this.
 The shells she sells are seashells, I’m sure.
 And if she sells seashells on the seashore,
 Then I’m sure she sells seashore shells.
