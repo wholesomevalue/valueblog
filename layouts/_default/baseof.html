@@ -28,7 +28,17 @@ if (window.location.hostname === "localhost") {
     <aside class="book-menu">
       <div class="book-menu-content">
         {{ template "menu" . }} <!-- Left menu Content -->
+        <div class="table">
+          <div class="cell">
   <a href="https://twitter.com/empirezhu?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @empirezhu</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <div class="cell">
+             <div class="comments-btn">
+               <span>Comments</span>
+               <span data-talk-id="{{ .Page.File.UniqueID }}"  data-talk-mode="number"></span>
+             </div>
+         </div>
+        </div>
   <br/>
   {{ partial "subscribe.html" . }}
       </div>
@@ -53,7 +63,7 @@ if (window.location.hostname === "localhost") {
     var HYVOR_TALK_WEBSITE = 3160; // DO NOT CHANGE THIS
     var HYVOR_TALK_CONFIG = {
         url: "https://blog.wholesomevalue.com/posts/naked/",
-        id: "naked"
+        id: "{{ .Page.File.UniqueID }}"
     };
 </script>
 <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
@@ -70,6 +80,8 @@ if (window.location.hostname === "localhost") {
     </aside>
     {{ end }}
   </main>
+
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/count/"></script>
 
   {{ partial "docs/inject/body" . }}
 

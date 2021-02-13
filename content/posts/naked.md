@@ -1,6 +1,6 @@
 # Selling Shorts Naked - AKA Naked Short Selling
 
-_Follow me on Twitter: [@empirezhu](https://twitter.com/empirezhu)_  
+*TL;DR* A deep dive into The DTCC Settlement & Clearing Process; why it is a joke - allowing shady operatives to use illegal Naked Short Selling to bully, defecate and prey on smallcap companies without ANY consequence - and how to throw it back at them
 
 {{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.3em; font-weight: bold;">NOTE</span>{{< /rawhtml >}} This post was written after alot of research and digging around. It contains mostly facts (e.g. what illegal Naked Short Selling is, how the DTC/NCSS clearing & settlement of securities works, and why it doesn't work - allowing illegal naked short selling), and some relatable fiction for entertainment purposes only. Therefore, before going any further, you should [read the disclaimer](#disclaimer) first.  
 
@@ -30,6 +30,8 @@ However, if you're busy, or autistic but brilliant, and just want the bullet poi
 - Finally, I propose that the short squeeze hasn't happened yet, because the MM(s) are still holding onto the bags (of FTDs) without much cost/consequences (so far)
 - However, what the MMs have been (wrongfully) discounting is how strongly willed some of these GME investors are at holding the stock till they die
 - So sooner rather than later, the game will stop, with a liquidity crunch coming after them faster than they could ever hope to cover - they'll have no choice but to make deals or get annihilated (taking others down with them as collateral damage)
+- How? easy - {{< rawhtml >}}<span class="red-hl">Orchestrate a coordinated <a href="#kryptonite---liquidty-crunch">run on the bank</a></span>{{</ rawhtml >}} (for real GME shares), forcing the brokers to invoke Buy-Ins on the FTD bag holders, forcing them to buy real GME shares on the market at _ANY COST_.
+- Is this ^ financial terrorism? nope, its called financial _counter-terrorism_
 
 
 {{< rawhtml >}} <h1 style="color: red"><span style="color:white; background-color: red; padding: 0.3em; line-height: 2.5em;">The Big Picture</span><br/>The system is BROKEN, and the Short Squeeze hasn't even started yet (or may never happen)</h1> {{< /rawhtml >}}

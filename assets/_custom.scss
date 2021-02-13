@@ -1,0 +1,37 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+
+img.logo {
+  width: 222px;
+  height: auto;
+  margin-bottom: 2em;
+  display: block;
+}
+
+.twitter-follow-button {
+  display: inline;
+}
+
+.comments-btn {
+  display: inline;
+}
+
+.cols, .table {
+  display: table;
+  .col, .cell {
+    display: table-cell;
+    padding: 0.5em;
+    vertical-align: middle;
+  }
+}
+
+.red-hl {
+  padding: 0.2em;
+  background-color: red;
+  color: white;
+  > a {
+    color: white;
+    font-weight: bold;
+  }
+}
