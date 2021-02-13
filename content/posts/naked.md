@@ -150,7 +150,7 @@ Btw, [checkout this opinion piece by Bloomberge LMFAO](https://www.bloomberg.com
 [Dick pics omitted]
 
 {{< rawhtml >}}
-<div style="background-color: #F0F0F0; padding: 1em;">
+<div class="explainer">
 <b>Explainer</b>
 <p>1. The "magic" refered to here is creating a "small" (e.g. 150% of float) amount of shares through Naked Short Selling (using SugarDaddy's special MM privileges), for Melvin to use to short GME to the ground</p>
 <p>2. Why? Because SugarDaddy created shares of GME out of thin air, and need to eventually deliver it. If GME = $0, whats there to deliver? Also profit + because no capital gains tax (i think, disclaimer: not a tax agent)</p>
@@ -181,7 +181,7 @@ _[ More and more WSB Retards find out about the position ]_
 _[ Shit explodes ]_
 
 {{< rawhtml >}}
-<div style="background-color: #F0F0F0; padding: 1em;">
+<div class="explainer">
 <b>Explainer</b>: The game is now to completely <b>KILL off GME</b>, everything is on the line
 <p>SugarDaddy bag of tricks include but not limited to:</p>
 <p><b>1</b>. Short Ladder Attacks</p>
@@ -394,28 +394,6 @@ It has been a wild ride the last week or so for me! and I'm sure for you as well
 To be perfectly honest, even if I lost the entire amount, I will not have any regrets, because I only played with money I can afford to lose, and also because I think of it as an investment, both in a great company, and in being able to wake up and see the wicked game for what it is - I'm finally an educated ape now!  
 
 This post originated from notes that I took when I began looking into FTDs, FTRs, DTCC etc, terms that I've never heard of before. Eventually, combining with some creative writing abilities which I didn't know existed in me, I turned it into a post that I want to share with everyone.
-
-{{< rawhtml >}}
-<div style="padding: 1em; background-color: #F0F0F0">
-#shamelessplug
-<br/>
-<p>
-If you like what you read, feel free to donate a small amount (e.g. <a href="https://www.quora.com/What-is-the-smallest-amount-of-Bitcoin-I-can-buy-and-where-do-I-buy-it">1 satoshi</a>) into my bitcoin address (at least i'll know someone read and appreciated my efforts):
-
-<img src="/img/btc_address.png" style="display: block;"/>
-<pre>3Hia9udRvDb1R7Ljt85EdJJUR5xfhRrtHL</pre>
-
-<br/>
-Note only send BTC to this address, everything else will get rejected.
-</p>
-<p>
-Alternatively, you can also donate via PayPal: <a href="https://paypal.me/wholesomevalue">paypal.me/wholesomevalue</a>
-</p>
-<p>
-EDIT: Because I'm now down about -$25KAUD, I'm unable to afford the <i>bare essentials</i> such as <a href="https://bws.com.au/spirits">beer, wine and spirits</a> (let alone less important things like food and mortgage repayments), so if you can relate, again, send me a little so I can survive - in jest
-</p>
-</div>
-{{< /rawhtml >}}
 
 Cheers
 
