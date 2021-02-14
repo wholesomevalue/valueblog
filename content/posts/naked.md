@@ -356,6 +356,74 @@ Because for (1) GME's trading volume has been through the roof, so it can be arg
 
 ## Kryptonite - Liquidty Crunch
 
+{{< rawhtml >}}
+<div class="explainer che">
+<h3><span>Guerrilla Warfare</span><br/><div class="cols"><span class="col gme">GME</span><img class="col" src="/img/grenade_2.png"/></div><span>Operations Handbook</span><br/><span class="sign">WholesomeValue</span></h3>
+<h4>1. Pre-requisites - Setup your Base</h4>
+<ul>
+<li>Setup a <b>CASH</b> account with a reputable broker (i.e. not RobinHood)</li>
+<p>
+Be <i>100% certain</i> the account you setup is a <i>CASH account</i> - some brokerages by default signs you up for margin account (e.g. RobinHood).
+<br/>
+You don't want to be buying under a margin account because the shares you buy with it are lendable by the broker - which will increase availability of the shares to short sellers. Something this volatile, on margin, will also ensure your margin account explodes leaving you knee deep in debt.
+</p>
+</ul>
+<h4>2. Propaganda, Ammunition & Intelligence</h4>
+<p>
+<p>
+<h5>2.1. Prepare for Battle</h5>
+<p>
+Campesinos! You need to understand <i>why</i> you've bought GME, <i>what</i> we're fighting for, and <i>how</i> the war will be won:
+</p>
+
+<div class="tabs-container">
+  <div class="tabs">
+    <a href="#" onclick="tabSelect('why');alert('fuck!')" class="active">Why</a>
+    <a href="#" onclick="tabSelect('what');alert('xxx!');">What</a>
+    <a href="#" onclick="tabSelect('how')">How</a>
+  </div>
+  <div class="tab-content active">
+    <p>GME represents value, and so much more:</p>
+    <ul>
+      <li><b>Brand Recognition</b> - <i>Everybody</i> now knows about GameStop. The brand stands for so much more than just a meme stock company</li>
+      <li><b>Leadership</b> - For the sake of brevity, naming a few on the leadership team now: <i>Ryan Cohen (Chewy)</i> - Brings proven ability for online execution and operational know how. Best of all he is 34 years old, just the right age to understand what gaming is all about. <i>Matt Francis</i> (formerly Amazon AWS) recently joined as CTO of GameStop (why would a AWS executive join GameStop if he didn't believe?); not to mention: <i>Alan Attal</i> and <i>Jim Grube</i> of Chewy pedigree with long history of successful achievements; these and more are executing the "Pursuit of Growth and Market Leadership" for GME.</li>
+      <li><b>Untapped Potential</b> - To name a few, you can count on GME tapping into: <i>e-sports</i> - worth <i>$950M</i> in 2020, projected market value in 2023: <i>$1.6B</i>; <i>online games distribution</i>: both sales and electronic DL (think Steam @ $4B), <i>Gaming Experience Centers</i> - remember the good old <i>LAN parties</i>? what made it fun? playing together with your friends in the <i>same</i> room!; gaming by yourself just doens't compete with gaming with your friends; Synergy anyone?</li>
+    </ul>
+    <p>
+    Value isn't just a brain dead calculation derived from e.g. <i>discounted cash flow</i>. Even the great value investors such as <a href="https://www.oaktreecapital.com/docs/default-source/memos/something-of-value.pdf">Howard Marks</a> admits that the term <i>value</i> is also composed of the intangiles such as vision and potential growth in the distant future, and is reflexive.
+    </p>
+    <p>
+    Remember GameStop is NOT Enron, thats what the shorts want you to believe. GameStop is a reputable company, begining to turn a profit for its investors, and at the same time providing jobs to everyday people around the world, not just in USA (e.g. EBGames in Australia) - jobs that  put food on the table and roof over their heads.
+    </p>
+    <p>Now ask yourself: What has SugarDaddy, Melvin and ShitTron done for everyday people?</p>
+    </p>
+  </div>
+  <div class="tab-content">
+    <span>What</span>
+    <p>Defending the weak, upholding values, fighting for freedom</p>
+  </div>
+  <div class="tab-content">
+    <span>How</span>
+    <p>Squeeze their balls until they vomit cash</p>
+  </div>
+</div>
+
+</p>
+<h5>2.2. Let it Spread</h5>
+Distribute this playbook to anyone and everyone who cares. Teach them what you've learnt, make them see the wicked game for what it is - the more people involved the better.
+</p>
+<p>
+<h5>2.3. Buy & Hold</h5>
+Build our ammunition by making recuring purchase (CASH only) of GME weekly/fortnightly/monthly, whatever your budget allows - whether its 1xGME per month or 100xGME per week - just <b>BUY + HODL</b>. ONLY USE MONEY YOU CAN AFFORD TO LOSE. If you can't afford to, just HODL and / or give emotional support to the troops. Enough of this <b>ammunition</b> is needed to keep the fight going, win the battles, and to finally effect the endgame and win the war.
+</p>
+<h4>3. Bay of Pigs, and the Missile Crisis</h4>
+<p>
+The battles have already started, the war is yet to be won.
+</p>
+<p>
+</p>
+</div>
+{{</ rawhtml >}}
 Its important to Remember that the MMs with FTDs are not really hurting due to the SBP, and the fact that the FTRs don't usually get Buy-Ins invoked. What is needed to force the MMs holding the FTDs is to create a liquidity crunch.
 
 The people with margin accounts long GME is not really helping in creating the liqudity crunch, because their accounts are [hypothecable](#hypo), however those that hold GME with cash accounts and not selling _are helping_ - because they've taken the share out of the pool of borrowable GME shares.

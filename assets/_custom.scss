@@ -37,9 +37,76 @@ img.logo {
   }
 }
 
+@font-face {
+    font-family: Che;
+    src: url("/font/CheGuevaraText-Serif.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: CheSign;
+    src: url("/font/CheGuevaraSign-Regular.ttf") format("truetype");
+}
+
 .explainer {
+
+  position: relative;
   background-color: #F0F0F0;
   padding: 1em;
+
+  &.che {
+    background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    &> h4 {
+      background-color: #b10505;
+      padding: 1em;
+    }
+    &> h3 {
+      text-align: center;
+      margin-top: 0;
+      font-family: 'Che';
+      border-top: 2px solid #f77171;
+      border-left: 2px solid #f77171;
+      border-right: 3px solid darkred;
+      border-bottom: 3px solid darkred;
+      padding: 1em 5%;
+      background-color: #b10505;
+      font-size: 6.5em;
+      position: relative;
+      span.gme {
+        font-size: 3em;
+        padding: 0;
+      }
+      &:before {
+        display: none;
+        content: "";
+        background: url(/img/grenade_3.png) 0 0 no-repeat;
+        width: 200px;
+        height: 374px;
+        right: 5%;
+        position: absolute;
+        bottom: 5%;
+      }
+      span.sign {
+        font-family: 'CheSign';
+      }
+    }
+  }
+
+  &.che:after {
+    content: "";
+    opacity: .09;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: url(/img/che.png) no-repeat;
+    background-color: rgba(0,0,0,.1);
+    top: -3em;
+    display: block;
+    width: 693px;
+    height: 748px;
+    overflow-x: hidden;
+  }
 }
 
 .book-menu .book-menu-content {
@@ -87,4 +154,35 @@ img.logo {
 	border-bottom: 0;
 	margin-top: -10px;
 	margin-left: -20px;
+}
+
+.tabs-container {
+
+  &> .tabs {
+    padding-bottom: 0.6em;
+
+    &> a {
+      padding: 0.5em 1em 1em 1em;
+      text-align: center;
+      color: white;
+      &.active {
+        background-color: #da0808;
+        color: white;
+        font-weight: bold;
+      }
+      &:visited, &:hover {
+        color: white;
+      }
+    }
+  }
+
+  .tab-content {
+    display: none;
+    padding: 1em;
+    &.active {
+      display: block;
+      background-color: #da0808;
+    }
+  }
+
 }
