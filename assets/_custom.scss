@@ -47,6 +47,11 @@ img.logo {
     src: url("/font/CheGuevaraSign-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: WholesomeSymbols;
+    src: url("/font/wholesome-symbols.ttf") format("truetype");
+}
+
 .explainer {
 
   position: relative;
@@ -57,6 +62,22 @@ img.logo {
     background-color: red;
     color: white;
     padding: 1em 1.5em;
+    p {
+      padding: 0.5em 1em;
+    }
+
+    a {
+      color: darkred;
+      font-weight: bold;
+      &:after {
+        content: "\F08E";
+        font-family: WholesomeSymbols;
+        margin-left: 0.3em;
+      }
+    }
+    h5 {
+      margin-left: 1em;
+    }
     &> h4 {
       background-color: #b10505;
       padding: 1em;
@@ -162,6 +183,14 @@ img.logo {
     padding-bottom: 0.6em;
 
     &> a {
+      &:after {
+        display: none;
+        content: "";
+      }
+      &:hover { 
+        text-decoration: none;
+      }
+      cursor: pointer;
       padding: 0.5em 1em 1em 1em;
       text-align: center;
       color: white;

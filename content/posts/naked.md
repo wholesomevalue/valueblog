@@ -361,50 +361,52 @@ Because for (1) GME's trading volume has been through the roof, so it can be arg
 <h3><span>Guerrilla Warfare</span><br/><div class="cols"><span class="col gme">GME</span><img class="col" src="/img/grenade_2.png"/></div><span>Operations Handbook</span><br/><span class="sign">WholesomeValue</span></h3>
 <h4>1. Pre-requisites - Setup your Base</h4>
 <ul>
+<li><b>Understand</b> the game completely by reading <a href="https://blog.wholesomevalue.com/posts/naked">Naked Short Selling</a> from start to finish, pay particular attention to the section <a href="https://blog.wholesomevalue.com/posts/naked/#the-dark-side-of-the-dtcc-settlements-and-clearing-process">Dark Side of DTCC</a>, and enjoy a laugh or two reading the <a href="https://blog.wholesomevalue.com/posts/naked/#the-dark-side-of-the-dtcc-settlements-and-clearing-process">Re-enactment</a> and <a href="https://blog.wholesomevalue.com/posts/naked/#disclaimer">Disclaimer</a>.</li>
 <li>Setup a <b>CASH</b> account with a reputable broker (i.e. not RobinHood)</li>
+</ul>
 <p>
 Be <i>100% certain</i> the account you setup is a <i>CASH account</i> - some brokerages by default signs you up for margin account (e.g. RobinHood).
-<br/>
+</p>
+<p>
 You don't want to be buying under a margin account because the shares you buy with it are lendable by the broker - which will increase availability of the shares to short sellers. Something this volatile, on margin, will also ensure your margin account explodes leaving you knee deep in debt.
 </p>
-</ul>
 <h4>2. Propaganda, Ammunition & Intelligence</h4>
-<p>
-<p>
 <h5>2.1. Prepare for Battle</h5>
 <p>
-Campesinos! You need to understand <i>why</i> you've bought GME, <i>what</i> we're fighting for, and <i>how</i> the war will be won:
+Campesinos! To prepare you for battle, you need to understand <i>why</i> you've bought GME, <i>what</i> we're fighting for, and <i>how</i> the war will be won:
 </p>
 
-<div class="tabs-container">
+<div id="wwh-tabs" class="tabs-container">
   <div class="tabs">
-    <a href="#" onclick="tabSelect('why');alert('fuck!')" class="active">Why</a>
-    <a href="#" onclick="tabSelect('what');alert('xxx!');">What</a>
-    <a href="#" onclick="tabSelect('how')">How</a>
+    <a data-tab-why onclick="selectTab(event.target, event);" class="active">Why</a>
+    <a data-tab-what onclick="selectTab(event.target, event);">What</a>
+    <a data-tab-how onclick="selectTab(event.target, event)">How</a>
   </div>
-  <div class="tab-content active">
-    <p>GME represents value, and so much more:</p>
+  <div data-tab-why class="tab-content active">
+    <p>Simply put, GME represents <i>value</i>, and more:</p>
     <ul>
       <li><b>Brand Recognition</b> - <i>Everybody</i> now knows about GameStop. The brand stands for so much more than just a meme stock company</li>
-      <li><b>Leadership</b> - For the sake of brevity, naming a few on the leadership team now: <i>Ryan Cohen (Chewy)</i> - Brings proven ability for online execution and operational know how. Best of all he is 34 years old, just the right age to understand what gaming is all about. <i>Matt Francis</i> (formerly Amazon AWS) recently joined as CTO of GameStop (why would a AWS executive join GameStop if he didn't believe?); not to mention: <i>Alan Attal</i> and <i>Jim Grube</i> of Chewy pedigree with long history of successful achievements; these and more are executing the "Pursuit of Growth and Market Leadership" for GME.</li>
-      <li><b>Untapped Potential</b> - To name a few, you can count on GME tapping into: <i>e-sports</i> - worth <i>$950M</i> in 2020, projected market value in 2023: <i>$1.6B</i>; <i>online games distribution</i>: both sales and electronic DL (think Steam @ $4B), <i>Gaming Experience Centers</i> - remember the good old <i>LAN parties</i>? what made it fun? playing together with your friends in the <i>same</i> room!; gaming by yourself just doens't compete with gaming with your friends; Synergy anyone?</li>
+      <li><b>Leadership</b> - To name a few of the leadership team on board now: <i>Ryan Cohen (Chewy)</i> - Brings proven ability for online execution and operational know how. Best of all he is 34 years old, just the right age to understand what gaming is all about; <i>Matt Francis</i> (formerly Amazon AWS) recently joined as CTO of GameStop (why would a AWS executive join GameStop if he didn't believe?); <i>Alan Attal</i> and <i>Jim Grube</i> of Chewy pedigree with long history of successful achievements; these leaders and more are executing the "Pursuit of Growth and Market Leadership" for GME.</li>
+      <li><b>Untapped Potential</b> - You can count on GME tapping into: <i>e-sports</i> - worth <i>$950M</i> in 2020, projected market value <i>$1.6B</i> in 2023; <i>online games distribution</i>: both physical media and electronic DL (think Steam @ $4B), <i>Gaming Experience Centers</i> - remember the good old <i>LAN parties</i>? what made it fun? playing together with your friends in the <i>same</i> room!; gaming by yourself just doens't compete with gaming with your friends; Synergy anyone?</li>
     </ul>
     <p>
-    Value isn't just a brain dead calculation derived from e.g. <i>discounted cash flow</i>. Even the great value investors such as <a href="https://www.oaktreecapital.com/docs/default-source/memos/something-of-value.pdf">Howard Marks</a> admits that the term <i>value</i> is also composed of the intangiles such as vision and potential growth in the distant future, and is reflexive.
+    Remember value isn't just a brain dead calculation derived from formulas such as <i>discounted cash flow</i>. Even the greatest value investors such as <a class="ext" target="_blank" href="https://www.oaktreecapital.com/docs/default-source/memos/something-of-value.pdf">Howard Marks</a> acknowledge that <i>value</i> is reflexive, and it consitutes not only of the tangibles, but also the intangiles such as potential "<i>growth in the distant future</i>".
     </p>
-    <p>
-    Remember GameStop is NOT Enron, thats what the shorts want you to believe. GameStop is a reputable company, begining to turn a profit for its investors, and at the same time providing jobs to everyday people around the world, not just in USA (e.g. EBGames in Australia) - jobs that  put food on the table and roof over their heads.
-    </p>
-    <p>Now ask yourself: What has SugarDaddy, Melvin and ShitTron done for everyday people?</p>
-    </p>
+    <p>Whats more, have a read of <a class="ext" target="_blank" href="https://www.gmedd.com/wp-content/uploads/2021/01/GMEdd-GameStopValuation-20Jan21.pdf">GMEDD.com's bull case for GameStop</a>: <i>$169</i> - and thats was early January! What should it be now? One thing is for sure, <i>$50</i> is a <i>STEAL</i>! Not to mension that we're at the end-of-life of <a href="https://en.wikipedia.org/wiki/Eighth_generation_of_video_game_consoles">8th generation consoles</a>...</p>
+    <p>Let it sink in that GameStop is <i>NOT</i> Enron.</p>
   </div>
-  <div class="tab-content">
-    <span>What</span>
-    <p>Defending the weak, upholding values, fighting for freedom</p>
+  <div data-tab-what class="tab-content">
+    <p>GameStop is a reputable company. Its begining to turn a profit for its loyal investors, and at the same time providing much needed job security to everyday people, not just in the USA, but around the world (e.g. EBGames in Australia) - <i>jobs that put food on the table and roof over their heads</i> - in what surely must be one of the most difficult times in their lives.</p>
+    <p>Now ask yourself: What has SugarDaddy, Melvin and ShitTron ever done for everyday people?...</p>
+    <p>Campesinos, what we're fighting for is this:</p>
+    <ul>
+      <li><b>Vengence</b> - It isn't right what SugarDaddy, Melvin and ShitTron did, and they need to be held accountable - they need to bleed, <i>MASSIVELY</i>. GameStop isn't the first, neither will it be the last if these people are not made examples of. Vengence, not just for GameStop, but for <i>ALL</i> past fallen companies and their employees at their hands. These people need <i>ETHICS</i> tatooed onto their foreheads to remind them every single morning, day, and night.</li>
+      <li><b>Change</b> - The system is broken, and it allows SugarDaddy and its babies to amass billions in personal wealth, while millions lose their livelihoods. This system simply can't continue in its current form - This fight is to <i>FORCE</i> the hand of the SEC to take action one way or another.</li>
+      <li>and finally, <b>Tendies</b> - For all of you who held and stayed strong. <i>YOU DESERVE IT</i>.</li>
+    </ul>
   </div>
-  <div class="tab-content">
-    <span>How</span>
-    <p>Squeeze their balls until they vomit cash</p>
+  <div data-tab-how class="tab-content">
+    <p>Before </p>
   </div>
 </div>
 
