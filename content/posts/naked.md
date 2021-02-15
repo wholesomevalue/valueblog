@@ -50,7 +50,7 @@ The key thing to note about (normal) short selling, is that _no shares are creat
 
 First of all, you and I can't sell shorts naked - I can't simply tell my broker, nor would my broker believe me, that I have [70M shares of GameStop (GME) stock to sell](#ortex_gme_si). The conversation would go something like this:
 
-`ME` (15th Oct 2020): hey bro, I have 70M of GME stock I want you to sell for me  
+`ME` (15th Oct 2019): hey bro, I have 70M of GME stock I want you to sell for me  
 
 `IBKR (Interactive Brokers)`: You do? congratulations, hold on one sec, let me do some DD (due dilligence), 
 
@@ -154,7 +154,7 @@ Btw, [checkout this opinion piece by Bloomberge LMFAO](https://www.bloomberg.com
 <b>Explainer</b>
 <p>1. The "magic" refered to here is creating a "small" (e.g. 150% of float) amount of shares through Naked Short Selling (using SugarDaddy's special MM privileges), for Melvin to use to short GME to the ground</p>
 <p>2. Why? Because SugarDaddy created shares of GME out of thin air, and need to eventually deliver it. If GME = $0, whats there to deliver? Also profit + because no capital gains tax (i think, disclaimer: not a tax agent)</p>
-<p>3. How Hedge Funds (HFs) work:<br/><b>Due Dilligence (DD)</b> = "Whats the big boys (e.g. Melvin) doing? Lets copy them".<br/><b>Playbook</b> = "Throw some bullshit news against the company (e.g. company is fraud), with history lesson about Enron, throw some bones at dogs like CNBC; borrow from SugarDaddy; rinse & repeat until company bankrupt. Profit + collection commission; (then buy hookers and cocaine)"<br/><b>Risk Management</b> = "WTF is that?"</p> 
+<p>3. How Hedge Funds (HFs) work:<br/><b>Due Dilligence (DD)</b> = "Whats the big boys (e.g. Melvin) doing? Lets copy them".<br/><b>Playbook</b> = "Throw some bullshit news against the company (e.g. company is fraud), with history lesson about Enron, throw some bones at dogs like CNBC; borrow from SugarDaddy; rinse & repeat until company bankrupt. Profit + collect commission; (then buy hookers and cocaine)"<br/><b>Risk Management</b> = "WTF is that?"</p> 
 </div>
 {{< /rawhtml >}}
 
@@ -239,7 +239,7 @@ So by now you should understand what my hypothesis is:
 
 {{< rawhtml >}}
 <div style="padding: 1em; background-color: #f0f0f0;">
-Someone (or group of people), and by someone I mean a prime broker/mm, created alot of fake shares of GameStop using Naked Short Selling,  attempted to bury the evidence by bankrupting GME - after which no one would ask/care about the fake shares
+Someone (or group of people), and by someone I mean a prime broker/mm, created alot of fake shares of GameStop using Naked Short Selling,  attempted to bury the evidence by bankrupting GME - after which no one would care / ask.
 </div>
 {{< /rawhtml >}}
 
@@ -260,7 +260,7 @@ All on board the train to _infinite stupidity_, aka the DTCC...
 
 ### Clearing & Settlement - Happy Days
 
-This is the Happy days scenaior, where SugarDaddy, Melvin and Shittron & Co isn't around goes like this:  
+This is the Happy days scenario, where SugarDaddy, Melvin and Shittron & Co isn't around and it goes like this:  
 
 ![](/img/dtcc_normal.png)
 
@@ -359,9 +359,10 @@ Because for (1) GME's trading volume has been through the roof, so it can be arg
 {{< rawhtml >}}
 <div class="explainer che">
 <h3><span>Guerrilla Warfare</span><br/><div class="cols"><span class="col gme">GME</span><img class="col" src="/img/grenade_2.png"/></div><span>Operations Handbook</span><br/><span class="sign">WholesomeValue</span></h3>
+<a name="gmewar1"></a>
 <h4>1. Pre-requisites - Setup your Base</h4>
 <ul>
-<li><b>Understand</b> the game completely by reading <a href="https://blog.wholesomevalue.com/posts/naked">Naked Short Selling</a> from start to finish, pay particular attention to the section <a href="https://blog.wholesomevalue.com/posts/naked/#the-dark-side-of-the-dtcc-settlements-and-clearing-process">Dark Side of DTCC</a>, and enjoy a laugh or two reading the <a href="https://blog.wholesomevalue.com/posts/naked/#the-dark-side-of-the-dtcc-settlements-and-clearing-process">Re-enactment</a> and <a href="https://blog.wholesomevalue.com/posts/naked/#disclaimer">Disclaimer</a>.</li>
+<li><b>Understand</b> the game completely by reading <a href="https://blog.wholesomevalue.com/posts/naked">Naked Short Selling</a> from start to finish, pay particular attention to the section <a href="https://blog.wholesomevalue.com/posts/naked/#the-dark-side-of-the-dtcc-settlements-and-clearing-process">Dark Side of DTCC</a>, and enjoy a laugh or two reading the <a href="https://blog.wholesomevalue.com/posts/naked/#the-dark-side-of-the-dtcc-settlements-and-clearing-process">Re-enactment</a> and <a target="_blank" href="https://blog.wholesomevalue.com/posts/naked/#disclaimer">Disclaimer</a>.</li>
 <li>Setup a <b>CASH</b> account with a reputable broker (i.e. not RobinHood)</li>
 </ul>
 <p>
@@ -373,7 +374,7 @@ You don't want to be buying under a margin account because the shares you buy wi
 <h4>2. Propaganda, Ammunition & Intelligence</h4>
 <h5>2.1. Prepare for Battle</h5>
 <p>
-Campesinos! To prepare you for battle, you need to understand <i>why</i> you've bought GME, <i>what</i> we're fighting for, and <i>how</i> the war will be won:
+Campesinos! To prepare yourself for battle, you need to understand <i>why</i> you've bought GME, <i>what</i> we're fighting for, and <i>how</i> the war will be won:
 </p>
 
 <div id="wwh-tabs" class="tabs-container">
@@ -387,16 +388,16 @@ Campesinos! To prepare you for battle, you need to understand <i>why</i> you've 
     <ul>
       <li><b>Brand Recognition</b> - <i>Everybody</i> now knows about GameStop. The brand stands for so much more than just a meme stock company</li>
       <li><b>Leadership</b> - To name a few of the leadership team on board now: <i>Ryan Cohen (Chewy)</i> - Brings proven ability for online execution and operational know how. Best of all he is 34 years old, just the right age to understand what gaming is all about; <i>Matt Francis</i> (formerly Amazon AWS) recently joined as CTO of GameStop (why would a AWS executive join GameStop if he didn't believe?); <i>Alan Attal</i> and <i>Jim Grube</i> of Chewy pedigree with long history of successful achievements; these leaders and more are executing the "Pursuit of Growth and Market Leadership" for GME.</li>
-      <li><b>Untapped Potential</b> - You can count on GME tapping into: <i>e-sports</i> - worth <i>$950M</i> in 2020, projected market value <i>$1.6B</i> in 2023; <i>online games distribution</i>: both physical media and electronic DL (think Steam @ $4B), <i>Gaming Experience Centers</i> - remember the good old <i>LAN parties</i>? what made it fun? playing together with your friends in the <i>same</i> room!; gaming by yourself just doens't compete with gaming with your friends; Synergy anyone?</li>
+      <li><b>Macro Bullishness, Untapped Potential</b> - Ages 35-44 (+disposable income); Console/PC gaming +6.8% YOY (2020); Next-gen platform/games driving uplift; You can count on GME tapping into: <i>e-sports</i> - worth <i>$950M</i> in 2020, projected market value <i>$1.6B</i> in 2023; <i>online games distribution</i>: both physical media and electronic DL (think Steam @ $4B), <i>Gaming Experience Centers</i> - remember the good old <i>LAN parties</i>? what made it fun? playing together with your friends in the <i>same</i> room!; gaming by yourself just doens't compete with gaming with your friends; Synergy anyone?</li>
     </ul>
     <p>
     Remember value isn't just a brain dead calculation derived from formulas such as <i>discounted cash flow</i>. Even the greatest value investors such as <a class="ext" target="_blank" href="https://www.oaktreecapital.com/docs/default-source/memos/something-of-value.pdf">Howard Marks</a> acknowledge that <i>value</i> is reflexive, and it consitutes not only of the tangibles, but also the intangiles such as potential "<i>growth in the distant future</i>".
     </p>
-    <p>Whats more, have a read of <a class="ext" target="_blank" href="https://www.gmedd.com/wp-content/uploads/2021/01/GMEdd-GameStopValuation-20Jan21.pdf">GMEDD.com's bull case for GameStop</a>: <i>$169</i> - and thats was early January! What should it be now? One thing is for sure, <i>$50</i> is a <i>STEAL</i>! Not to mension that we're at the end-of-life of <a href="https://en.wikipedia.org/wiki/Eighth_generation_of_video_game_consoles">8th generation consoles</a>...</p>
+    <p>Whats more, have a read of <a class="ext" target="_blank" href="https://www.gmedd.com/wp-content/uploads/2021/01/GMEdd-GameStopValuation-20Jan21.pdf">GMEDD.com's bull case for GameStop</a>: <i>$169</i> - and thats was early January! What should it be now? One thing is for sure, <i>$50</i> is a <i>STEAL</i>! Not to mension that we're at the end-of-life of <a class="ext" target="_blank" href="https://en.wikipedia.org/wiki/Eighth_generation_of_video_game_consoles">8th generation consoles</a>!</p>
     <p>Let it sink in that GameStop is <i>NOT</i> Enron.</p>
   </div>
   <div data-tab-what class="tab-content">
-    <p>GameStop is a reputable company. Its begining to turn a profit for its loyal investors, and at the same time providing much needed job security to everyday people, not just in the USA, but around the world (e.g. EBGames in Australia) - <i>jobs that put food on the table and roof over their heads</i> - in what surely must be one of the most difficult times in their lives.</p>
+    <p>GameStop is a reputable company. Its starting to turn a profit for its loyal investors, and at the same time providing much needed job security to everyday people, not just in the USA, but around the world (e.g. EBGames in Australia) - <i>jobs that put food on the table and roof over their heads</i> - during what surely must be one of the most difficult times in our lives.</p>
     <p>Now ask yourself: What has SugarDaddy, Melvin and ShitTron ever done for everyday people?...</p>
     <p>Campesinos, what we're fighting for is this:</p>
     <ul>
@@ -405,25 +406,34 @@ Campesinos! To prepare you for battle, you need to understand <i>why</i> you've 
       <li>and finally, <b>Tendies</b> - For all of you who held and stayed strong. <i>YOU DESERVE IT</i>.</li>
     </ul>
   </div>
-  <div data-tab-how class="tab-content">
-    <p>Before </p>
+  <div data-tab-how class="tab-content" >
+    <p>What SugarDaddy has done (the illegal naked shorting) is similar to a bank that has issued <i>IOUs</i>(FTRs), but holds <i>NO RESERVES</i>(real GME shares) - an over simplication (see <a href="#the-dark-side-of-the-dtcc-settlements-and-clearing-process">Dark Side of DTCC</a> for complete picture) - but useful to make a point: <i>What happens when IOUs holders requests underlying real shares at the same time?</i> - This is our <i>Nuclear</i> option, aka the "Bank Run"...</p> 
+    <p>However, we prefer not to press the nuclear button and cause a nuclear winter, our go to option would still be the short squeeze aka <i>liquidity crunch</i> (sorry shorties, you play the role of the <a class="ext" target="_blank" href="/img/lamb.jpg">sacrificial lamb</a>):</p>
+    <p>A <i>liqudity crunch</i> happens when there is a simultaneous increase in demand for and  decrease in the availability of a security - GME in this case, and it has the following  negative effect on the short sellers:</p>
+    <ul>
+      <li><b>Borrowing Cost Increase</b> - Because their brokers needs to compete with buyers to locate shares of GME, so interest rate% rises (as we've seen recently as high as 20%+)</li>
+      <li><b>Mark-to-market Losses</b> - They need to either provide more collateral for the shares borrowed, or cover some of their positions to reduce collateral requirements</li>
+      <li><b>Upward Spiral</b> - The continuing demand (from both longs and shorts covering) produces an upward spiral of GME price, thus continuing to take out short positions at higher price entry levels, leading to more and more to capitulate and the spiral to continue)</li>
+    </ul>
+    <p>The 3 keys to effecting the short squeeze are:</p>
+    <ul>
+      <li><b>Popular Support</b> - Lets admit it, currently the popular sentiment is against us, people think that we are bag holders. Your job is to educate them, shine the light, give this operations manual to them and educate them the "what", "why", and "how". To do this, you better make sure you have <a href="#gmewar1">established your base</a> (step 1).</li>
+      <li><b>Continued Demand</b> - You've setup a <i>CASH ACCOUNT</i> with your broker right? Are you sure? Ok, now build your <i>ammunition</i> by making recuring purchase (CASH only) of GME weekly/fortnightly/monthly, whatever your budget allows - whether its 1 x GME per month or 100 x GME per week - just <b>BUY + HODL</b>. ONLY USE MONEY YOU CAN AFFORD TO LOSE. If you can't afford to, just HODL and / or give emotional support to the troops. Enough of this ammunition is needed to keep the fight going.</li>
+      <li><b>Intelligence</b> - Keep an eye out for trustworthy information, don't just regurgitate, evaluate yourself and then disseminate. At the same time, brush up on topics that you are not familiar with, ask questions on forums. Don't worry about the trolls, ignore them. Just maintain an inquisitive mindset. Don't be so closed minded because things change on a day-to-day basis. You need to be one with change, not against it.</li>
+    </ul>
+    <p>Before moving onto step 3, remember what <b>Mark Cuban</b> said:</p>
+    <p>"<i>I know you are going to hate to hear this, but the lower it goes, the more powerful WSB can be stepping up to buy the stock again. The only question is what broker do you use . Do you stay with RH , who is going to have the same liquidity problems over and over again, or do you as a group find a broker with a far, far, far better balance sheet that wont cut you off and then go ham on Wall Street.</i>"</p>
   </div>
 </div>
 
 </p>
-<h5>2.2. Let it Spread</h5>
-Distribute this playbook to anyone and everyone who cares. Teach them what you've learnt, make them see the wicked game for what it is - the more people involved the better.
-</p>
-<p>
-<h5>2.3. Buy & Hold</h5>
-Build our ammunition by making recuring purchase (CASH only) of GME weekly/fortnightly/monthly, whatever your budget allows - whether its 1xGME per month or 100xGME per week - just <b>BUY + HODL</b>. ONLY USE MONEY YOU CAN AFFORD TO LOSE. If you can't afford to, just HODL and / or give emotional support to the troops. Enough of this <b>ammunition</b> is needed to keep the fight going, win the battles, and to finally effect the endgame and win the war.
-</p>
 <h4>3. Bay of Pigs, and the Missile Crisis</h4>
 <p>
-The battles have already started, the war is yet to be won.
+The battles have already started, the war is yet to be won...
 </p>
-<p>
-</p>
+<p>We're fighting for 3 things: <b>Vengence</b>, <b>Change</b>(fairness), and <b>Tendies</b>. All of these could go pear shaped against us - e.g. The SEC could just pay lip service and play theatrics without doing anything concrete, letting SugarDaddy to keep its license with just a slap on the wrist (meaningless fine), allowing it to  continue to game the system. Sure the lambs have been sacrafised, we get our tendies, but so what? Nothing meaningfull has happened - SugarDaddy hasn't learnt its lesson, and it can always find new lambs....</p>
+<img src="/img/sec_ed.png"/>
+<p>^ Maybe this should be "<i>Don't understand (trust) the System? Don't invest in anything based on the system</i>". This illustrates how stupidly out of touch the SEC is and blind to whats happening. I really hope that we don't have to press the nuclear button, but just in case we had to, lets discuss if briefly here:</p>
 </div>
 {{</ rawhtml >}}
 Its important to Remember that the MMs with FTDs are not really hurting due to the SBP, and the fact that the FTRs don't usually get Buy-Ins invoked. What is needed to force the MMs holding the FTDs is to create a liquidity crunch.

@@ -69,7 +69,7 @@ img.logo {
     a {
       color: darkred;
       font-weight: bold;
-      &:after {
+      &.ext:after {
         content: "\F08E";
         font-family: WholesomeSymbols;
         margin-left: 0.3em;
