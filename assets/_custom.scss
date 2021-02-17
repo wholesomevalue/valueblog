@@ -216,3 +216,25 @@ a.ext:after {
   }
 
 }
+
+body {
+}
+
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  line-height: 1.7;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .explainer.che:after {
+    content: "";
+    display: none;
+  }
+
+  .explainer.che>h3 span.gme {
+    font-size: 2em;
+  }
+
+}
+
+
