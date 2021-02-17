@@ -357,7 +357,8 @@ Let me just quote the exact texts from the [Talis. J. Putnins research paper](#r
 
 {{< rawhtml >}}<h1 style="padding: 0.2em; line-height: 1.5em;"><span style="color: white; background-color:red; padding: 0.3em">Important Point #4</span> BROKEN - The Elusiveness of the <b>Buy-In</b>, together with the <b>SBP</b> gives an infinite number of 'get-out-of-jail-free' cards to the predatory MM, allowing its FTDs to exist in perpetuity, without interest/consequence</h1>{{< /rawhtml >}}
 
-and,  
+
+### Ex-Clearing
 
 {{< rawhtml >}}<h1 style="padding: 0.2em; line-height: 1.5em;"><span style="color: white; background-color:red; padding: 0.3em">Important Point #5</span> BROKEN - Do Not blindly trust the FTD, FTR numbers</h1>{{< /rawhtml >}}
 I had to rewrite this section since the new FTD numbers came out - I was already suspicious of The January 14th FTD number (621,483 FTDs), now the January 29th figure (138,179 FTDs) makes me even more suspicious... we know:   
@@ -373,7 +374,7 @@ I had to rewrite this section since the new FTD numbers came out - I was already
   - broker-dealer #1 (RobinYou) 'helps' retail trader to buy GME,
   - broker-dealer #2 (SugarDaddy) naked short sells GME for Melvin, ShitTron and Co
   - #1 and #2 decides to do clearing outside of the DTCC/NSCC electronic system, between themselves (golden shower)
-  - #1 and #2 reports to DTCC/NSCC that there is any FTDs, all shares were delivered (bullshit).
+  - #1 and #2 reports to DTCC/NSCC that there is no FTDs, all shares were delivered (bullshit).
   - DTCC/NSCC believes them and reports +0 FTDs for GME
 
 Alright so, I know its speculation, but the system does actually allow this to happen...
