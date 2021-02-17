@@ -18,7 +18,7 @@ However, if you're busy, or autistic but brilliant, and just want the bullet poi
 
 - Naked Short Selling (`NSS`) = creating shares out of thin air
 - It can be useful for [making markets](#makingmarket), but also be abused (e.g. the current GameStop saga)
-- Basically only [Market Makers (MMs)](#two-types-of-market-makers) - [prime brokerages](https://en.wikipedia.org/wiki/Prime_brokerage) ie. elites such as JP Morgan, _Point72_, _Citadel_ etc - are able to execute Naked Short Selling 
+- Basically only [Market Makers (MMs)](#two-types-of-market-makers) - [prime brokerages](https://en.wikipedia.org/wiki/Prime_brokerage) ie. elites such as JP Morgan, _Point72_, _Citadel_ etc - are able to execute Naked Short Selling (_NOTE_: I'm using the terms "Market Makers" and "Broker-Dealers" interchangeably, the distinction isn't really important here)
 - The DTCC (whose system is at the end of [infinite stupdity](#dtcc)), is being gamed by these MMs due to:
   - The lack of public information & transparency + infrequent & dumbed down reporting
   - Unwillingness of participants to invoke [Buy-Ins](#elusive-buy-ins) to force delivery of FTDs
