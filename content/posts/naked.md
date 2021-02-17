@@ -20,17 +20,17 @@ However, if you're busy, or autistic but brilliant, and just want the bullet poi
 - It can be useful for [making markets](#makingmarket), but also be abused (e.g. the current GameStop saga)
 - Basically only [Market Makers (MMs)](#two-types-of-market-makers) - [prime brokerages](https://en.wikipedia.org/wiki/Prime_brokerage) ie. elites such as JP Morgan, _Point72_, _Citadel_ etc - are able to execute Naked Short Selling 
 - The DTCC (whose system is at the end of [infinite stupdity](#dtcc)), is being gamed by these MMs due to:
-  - The lack of transparency & public information, dumbed down reporting, and infrequency of reporting
+  - The lack of public information & transparency + infrequent & dumbed down reporting
   - Unwillingness of participants to invoke [Buy-Ins](#elusive-buy-ins) to force delivery of FTDs
   - The [Stock Borrowing Programme](#failed-to-receives-ftrs) artificially reducing [FTRs](#failed-to-receives-ftrs) at _0% interest_,
   - Which allows [FTDs](#failed-to-delivers-ftds) to remain in perpetuity without consequence (neither financial nor regulartory)
   - And finally, the _Lack of oversight_ by the SEC
 - MMs who are meant to be staying neutral, making markets and maintaining liquidity, instead use their special market making previleges to play risqué  games with their shorts down - using Naked Short Selling to take on risky single sided positions for predatory means
-- E.g.  if you've made mistakes before (think [$1B fine for insider trading](https://en.wikipedia.org/wiki/Steve_Cohen_(businessman)#Racketeering_and_insider_trading_charges)) and owns one of the larger prime brokers around, why wouldn't you (at least consider) exploit it for your / your friend's benefit? - the formula is fairly easy: step (1). _NSS the stock to obvlivion_, step (2). _rinse & repeat NSS, wait till stock = $0_, culminating in step (3): _no stock to return - easy peasy lemon squeezy_? - except they encountered a [cat](https://www.youtube.com/channel/UC0patpmwYbhcEUap0bTX3JQ) called [DFV](https://www.reddit.com/user/DeepFuckingValue/) and bunch of die-hard 'retarded degenerates' from [WSB](https://www.reddit.com/r/wallstreetbets/)  
+- E.g.  if you've made mistakes before (think {{< rawhtml >}}<a href="https://en.wikipedia.org/wiki/Steve_Cohen_(businessman)#Racketeering_and_insider_trading_charges" target="_blank" class="ext">$1B fine for insider trading</a>{{</ rawhtml >}}) and owns one of the larger prime brokers around, why wouldn't you (at least consider) exploit it for your / your friend's benefit? - the formula is fairly easy: step (1). _NSS the stock to obvlivion_, step (2). _rinse & repeat NSS, wait till stock = $0_, culminating in step (3): _no stock to return - easy peasy lemon squeezy_? - except they encountered a [cat](https://www.youtube.com/channel/UC0patpmwYbhcEUap0bTX3JQ) called [DFV](https://www.reddit.com/user/DeepFuckingValue/) and bunch of die-hard 'retarded degenerates' from [WSB](https://www.reddit.com/r/wallstreetbets/)  
 - Finally, I propose that the short squeeze hasn't happened yet, because the MM(s) are still holding onto the bags (of FTDs) without much cost/consequences (so far)
 - However, what the MMs have been (wrongfully) discounting is how strongly willed some of these GME investors are at holding the stock till they die
 - So sooner rather than later, the game will stop, with a liquidity crunch coming after them faster than they could ever hope to cover - they'll have no choice but to make deals or get annihilated (taking others down with them as collateral damage)
-- How? easy - {{< rawhtml >}}<span class="red-hl">Orchestrate a coordinated <a href="#kryptonite---liquidty-crunch">run on the bank</a></span>{{</ rawhtml >}} (for real GME shares), forcing the brokers to invoke Buy-Ins on the FTD bag holders, forcing them to buy real GME shares on the market at _ANY COST_.
+- How? I present the {{< rawhtml >}}<span class="red-hl" style="padding:0.5em;"><a href="#guerrilla-warfare">GME Guerrilla Warfare Operations Manual</a></span>{{</ rawhtml >}} that walks you through each of the _3 steps_, understanding the _why_, _what_ and _how_ the war will be won.
 - Is this ^ financial terrorism? nope, its called financial _counter-terrorism_
 
 
@@ -40,9 +40,9 @@ Alright, here goes the longer version:
 
 ## Two types of Market Makers
 
-Normal short selling - refresher - is when you borrow a share from your friend who owns it (the broker), and sell it to someone else. You then wait a while, buy the share back and return the share you bought to your friend (broker). all is well if the price went down and conversely all is bad if the price went up - YOU win or lose.
+Normal short selling - refresher - is when you borrow a share from your friend who owns it (the broker), and sell it to someone else. You then wait a while, buy the share back to return to your friend (broker). all is well if the price went down and conversely all is bad if the price went up - YOU win or lose.
 
-The key thing to note about (normal) short selling, is that _no shares are created_ - its only borrowed and eventually returned. The share that was borrowed from the broker is a real share that the company has already created (e.g. with its initial public offering):  
+The key thing to note about (normal) short selling, is that _no shares are created_ - its only borrowed and eventually returned. The share that was borrowed from the broker is a real share issued by the underlying company (e.g. with its initial public offering) 
 
 `Naked Short Selling` - AKA Selling Shorts Naked, on the other hand, is a much more extreme version of selling - The person who coined the term _Naked_ short selling must have had some very deep intiuitions about what it is...
 
@@ -327,7 +327,7 @@ When SugarDaddy and Melvin enters the arena, things gets complicated:
 ### Elusive Buy-ins
 
 - Are we approaching _infinite stupidity_ yet? Yes, we are, let me introduce to you the _elusive Buy-In_:
-- `Buy-Ins` - are MMs who receive a `FTRs` (Failed-to-Receives, aka IOUs) invokes when the they *REALLY* wants the shares owed to them...
+- `Buy-Ins` - are what MMs who received `FTRs` (Failed-to-Receives, aka IOUs) instead of real shares invoke when the they *REALLY* wants the real shares owed to them...
 - This however, is rarely invoked in practice - in the same way why states don't assasinate each other's head of states, MMs don't invoke Buy-Ins for fear of retribution, and:
   - MM's clients doesn't know that they're actually holding `IOU`s
   - The `Continuous Net Settlement` Service, in an ingenious way (whether intentionally designed or not), assigns highest priority to FTRs, therefore people with FTRs actually get delivery of real shares the next EOD or 2 arrives (e.g. via other brokers or SBP) - whats the point of upsetting SugarDaddy when we just wait a few days before actual delivery?
@@ -354,9 +354,18 @@ and,
 Because for (1) GME's trading volume has been through the roof, so it can be argued FTDs and FTRs would explode, and (2). Remember WSB day? when the brokers shut off all purchasing of GME? well that might have given them enough time to locate (although I doubt it) alot of actual shares of GME, and (3) also the recent artificial? downard momentum would have killed off a fair few margin accounts that held GMEs...
 
 
-## Kryptonite - Liquidty Crunch
+## Guerrilla Warfare
 
 {{< rawhtml >}}
+
+<p><b>TL;DR</b>: Move everything off RobinHood into reputable broker; Hold + continue accumulating <i>unencumbered</i> GME shares, because:
+<ul>
+  <li>GME is a valuable (currently undervalued @ $50) company</li>
+  <li>More unencumbered GME holdings = less GME shares available for short selling = more cost to hold existing short positions = <i>Real Short Squeeze</i></li>
+  <li>More unencumbered GME shares we hold = <i>Nuclear Arsenal</i> = We fire as last resort to force delivery (force invoke Buy-In) of real GME shares from whoever created the fake shares.</li>
+</ul>
+</p>
+
 <div class="explainer che">
 <h3><span>Guerrilla Warfare</span><br/><div class="cols"><span class="col gme">GME</span><img class="col" src="/img/grenade_2.png"/></div><span>Operations Handbook</span><br/><span class="sign">WholesomeValue</span></h3>
 <a name="gmewar1"></a>
@@ -408,8 +417,8 @@ Campesinos! To prepare yourself for battle, you need to understand <i>why</i> yo
   </div>
   <div data-tab-how class="tab-content" >
     <p>What SugarDaddy has done (the illegal naked shorting) is similar to a bank that has issued <i>IOUs</i>(FTRs), but holds <i>NO RESERVES</i>(real GME shares) - an over simplication (see <a href="#the-dark-side-of-the-dtcc-settlements-and-clearing-process">Dark Side of DTCC</a> for complete picture) - but useful to make a point: <i>What happens when IOUs holders requests underlying real shares at the same time?</i> - This is our <i>Nuclear</i> option, aka the "Bank Run"...</p> 
-    <p>However, we prefer not to press the nuclear button and cause a nuclear winter, our go to option would still be the short squeeze aka <i>liquidity crunch</i> (sorry shorties, you play the role of the <a class="ext" target="_blank" href="/img/lamb.jpg">sacrificial lamb</a>):</p>
-    <p>A <i>liqudity crunch</i> happens when there is a simultaneous increase in demand for and  decrease in the availability of a security - GME in this case, and it has the following  negative effect on the short sellers:</p>
+    <p>However, we prefer not to press the nuclear button and cause a nuclear fallout, our go to option would still be the short squeeze aka <i>liquidity crunch</i> (sorry shorties, you play the role of the <a class="ext" target="_blank" href="/img/lamb.jpg">sacrificial lamb</a>):</p>
+    <p>A <i>liquidity crunch</i> happens when there is a simultaneous increase in demand for and  decrease in the availability of a security - GME in this case, and it has the following  negative effect on the short sellers:</p>
     <ul>
       <li><b>Borrowing Cost Increase</b> - Because their brokers needs to compete with buyers to locate shares of GME, so interest rate% rises (as we've seen recently as high as 20%+)</li>
       <li><b>Mark-to-market Losses</b> - They need to either provide more collateral for the shares borrowed, or cover some of their positions to reduce collateral requirements</li>
@@ -431,9 +440,32 @@ Campesinos! To prepare yourself for battle, you need to understand <i>why</i> yo
 <p>
 The battles have already started, the war is yet to be won...
 </p>
-<p>We're fighting for 3 things: <b>Vengence</b>, <b>Change</b>(fairness), and <b>Tendies</b>. All of these could go pear shaped against us - e.g. The SEC could just pay lip service and play theatrics without doing anything concrete, letting SugarDaddy to keep its license with just a slap on the wrist (meaningless fine), allowing it to  continue to game the system. Sure the lambs have been sacrafised, we get our tendies, but so what? Nothing meaningfull has happened - SugarDaddy hasn't learnt its lesson, and it can always find new lambs....</p>
+<p>We're fighting for 3 things: <b>Vengence</b>, <b>Change</b>(fairness), and <b>Tendies</b>. All of these could go pear shaped against us - e.g. The SEC could just pay lip service and play theatrics without doing anything concrete, letting SugarDaddy to keep its license with just a slap on the wrist (meaningless fine). Sure the lambs have been sacrificed, we get our tendies, but so what? Nothing meaningfull has happened - SugarDaddy hasn't learnt its lesson, and it can always find new lambs....</p>
 <img src="/img/sec_ed.png"/>
-<p>^ Maybe this should be "<i>Don't understand (trust) the System? Don't invest in anything based on the system</i>". This illustrates how stupidly out of touch the SEC is and blind to whats happening. I really hope that we don't have to press the nuclear button, but just in case we had to, lets discuss if briefly here:</p>
+<p>^ Maybe this should be "<i>Don't understand (trust) the System? Don't invest in anything based on the system</i>".</p>
+
+<p>The above tweet illustrates how stupidly out of touch the SEC is and blind to whats happening. I really hope that we don't have to press the nuclear buttons, but just in case we had to, lets discuss if briefly here:</p>
+
+<p>We have several nuclear warheads, and I don't think we need to go into specifics at this point in time. However they all work by detonating the <a href="#elusive-buy-ins">Elusive Buy-Ins</a>. How? I give you a hint: understand that you don't have to hold the securities with your broker, <a class="ext" target="_blank" href="https://www.sec.gov/reportspubs/investor-publications/investorpubsholdsechtm.html">you have other options</a>. e.g. I could just say "fuck it, I want a genuine GME share certificate to frame and put on my wall"... You get my drift now?
+</p>
+<p>
+So lets examine what happens when we force the invocation of the <a href="#elusive-buy-ins">Buy-Ins</a>, forcing SugarDaddy (or whoever the bag holders of the FTDs are) to buy real GME shares on the market, competing with other market participants such as:</p>
+<ul>
+  <li>Gay Bear short sellers buying at market to cover (exit) their short positions</li>
+  <li>Momentum (Day/Swing traders) Shorts covering their positions</li>
+  <li>Momentum Longs looking for quick upside profit</li>
+  <li>Long term investors & GME Campesinos</li>
+  <li>Many others e.g. MMs hedging etc</li>
+</ul>
+
+<p>The result is a much more violent upward price explosion, and potentially a chain reaction that widens to the entire market. SEC intern I hope you're reading this...</p>
+<p>At this point (and probably with the short squeeze also), you would expect someone to step in to contain the situation, we've got 2 likely candidates:</p>
+<ul>
+  <li><b>SEC</b> - </li>
+  <li><b>GameStop</b> - </li>
+</ul>
+<p>Look the point is this, we have nuclear arsenal and we're not afraid to press the buttons. We're looking forward to your move SEC, starting with <a class="ext" href="https://www.washingtonpost.com/business/2021/02/14/sec-gamestop/" target="_blank">February 18</a>.</p>
+
 </div>
 {{</ rawhtml >}}
 Its important to Remember that the MMs with FTDs are not really hurting due to the SBP, and the fact that the FTRs don't usually get Buy-Ins invoked. What is needed to force the MMs holding the FTDs is to create a liquidity crunch.
@@ -537,6 +569,22 @@ Source: https://www.ortex.com/symbol/NYSE/GME/short_interest
 - [Hypothecation](https://www.investopedia.com/terms/h/hypothecation.asp) - bascially broker speak for, if you have margin account with us, then we have the right to lend out whatever you buy.
 
 - [r/wallstreetbets Subreddit Stats](https://subredditstats.com/r/Wallstreetbets)
+
+- [Naked Short Selling - Wikipedia](https://en.wikipedia.org/wiki/Naked_short_selling)
+
+- [Ex-clearing](http://brokerage101.com/comparison.html)
+
+- [Wall St Oasis Forum - Ex Clearing](https://www.wallstreetoasis.com/forums/ex-clearing)
+
+- [SEC 6350A - Clearance / Settlement](https://www.finra.org/rules-guidance/rulebooks/finra-rules/6350a)
+
+- [SEC Active Broker-Dealers List](https://www.sec.gov/help/foiadocsbdfoiahtm.html)
+
+- [DTCC Obligation Warehouse](https://www.dtcc.com/clearing-services/equities-clearing-services/ow)
+
+- [DTCC Article - Managing Risks with Ex-Clearing](https://www.dtcc.com/news/2011/april/01/managing-the-risks-of-ex-clearing-trades)
+
+- [Investor.gov Ed - Order Execution](https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/executing-order) - this talks about how orders are routed (to exchange, to market makers etc), what "payment for orderflow" is
 
 {{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.3em; font-weight: bold;">UPDATE</span>{{< /rawhtml >}} Link to [theintercept.com article](https://theintercept.com/2016/09/24/naked-shorts-cant-stay-naked-forever/) that explores the same issue. The article also goes on to discuss something called [Reverse Stock Split](https://www.reddit.com/r/wallstreetbets/comments/lcpwh0/how_gme_can_still_be_a_great_play/) - basically how to nuke naked short sellers
 

@@ -52,6 +52,12 @@ img.logo {
     src: url("/font/wholesome-symbols.ttf") format("truetype");
 }
 
+a.ext:after {
+  content: "\F08E";
+  font-family: WholesomeSymbols;
+  margin-left: 0.3em;
+}
+
 .explainer {
 
   position: relative;
@@ -69,11 +75,6 @@ img.logo {
     a {
       color: darkred;
       font-weight: bold;
-      &.ext:after {
-        content: "\F08E";
-        font-family: WholesomeSymbols;
-        margin-left: 0.3em;
-      }
     }
     h5 {
       margin-left: 1em;
