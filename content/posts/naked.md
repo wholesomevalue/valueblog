@@ -387,13 +387,18 @@ NOT INVESTMENT ADVICE - see [disclaimer](#disclaimer)
 
 {{< rawhtml >}}
 
-<p style="padding: 0.5em; background-color: red; color: white;"><b>TL;DR</b>: Move everything off RobinHood into reputable broker with CASH ACCOUNT (no margin!); Hold + continue accumulating <i>unencumbered</i> GME shares, because:
-<ul>
-  <li>GME is a valuable company (currently undervalued @ $50)</li>
-  <li>More unencumbered GME holdings = less GME shares available for short selling = more cost to hold existing short positions = <i>Real Short Squeeze</i></li>
-  <li>More unencumbered GME shares we hold = <i>Nuclear Arsenal</i> = We fire as last resort to force delivery (force invoke <a href="#elusive-buy-ins">Buy-In</a>) of real GME shares from whoever created the fake shares.</li>
-</ul>
+<div class="explainer">
+<p>
+Just want to make it clear there are <i>3 plays</i> here, but they all center on the one point alot of people miss:
+<h1 style="margin-top: 0">TL;DR - Someone is Still Exposed</h1>
 </p>
+<p>Because 150% of GME's float was shorted, meaning at least 50% of that is fake - How do you deliver something that doesn't exist?</p>
+<ol>
+  <li><b>Value Play</b> - GME represents value, especially at the current price of $40</li>
+  <li><b>Short Squeeze Play</b> - The more unencumbered long positions of GME, the costlier it is to short/hold short positions.</li>
+  <li><b>Nuclear Play</b> - The "Bank Run", where all unencumbered longs ask for GME shares to be located at the same time.</li>
+</ol>
+</div>
 
 <div class="explainer che">
 <h3><span>Guerrilla Warfare</span><br/><div class="cols"><span class="col gme">GME</span><img class="col" src="/img/grenade_2.png"/></div><span>Operations Handbook</span><br/><span class="sign">WholesomeValue</span></h3>
