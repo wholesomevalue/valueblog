@@ -1,6 +1,6 @@
 # Selling Shorts Naked - AKA Naked Short Selling
 
-*TL;DR* A deep dive into The DTCC Settlement & Clearing Process; why it is a joke - allowing shady operatives to use illegal Naked Short Selling to bully, defecate and prey on smallcap companies without ANY consequence - and [how to throw it back at them](#guerrilla-warfare)
+*TL;DR* A deep dive into The DTCC Settlement & Clearing Process; why it is a joke - allowing shady operatives to use illegal Naked Short Selling to bully, defecate and prey on smallcap companies without ANY consequences
 
 {{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.3em; font-weight: bold;">NOTE</span>{{< /rawhtml >}} This post was written after alot of research and digging around. It contains mostly facts (e.g. what illegal Naked Short Selling is, how the DTC/NCSS clearing & settlement of securities works, and why it doesn't work - allowing illegal naked short selling), and some relatable fiction for entertainment purposes only. Therefore, before going any further, you should [read the disclaimer](#disclaimer) first.  
 
