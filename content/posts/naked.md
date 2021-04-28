@@ -1,6 +1,6 @@
 # Selling Shorts Naked - AKA Naked Short Selling
 
-_Follow me on Twitter: [@empirezhu](https://twitter.com/empirezhu)_  
+*TL;DR* A deep dive into The DTCC Settlement & Clearing Process; why it is a joke - allowing shady operatives to use illegal Naked Short Selling to bully, defecate and prey on smallcap companies without ANY consequences
 
 {{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.3em; font-weight: bold;">NOTE</span>{{< /rawhtml >}} This post was written after alot of research and digging around. It contains mostly facts (e.g. what illegal Naked Short Selling is, how the DTC/NCSS clearing & settlement of securities works, and why it doesn't work - allowing illegal naked short selling), and some relatable fiction for entertainment purposes only. Therefore, before going any further, you should [read the disclaimer](#disclaimer) first.  
 
@@ -8,7 +8,7 @@ Are you laughing? If not I know you havn't read the [disclaimer](#disclaimer). I
 
 I think you came here to learn why someone would sell their shorts naked. I can explain, not because I do so, but because I read a bunch of [papers and articles](#references), which helped me understand the situation alot better.  
 
-After receiving englightenment, I was able to recreate a [*99.99% accurate* reenactment of the events](#reenactment) that led to the greatest Short Squeeze (that could have been / yet to happen) in history (the cast includes SugarDaddy,  Melvin, Shittron and their dog CNBC).
+After receiving englightenment, I was able to recreate a [*99.99% accurate* reenactment of the events](#reenactment) that led to the greatest Short Squeeze (that could have been / yet to happen) in history (the cast includes SugarDaddy, his boy RobinYou, sugar babies Melvin, Shittron and their dog CNBC).
 
 I hope to make you laugh, but more importantly also to enlighten you, so please read the entire thing - you won't be disappointed. 
 
@@ -18,18 +18,19 @@ However, if you're busy, or autistic but brilliant, and just want the bullet poi
 
 - Naked Short Selling (`NSS`) = creating shares out of thin air
 - It can be useful for [making markets](#makingmarket), but also be abused (e.g. the current GameStop saga)
-- Basically only [Market Makers (MMs)](#two-types-of-market-makers) - [prime brokerages](https://en.wikipedia.org/wiki/Prime_brokerage) ie. elites such as JP Morgan, _Point72_, _Citadel_ etc - are able to execute Naked Short Selling 
+- Basically only [Market Makers (MMs)](#two-types-of-market-makers) - [prime brokerages](https://en.wikipedia.org/wiki/Prime_brokerage) ie. elites such as JP Morgan, _Point72_, _Citadel_ etc - are able to execute Naked Short Selling (_NOTE_: I'm using the terms "Market Makers" and "Broker-Dealers" interchangeably, the distinction isn't really important here)
 - The DTCC (whose system is at the end of [infinite stupdity](#dtcc)), is being gamed by these MMs due to:
-  - The lack of transparency & public information, dumbed down reporting, and infrequency of reporting
+  - The lack of public information & transparency + infrequent & dumbed down reporting
   - Unwillingness of participants to invoke [Buy-Ins](#elusive-buy-ins) to force delivery of FTDs
   - The [Stock Borrowing Programme](#failed-to-receives-ftrs) artificially reducing [FTRs](#failed-to-receives-ftrs) at _0% interest_,
   - Which allows [FTDs](#failed-to-delivers-ftds) to remain in perpetuity without consequence (neither financial nor regulartory)
+  - Not to mention allowing antique [Ex-Clearing](#ex-clearing) to occur
   - And finally, the _Lack of oversight_ by the SEC
 - MMs who are meant to be staying neutral, making markets and maintaining liquidity, instead use their special market making previleges to play risqué  games with their shorts down - using Naked Short Selling to take on risky single sided positions for predatory means
-- E.g.  if you've made mistakes before (think [$1B fine for insider trading](https://en.wikipedia.org/wiki/Steve_Cohen_(businessman)#Racketeering_and_insider_trading_charges)) and owns one of the larger prime brokers around, why wouldn't you (at least consider) exploit it for your / your friend's benefit? - the formula is fairly easy: step (1). _NSS the stock to obvlivion_, step (2). _rinse & repeat NSS, wait till stock = $0_, culminating in step (3): _no stock to return - easy peasy lemon squeezy_? - except they encountered a [cat](https://www.youtube.com/channel/UC0patpmwYbhcEUap0bTX3JQ) called [DFV](https://www.reddit.com/user/DeepFuckingValue/) and bunch of die-hard 'retarded degenerates' from [WSB](https://www.reddit.com/r/wallstreetbets/)  
-- Finally, I propose that the short squeeze hasn't happened yet, because the MM(s) are still holding onto the bags (of FTDs) without much cost/consequences (so far)
-- However, what the MMs have been (wrongfully) discounting is how strongly willed some of these GME investors are at holding the stock till they die
-- So sooner rather than later, the game will stop, with a liquidity crunch coming after them faster than they could ever hope to cover - they'll have no choice but to make deals or get annihilated (taking others down with them as collateral damage)
+- E.g.  if you've made mistakes before (think {{< rawhtml >}}<a href="https://en.wikipedia.org/wiki/Steve_Cohen_(businessman)#Racketeering_and_insider_trading_charges" target="_blank" class="ext">$1B fine for insider trading</a>{{</ rawhtml >}}) and owns one of the larger prime brokers around, why wouldn't you (at least consider) exploit it for your / your friend's benefit? - the formula is fairly easy: step (1). _NSS the stock to obvlivion_, step (2). _rinse & repeat NSS, wait till stock = $0_, culminating in step (3): _no stock to return - easy peasy lemon squeezy_? - except they encountered a [cat](https://www.youtube.com/channel/UC0patpmwYbhcEUap0bTX3JQ) called [DFV](https://www.reddit.com/user/DeepFuckingValue/) and bunch of die-hard 'retarded degenerates' from [WSB](https://www.reddit.com/r/wallstreetbets/)  
+- Finally, I propose that the short squeeze hasn't happened yet, because many are still holding onto the bags (of FTDs) without much cost/consequences (so far)
+- The FTD bag holders have been (wrongfully) discounting how strongly willed some of these GME investors are at holding the stock till they die
+- So sooner rather than later, the game will stop, with a liquidity crunch coming after them faster than they could ever hope to cover - they'll have no choice but to make deals or get annihilated (taking others down with them as collateral damage) - [someone is still exposed](#someone-is-still-exposed)
 
 
 {{< rawhtml >}} <h1 style="color: red"><span style="color:white; background-color: red; padding: 0.3em; line-height: 2.5em;">The Big Picture</span><br/>The system is BROKEN, and the Short Squeeze hasn't even started yet (or may never happen)</h1> {{< /rawhtml >}}
@@ -38,9 +39,9 @@ Alright, here goes the longer version:
 
 ## Two types of Market Makers
 
-Normal short selling - refresher - is when you borrow a share from your friend who owns it (the broker), and sell it to someone else. You then wait a while, buy the share back and return the share you bought to your friend (broker). all is well if the price went down and conversely all is bad if the price went up - YOU win or lose.
+Normal short selling - refresher - is when you borrow a share from your friend who owns it (the broker), and sell it to someone else. You then wait a while, buy the share back to return to your friend (broker). all is well if the price went down and conversely all is bad if the price went up - YOU win or lose.
 
-The key thing to note about (normal) short selling, is that _no shares are created_ - its only borrowed and eventually returned. The share that was borrowed from the broker is a real share that the company has already created (e.g. with its initial public offering):  
+The key thing to note about (normal) short selling, is that _no shares are created_ - its only borrowed and eventually returned. The share that was borrowed from the broker is a real share issued by the underlying company (e.g. with its initial public offering) 
 
 `Naked Short Selling` - AKA Selling Shorts Naked, on the other hand, is a much more extreme version of selling - The person who coined the term _Naked_ short selling must have had some very deep intiuitions about what it is...
 
@@ -48,7 +49,7 @@ The key thing to note about (normal) short selling, is that _no shares are creat
 
 First of all, you and I can't sell shorts naked - I can't simply tell my broker, nor would my broker believe me, that I have [70M shares of GameStop (GME) stock to sell](#ortex_gme_si). The conversation would go something like this:
 
-`ME` (15th Oct 2020): hey bro, I have 70M of GME stock I want you to sell for me  
+`ME` (15th Oct 2019): hey bro, I have 70M of GME stock I want you to sell for me  
 
 `IBKR (Interactive Brokers)`: You do? congratulations, hold on one sec, let me do some DD (due dilligence), 
 
@@ -135,7 +136,7 @@ So in order to deliver the *REAL* share to the buyer (you don't have it because 
 
 Lets watch an reenactment of a recent event, to illustrate how Predatory Naked Short Selling works:
 
-_The following reenactment is for entertainment purposes only, the characters described within are not real, for example, Melvin is the incestual brother of Elmer J. Fudd, CNBC is the name of my black english staffy, who shits 3 times a day, and SugarDaddy is a pedophile that lives in the higher echalons of the church of market makers. The church is called the DTCC_
+_The following reenactment is for entertainment purposes only, the characters described within are not real, for example, Melvin is the incestual brother of Elmer J. Fudd, CNBC is the name of my black english staffy, who shits 3 times a day, RobinYou is a young priest, and SugarDaddy is a pedophile that lives in the higher echalons of the church of market makers. The church is called the DTCC_
 
 {{< rawhtml >}}<h1><span style="color:white; background-color: red; padding: 0.3em;">Reenactment</span> (99.99% accurate)</h1><a href="#disclaimer">Disclaimer</a><br/>{{< /rawhtml >}}
   
@@ -148,15 +149,15 @@ Btw, [checkout this opinion piece by Bloomberge LMFAO](https://www.bloomberg.com
 [Dick pics omitted]
 
 {{< rawhtml >}}
-<div style="background-color: #F0F0F0; padding: 1em;">
+<div class="explainer">
 <b>Explainer</b>
-<p>1. The "magic" refered to here is creating a "small" (e.g. 150% of float) amount of shares through Naked Short Selling (using SugarDaddy's special MM privileges), for Melvin to use to short GME to the ground</p>
-<p>2. Why? Because SugarDaddy created shares of GME out of thin air, and need to eventually deliver it. If GME = $0, whats there to deliver? Also profit + because no capital gains tax (i think, disclaimer: not a tax agent)</p>
-<p>3. How Hedge Funds (HFs) work:<br/><b>Due Dilligence (DD)</b> = "Whats the big boys (e.g. Melvin) doing? Lets copy them".<br/><b>Playbook</b> = "Throw some bullshit news against the company (e.g. company is fraud), with history lesson about Enron, throw some bones at dogs like CNBC; borrow from SugarDaddy; rinse & repeat until company bankrupt. Profit + collection commission; (then buy hookers and cocaine)"<br/><b>Risk Management</b> = "WTF is that?"</p> 
+<p>1. The "magic" refered to here is creating a "small" (e.g. 150% of float) amount of shares through Naked Short Selling (using SugarDaddy's special MM privileges), for Melvin to use to short GME to the ground. While Melvin shorts GME to obvlivion, they need to find people 'dumb' enough to take the other side (i.e. buy GME), so they ask <b>RobinYou</b>'s help...</p>
+<p>2. RobinYou have a massive following of retail retards who buys everything RobinYou tells them to, on margin, which is just perfect, because these margin accounts easily blows up, adding downward pressure to lower the price of GME</p>
+<p>3. How Hedge Funds (HFs) work:<br/><b>Due Dilligence (DD)</b> = "Whats the big boys (e.g. Melvin) doing? Lets copy them".<br/><b>Playbook</b> = "Throw some bullshit news against the company (e.g. company is fraud), with history lesson about Enron, throw some bones at dogs like CNBC; borrow from SugarDaddy; rinse & repeat until company bankrupt. Profit + collect commission; (then buy hookers and cocaine)"<br/><b>Risk Management</b> = "WTF is that?"</p> 
 </div>
 {{< /rawhtml >}}
 
-`SugarDaddy`: You'll have to work very hard for this one *wink* *wink*, ok see you at 10. Come to my office and be discete.  
+`SugarDaddy`: You'll have to work very hard for this one *wink* *wink*, ok see you at 10. Come to my office and be discete. Btw, you also need make our young priest `RobinYou` happy...
 
 _[ GME price goes further south... but people who actually did DD, and have real conviction (e.g. [1](https://www.reddit.com/user/DeepFuckingValue/), [2](https://twitter.com/ryancohen?lang=en), [3](https://twitter.com/RodAlzmann)) hold on tight ]_
 
@@ -164,7 +165,7 @@ _[ GME price goes further south... but people who actually did DD, and have real
 
 `Melvin`: Alright, more problems, this time theres a guy called `Ryan Cohen` who just joined GME's board, is he related to you?  
 
-`SugarDaddy`: No, but see you at 10, same place, same shit (*wink* xxx)  
+`SugarDaddy`: No, but see you at 10, same place, same shit (*wink* xxx) 
 
 [Pegging pics ommitted]
 
@@ -179,9 +180,10 @@ _[ More and more WSB Retards find out about the position ]_
 _[ Shit explodes ]_
 
 {{< rawhtml >}}
-<div style="background-color: #F0F0F0; padding: 1em;">
-<b>Explainer</b>: The game is now to completely <b>KILL off GME</b>, everything is on the line
-<p>SugarDaddy bag of tricks include but not limited to:</p>
+<div class="explainer">
+<b>Explainer</b>: The game is to completely <b>KILL off GME</b>, because everything is on the line
+<p>Why? Because SugarDaddy created shares of GME out of thin air (illegal because its not "bona-fide market making"), and need to eventually deliver it. If GME = $0, whats there to deliver? Also profit + no capital gains tax (i think, disclaimer: not a tax agent)</p>
+<p>SugarDaddy gets really dirty and opens up  bag of tricks including but not limited to:</p>
 <p><b>1</b>. Short Ladder Attacks</p>
 <p><b>2</b>. Misinformation through CNBC</p>
 <p><b>3</b>. Run bots against r/wallstreetbets</p>
@@ -213,7 +215,7 @@ _[ All brockerages shut buying of GME, int the hope of locating *REAL* shares to
 
 ### _Jan 28, 2021 (WSB Day)_, Brokers to the world
 
-`Brokers`: Dear retail traders, we're doing this for you, to protect _you_ from harm...  
+`RobinYou / Brokers`: Dear retail traders, we're doing this for you, to protect _you_ from harm...  
 
 `The world`: Fuck you, we're not dumb, if this is not collusion, then what the fuck is?  
 
@@ -237,7 +239,7 @@ So by now you should understand what my hypothesis is:
 
 {{< rawhtml >}}
 <div style="padding: 1em; background-color: #f0f0f0;">
-Someone (or group of people), and by someone I mean a prime broker/mm, created alot of fake shares of GameStop using Naked Short Selling,  attempted to bury the evidence by bankrupting GME - after which no one would ask/care about the fake shares
+Someone (or group of people), and by someone I mean a prime broker/mm, created alot of fake shares of GameStop using Naked Short Selling,  attempted to bury the evidence by bankrupting GME - after which no one would care / ask.
 </div>
 {{< /rawhtml >}}
 
@@ -256,9 +258,18 @@ Anyways, the point is - don't use short interest alone to evaluate the situation
 
 All on board the train to _infinite stupidity_, aka the DTCC...
 
+Please watch this introductory video first:
+
+{{< rawhtml >}}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I0WXg5T3cBE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{</ rawhtml >}}
+  
+
+Now continue reading to understand in detail the stupidity:  
+
 ### Clearing & Settlement - Happy Days
 
-This is the Happy days scenaior, where SugarDaddy, Melvin and Shittron & Co isn't around goes like this:  
+This is the Happy days scenario, where SugarDaddy, Melvin and Shittron & Co isn't around and it goes like this:  
 
 ![](/img/dtcc_normal.png)
 
@@ -325,7 +336,7 @@ When SugarDaddy and Melvin enters the arena, things gets complicated:
 ### Elusive Buy-ins
 
 - Are we approaching _infinite stupidity_ yet? Yes, we are, let me introduce to you the _elusive Buy-In_:
-- `Buy-Ins` - are MMs who receive a `FTRs` (Failed-to-Receives, aka IOUs) invokes when the they *REALLY* wants the shares owed to them...
+- `Buy-Ins` - are what MMs who received `FTRs` (Failed-to-Receives, aka IOUs) instead of real shares invoke when the they *REALLY* wants the real shares owed to them...
 - This however, is rarely invoked in practice - in the same way why states don't assasinate each other's head of states, MMs don't invoke Buy-Ins for fear of retribution, and:
   - MM's clients doesn't know that they're actually holding `IOU`s
   - The `Continuous Net Settlement` Service, in an ingenious way (whether intentionally designed or not), assigns highest priority to FTRs, therefore people with FTRs actually get delivery of real shares the next EOD or 2 arrives (e.g. via other brokers or SBP) - whats the point of upsetting SugarDaddy when we just wait a few days before actual delivery?
@@ -345,22 +356,49 @@ Let me just quote the exact texts from the [Talis. J. Putnins research paper](#r
 
 {{< rawhtml >}}<h1 style="padding: 0.2em; line-height: 1.5em;"><span style="color: white; background-color:red; padding: 0.3em">Important Point #4</span> BROKEN - The Elusiveness of the <b>Buy-In</b>, together with the <b>SBP</b> gives an infinite number of 'get-out-of-jail-free' cards to the predatory MM, allowing its FTDs to exist in perpetuity, without interest/consequence</h1>{{< /rawhtml >}}
 
-and,  
 
-{{< rawhtml >}}<h1 style="padding: 0.2em; line-height: 1.5em;"><span style="color: white; background-color:red; padding: 0.3em">Important Point #5</span> BROKEN - Do Not blindly trust the FTD, FTR numbers coming out soon</h1>{{< /rawhtml >}}
+### Ex-Clearing
 
-Because for (1) GME's trading volume has been through the roof, so it can be argued FTDs and FTRs would explode, and (2). Remember WSB day? when the brokers shut off all purchasing of GME? well that might have given them enough time to locate (although I doubt it) alot of actual shares of GME, and (3) also the recent artificial? downard momentum would have killed off a fair few margin accounts that held GMEs...
+{{< rawhtml >}}<h1 style="padding: 0.2em; line-height: 1.5em;"><span style="color: white; background-color:red; padding: 0.3em">Important Point #5</span> BROKEN - Do Not blindly trust the FTD, FTR numbers</h1>{{< /rawhtml >}}
+I had to rewrite this section since the new FTD numbers came out - I was already suspicious of The January 14th FTD number (621,483 FTDs), now the January 29th figure (138,179 FTDs) makes me even more suspicious... we know:   
+
+- Short sellers had borrowed 150% of floating shares of GME
+- Lets assume they were some how (highly unlikely) able to borrow 100% of the float, the other 50% must be made up (i.e. through naked short selling by their MM/broker-dealer).
+- 50% of 46.89M (according to yahoo) = `23M (23,445,000) fake shares` that should fail to deliver.
+- Nowhere in any of the previous and current FTD reports did we see anything close to 23M FTDs reported...  
+- Is there another loop hole somewhere being exploited to under report FTD (or even to not report FTDs at all)???
+- _YES OF COURSE THERE IS_: its called [Ex-Clearing](http://brokerage101.com/comparison.html)
+- Ex-clearing basically allows any two broker-dealers to do clearing between themselves, and then report any FTDs to the NSCC/DTCC
+- So e.g. if we had 2 broker-dealers who are in collusion: 
+  - broker-dealer #1 (RobinYou) 'helps' retail trader to buy GME,
+  - broker-dealer #2 (SugarDaddy) naked short sells GME for Melvin, ShitTron and Co
+  - #1 and #2 decides to do clearing outside of the DTCC/NSCC electronic system, between themselves (golden shower)
+  - #1 and #2 reports to DTCC/NSCC that there is no FTDs, all shares were delivered (bullshit).
+  - DTCC/NSCC believes them and reports +0 FTDs for GME
+
+Alright so, I know its speculation, but the system does actually allow this to happen...
 
 
-## Kryptonite - Liquidty Crunch
+## Someone is Still Exposed
 
-Its important to Remember that the MMs with FTDs are not really hurting due to the SBP, and the fact that the FTRs don't usually get Buy-Ins invoked. What is needed to force the MMs holding the FTDs is to create a liquidity crunch.
+NOT INVESTMENT ADVICE - see [disclaimer](#disclaimer); and I urge you not be part of any of these...
 
-The people with margin accounts long GME is not really helping in creating the liqudity crunch, because their accounts are [hypothecable](#hypo), however those that hold GME with cash accounts and not selling _are helping_ - because they've taken the share out of the pool of borrowable GME shares.
+{{< rawhtml >}}
 
-Remember the [VW infinity squeeze](https://twitter.com/empirezhu/status/1355208084931530755)? well that happened with only 12% short interest. The reason it happened is because there was just no one selling (and therefore short borrowing costs through the roof) - with VW/Porshe holding 70%+ of the stock in VW, and nobody else selling due to news of take over, the shorts were literally stuck between a rock and a hard place, either pay huge premium to cover, or pay huge borrowing costs to maintain the short positions + upsize collateral... clearly the better option was to exit by paying $1000 per share LMFAO.
-
-{{< rawhtml >}}<h1 style="padding: 0.2em; line-height: 1.5em;"><span style="color: white; background-color:red; padding: 0.3em">Important Point #6</span> ULTIMATE ENDGAME - Lack of Liquidity is the Kryptonite</h1>{{< /rawhtml >}}
+<div class="explainer">
+<p>
+Just want to make it clear there are <i>3 possible plays</i> here, but they all center on the one point alot of people miss:
+<h1 style="margin-top: 0">TL;DR - Someone is Still Exposed</h1>
+</p>
+<p>Because 150% of GME's float was shorted, meaning at least 50% of that is fake - How do you deliver something that doesn't exist?</p>
+<ol>
+  <li><b>Value Play</b> - GME represents value, especially at the current price of $40</li>
+  <li><b>Short Squeeze Play</b> - The more unencumbered long positions of GME, the costlier it is to short/hold short positions.</li>
+  <li><b>Nuclear Play</b> - The "Bank Run", where all unencumbered longs ask for GME shares to be located at the same time.</li>
+</ol>
+</div>
+<h1 style="padding: 0.2em; line-height: 1.5em;"><span style="color: white; background-color:red; padding: 0.3em">Important Point #6</span> ULTIMATE ENDGAME - Lack of Liquidity is the Kryptonite</h1>
+{{< /rawhtml >}}
 
 
 ## Conclusion
@@ -380,40 +418,6 @@ _Disclaimer: I'm an idiot, so NOT INVESTMENT ADICE_, but:
 - No Margin, Cash Only, Never Sell (for less than $1000)
 
 ![](/img/lemon.png)
-
-## Contact
-
-_Follow me on Twitter: [@empirezhu](https://twitter.com/empirezhu)_
-
-Reflect:  
-  
-It has been a wild ride the last week or so for me! and I'm sure for you as well. I initially bought into GME (@ $363) to lend a hand to the movement (and to profit of course), using money (cash) that I can afford to lose... The more I read and understood how the market _ACTUALLY_ works, the more I invested in GME. I averaged down from $363 to $250 to $200 and finally now around $100 per share, holding a few hundred.
-
-To be perfectly honest, even if I lost the entire amount, I will not have any regrets, because I only played with money I can afford to lose, and also because I think of it as an investment, both in a great company, and in being able to wake up and see the wicked game for what it is - I'm finally an educated ape now!  
-
-This post originated from notes that I took when I began looking into FTDs, FTRs, DTCC etc, terms that I've never heard of before. Eventually, combining with some creative writing abilities which I didn't know existed in me, I turned it into a post that I want to share with everyone.
-
-{{< rawhtml >}}
-<div style="padding: 1em; background-color: #F0F0F0">
-#shamelessplug
-<br/>
-<p>
-If you like what you read, feel free to donate a small amount (e.g. <a href="https://www.quora.com/What-is-the-smallest-amount-of-Bitcoin-I-can-buy-and-where-do-I-buy-it">1 satoshi</a>) into my bitcoin address (at least i'll know someone read and appreciated my efforts):
-
-<img src="/img/btc_address.png" style="display: block;"/>
-<pre>3Hia9udRvDb1R7Ljt85EdJJUR5xfhRrtHL</pre>
-
-<br/>
-Note only send BTC to this address, everything else will get rejected.
-</p>
-<p>
-Alternatively, you can also donate via PayPal: <a href="https://paypal.me/wholesomevalue">paypal.me/wholesomevalue</a>
-</p>
-<p>
-EDIT: Because I'm now down about -$25KAUD, I'm unable to afford the <i>bare essentials</i> such as <a href="https://bws.com.au/spirits">beer, wine and spirits</a> (let alone less important things like food and mortgage repayments), so if you can relate, again, send me a little so I can survive - in jest
-</p>
-</div>
-{{< /rawhtml >}}
 
 Cheers
 
@@ -478,6 +482,22 @@ Source: https://www.ortex.com/symbol/NYSE/GME/short_interest
 
 - [r/wallstreetbets Subreddit Stats](https://subredditstats.com/r/Wallstreetbets)
 
+- [Naked Short Selling - Wikipedia](https://en.wikipedia.org/wiki/Naked_short_selling)
+
+- [Ex-clearing](http://brokerage101.com/comparison.html)
+
+- [Wall St Oasis Forum - Ex Clearing](https://www.wallstreetoasis.com/forums/ex-clearing)
+
+- [SEC 6350A - Clearance / Settlement](https://www.finra.org/rules-guidance/rulebooks/finra-rules/6350a)
+
+- [SEC Active Broker-Dealers List](https://www.sec.gov/help/foiadocsbdfoiahtm.html)
+
+- [DTCC Obligation Warehouse](https://www.dtcc.com/clearing-services/equities-clearing-services/ow)
+
+- [DTCC Article - Managing Risks with Ex-Clearing](https://www.dtcc.com/news/2011/april/01/managing-the-risks-of-ex-clearing-trades)
+
+- [Investor.gov Ed - Order Execution](https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/executing-order) - this talks about how orders are routed (to exchange, to market makers etc), what "payment for orderflow" is
+
 {{< rawhtml >}}<span style="background-color: red; color: white; padding: 0.3em; font-weight: bold;">UPDATE</span>{{< /rawhtml >}} Link to [theintercept.com article](https://theintercept.com/2016/09/24/naked-shorts-cant-stay-naked-forever/) that explores the same issue. The article also goes on to discuss something called [Reverse Stock Split](https://www.reddit.com/r/wallstreetbets/comments/lcpwh0/how_gme_can_still_be_a_great_play/) - basically how to nuke naked short sellers
 
 ## Disclaimer
@@ -499,7 +519,7 @@ put it in her bitter batter, made her bitter batter better.
 So ‘t was better Betty Botter bought some better butter.  
 
 I invoke the Tucker Carlson disclaimer which basically says that no person of reasonable intelligence should mistake this hyperbole bullshit to be of any factual substance. Therefore you can't sue me unless you admit you are an idiot of super low intelligence on national TV. Even if you did, you still can't sue me. Regarding the reenactment, while it might be 99.99% accurate, there is a 100% margin of error. She sells seashells on the seashore.
-The reenactment is for entertainment purposes only, the characters described within are not real, for example, Melvin is the incestual brother of Elmer J. Fudd, CNBC is the name of my black english staffy, who shits 3 times a day, and SugarDaddy is a pedophile that lives in the higher echalons of the church of market makers. The church is called the DTCC
+The reenactment is for entertainment purposes only, the characters described within are not real, for example, Melvin is the incestual brother of Elmer J. Fudd, CNBC is the name of my black english staffy, who shits 3 times a day, RobinYou is new priest, and SugarDaddy is a pedophile that lives in the higher echalons of the church of market makers. The church is called the DTCC. Nothing on this page should be mistaken for investment advice - although full of facts, this was written by an idiot intended for idiots. So if you're smart like Andrew Left, please stay away from this.
 The shells she sells are seashells, I’m sure.
 And if she sells seashells on the seashore,
 Then I’m sure she sells seashore shells.

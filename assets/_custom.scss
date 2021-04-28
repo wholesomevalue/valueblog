@@ -1,0 +1,240 @@
+/* You can add custom styles here. */
+
+// @import "plugins/numbered";
+
+img.logo {
+  width: 222px;
+  height: auto;
+  margin-bottom: 2em;
+  display: block;
+}
+
+.twitter-follow-button {
+  display: inline;
+}
+
+.comments-btn {
+  display: inline;
+  position: relative;
+}
+
+.cols, .table {
+  display: table;
+  .col, .cell {
+    display: table-cell;
+    padding: 0.5em;
+    vertical-align: middle;
+  }
+}
+
+.red-hl {
+  padding: 0.2em;
+  background-color: red;
+  color: white;
+  > a {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+@font-face {
+    font-family: Che;
+    src: url("/font/CheGuevaraText-Serif.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: CheSign;
+    src: url("/font/CheGuevaraSign-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: WholesomeSymbols;
+    src: url("/font/wholesome-symbols.ttf") format("truetype");
+}
+
+a.ext:after {
+  content: "\F08E";
+  font-family: WholesomeSymbols;
+  margin-left: 0.3em;
+}
+
+.explainer {
+
+  position: relative;
+  background-color: #F0F0F0;
+  padding: 1em;
+
+  &.che {
+    background-color: red;
+    color: white;
+    padding: 1em 1.5em;
+    p {
+      padding: 0.5em 1em;
+    }
+
+    a {
+      color: darkred;
+      font-weight: bold;
+    }
+    h5 {
+      margin-left: 1em;
+    }
+    &> h4 {
+      background-color: #b10505;
+      padding: 1em;
+    }
+    &> h3 {
+      text-align: center;
+      margin-top: 0;
+      font-family: 'Che';
+      border-top: 2px solid #f77171;
+      border-left: 2px solid #f77171;
+      border-right: 3px solid darkred;
+      border-bottom: 3px solid darkred;
+      padding: 1em 5%;
+      background-color: #b10505;
+      font-size: 6.5em;
+      position: relative;
+      span.gme {
+        font-size: 3em;
+        padding: 0;
+      }
+      &:before {
+        display: none;
+        content: "";
+        background: url(/img/grenade_3.png) 0 0 no-repeat;
+        width: 200px;
+        height: 374px;
+        right: 5%;
+        position: absolute;
+        bottom: 5%;
+      }
+      span.sign {
+        font-family: 'CheSign';
+      }
+    }
+  }
+
+  &.che:after {
+    content: "";
+    opacity: .09;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: url(/img/che.png) no-repeat;
+    background-color: rgba(0,0,0,.1);
+    top: -3em;
+    display: block;
+    width: 693px;
+    height: 748px;
+    overflow-x: hidden;
+  }
+}
+
+.book-menu .book-menu-content {
+  position: relative;
+}
+
+.donate-btn {
+  display: inline-block;
+  background: #ffc439;
+  border-radius: 6.25rem;
+  min-height: 1.625rem;
+  box-shadow: inset 0 2px 0 0 unquote("hsl(0deg 0% 100% / 41%\)");
+  border: 1px solid #d9a630;
+  color: #000;
+  font-family: Helvetica;
+  font-size: .875rem;
+  font-weight: 700;
+  padding: 0 1rem;
+  min-width: 7.5rem;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 0.7em;
+}
+
+.bubble {
+  position: absolute;
+  background: #eeff91;
+  border-radius: .4em;
+  padding: .6em 1em;
+  display: block;
+  right: -4em;
+  top: -1.5em;
+}
+
+.bubble:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-right-color: #eeff91;
+	border-left: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+
+.tabs-container {
+
+  &> .tabs {
+    padding-bottom: 0.6em;
+
+    &> a {
+      &:after {
+        display: none;
+        content: "";
+      }
+      &:hover { 
+        text-decoration: none;
+      }
+      cursor: pointer;
+      padding: 0.5em 1em 1em 1em;
+      text-align: center;
+      color: white;
+      &.active {
+        background-color: #da0808;
+        color: white;
+        font-weight: bold;
+      }
+      &:visited, &:hover {
+        color: white;
+      }
+    }
+  }
+
+  .tab-content {
+    display: none;
+    padding: 1em;
+    &.active {
+      display: block;
+      background-color: #da0808;
+    }
+  }
+
+}
+
+body {
+}
+
+.markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .markdown h6 {
+  line-height: 1.7;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .explainer.che:after {
+    content: "";
+    display: none;
+  }
+
+  .explainer.che>h3 span.gme {
+    font-size: 2em;
+  }
+
+}
+
+

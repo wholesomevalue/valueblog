@@ -11,7 +11,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-LWK02CNHSE');
 </script>
 
@@ -24,6 +23,35 @@
     <aside class="book-menu">
       <div class="book-menu-content">
         {{ template "menu" . }} <!-- Left menu Content -->
+        <div class="table">
+          <div class="cell">
+            <a href="https://twitter.com/empirezhu?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-show-count="false">Follow @empirezhu</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <div class="cell">
+             <div class="comments-btn">
+               <a href="#comments">Comments</a>
+               <span class="bubble" data-talk-id="{{ .Page.File.UniqueID }}" data-talk-mode="number" href="#comments"></span>
+             </div>
+         </div>
+        </div>
+        <br/>
+  {{ partial "subscribe.html" . }}
+  <div style="padding: 1em; background-color: #F0F0F0">
+  #shamelessplug
+  <br/>
+  <p>Once I was approached by a homeless person, asking for spare change. I dug into my pockets and all I could come up with was 50c. So I handed that to him. Looking annoyed and cursing, he threw it back at me and left telling me that he had standards...</p>
+  <p>Well, I don't have such standards, so I will gladly accept however  small a donation you could spare (at least i'll know someone read and appreciated my efforts).</p>
+  <p>The donation will be well spent on essentials such as alcohol and server running costs:</p>
+  <p>
+  <h3> PayPal Me at: </h3>
+  <p>
+  <b>PayPal.Me/wholesomevalues</b>
+  <br/>
+  <br/>
+  <a class="donate-btn" style="font-size: 0.9em" href="https://paypal.me/wholesomevalues">Donate</a></p>
+  </p>
+  </div>
+
       </div>
     </aside>
 
@@ -41,12 +69,13 @@
         {{ partial "docs/inject/footer" . }}
       </footer>
 
+  <a name="comments"></a>
   <div id="hyvor-talk-view"></div>
 <script type="text/javascript">
     var HYVOR_TALK_WEBSITE = 3160; // DO NOT CHANGE THIS
     var HYVOR_TALK_CONFIG = {
         url: "https://blog.wholesomevalue.com/posts/naked/",
-        id: "naked"
+        id: "{{ .Page.File.UniqueID }}"
     };
 </script>
 <script async type="text/javascript" src="//talk.hyvor.com/web-api/embed"></script>
@@ -64,7 +93,10 @@
     {{ end }}
   </main>
 
+<script async type="text/javascript" src="//talk.hyvor.com/web-api/count/"></script>
+
   {{ partial "docs/inject/body" . }}
+
 </body>
 
 </html>

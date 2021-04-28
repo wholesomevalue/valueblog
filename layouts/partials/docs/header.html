@@ -1,0 +1,56 @@
+<!-- JQ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sugar/2.0.6/sugar.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.x-git.slim.min.js"></script>
+<script>
+  Sugar.extend();
+  function tabName(node) {
+    var as = node.data();
+    return Object.keys(as).find(function(a) {
+      if (a.startsWith('tab')) {
+        return true;
+      }
+    });
+  }
+
+  function selectTab(node, event) {
+    var name = tabName($(node))
+    $(node).siblings().removeClass('active');
+    $(node).addClass('active');
+    console.log('tab selected=', name);
+    var current = $(node).closest('.tabs-container').children('.tab-content').filter(function() {
+      return $(this).hasClass('active');
+    });
+    var node = $(node).closest('.tabs-container').children('.tab-content').filter(function() {
+      return $(this).data(name) != undefined;
+    });
+    current.removeClass('active');
+    node.addClass('active');
+    console.log('node to be activated=', node);
+    event.stopPropagation();
+    return false;
+  }
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-76NBDTSSYT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-76NBDTSSYT');
+</script>
+
+<div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="{{ "svg/menu.svg" | relURL }}" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>{{ partial "docs/title" . }}</strong>
+
+  <label for="toc-control">
+    {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+    <img src="{{ "svg/toc.svg" | relURL }}" class="book-icon" alt="Table of Contents" />
+    {{ end }}
+  </label>
+</div>
+
