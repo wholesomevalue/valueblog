@@ -73,7 +73,9 @@ r = _real risk-free interest rate_ + (_inflation_ + _default_ + _liquidity_ + _m
   - _N_ is the number of years
 {{< rawhtml >}}<a name="s2_EAR"></a>{{</ rawhtml >}}
 - the _stated annual rate_ vs _effective annual rate_ (EAR)
-  - e.g. 8% per annum, but paid & compounded semiannually, the stated rate is 8%, while the effective rate is 8.16% = `EAR = (1 + periodic rate)^m - 1` = (1 + 0.04)^2 - 1 = 0.0816 or 8.16%
+{{< hint info>}}{{< katex >}}EAR = (1 + r_p)^m - 1{{</ katex >}}{{</ hint >}}
+  where {{< katex >}}r_p{{</ katex >}} is the period rate, and _m_ is the number of periods per annum  
+  e.g. 8% per annum, but paid & compounded semiannually, the stated rate is 8%, while the effective rate is 8.16% = `EAR = (1 + periodic rate)^m - 1` = (1 + 0.04)^2 - 1 = 0.0816 or 8.16%
 - for _continuous_ compounding (as opposed to discrete compounding):  
 {{< hint info >}}{{< katex >}}EAR = e^{r_s} - 1{{</ katex >}}{{</ hint >}}
   where {{< katex >}}r_s{{</ katex >}} is the stated annual rate, e.g. 8% per annum, compounded continuosly, is {{< katex >}}e^{0.08} - 1 \approx 0.0833 \approx 8.33\%{{</ katex >}}
@@ -96,6 +98,16 @@ r = _real risk-free interest rate_ + (_inflation_ + _default_ + _liquidity_ + _m
 
 ##### The _Present Values_ of a Single Cash Flow
 
+- present value of a single cashflow, with discrete, annual compounding
+{{< hint info >}}{{< katex >}}PV = FV_N(1 + r)^{-N}{{</ katex >}}{{</ hint >}}
+  because: {{< katex >}}FV_N = PV(1 + r)^N{{</ katex >}}, so {{< katex >}}PV = \frac{FV_N}{(1 + r)^N} = FV_N[\frac{1}{(1 + r)^N}]{{</ katex >}}
+
+- present value of a single cashflow, with discrete, multiple (m) periodic compounding per annum
+{{< hint info >}}{{< katex >}}PV = FV_N(1 + \frac{r_s}{m})^{-mN}{{</ katex >}}{{</ hint >}}
+
+- present value of a _perpetuity_:
+{{< hint info >}}{{< katex >}}PV = A\sum_{t=1}^{\infty}[\frac{1}{(1 + r)^t}]{{</ katex >}}, which simplies to (as long as r is positive): {{< katex >}}PV = \frac{A}{r}{{< /katex >}}{{</ hint >}}
+  where _A_ is the annuity received per year
 
 #### R/7 - Discounted Cash Flow Applications
 
@@ -105,13 +117,61 @@ r = _real risk-free interest rate_ + (_inflation_ + _default_ + _liquidity_ + _m
 | [ ] | b. contrast NPV rule vs IRR rule, problems with IRR rule |
 | [ ] | c. calculate _total return_ |
 | [ ] | d. calculate _money-weighted_ vs _time-weighted_ rates of return; evaluate portfolios performance using such measures |
-| [ ] | e. calculate _bank discount yield_, _holding period yield_, _effective annual yield_, and _market yield_ for US T-Bills |
+| [ ] | e. calculate different types of yields: _bank discount yield_, _holding period yield_, _effective annual yield_, and _market yield_ for US T-Bills |
 | [ ] | f. convert between different yields |
 
+##### Net Present Value (NPV) and Internal Rate of Return (IRR)
 
-{{< katex >}}
-f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
-{{</ katex >}}
+- _capital budgeting_ - the allocation of funds to long-range projects / investments
+- _capital structure_ - the choice of long-term financing for the investments the company wants to make
+- _working capital management_ - management of the company's short term assets (e.g. inventory), and short-term liabilities (e.g. payables to suppliers)
+- the concept of NPV and IRR applies in both capital budgeting and security analysis contexts
+
+- _Net Present Value_ calculated as:
+{{< hint info >}}{{< katex >}}NPV = \sum_{t=0}^{N} \frac{CF_t}{(1 + r)^t} {{</ katex >}}{{</ hint >}}
+  where:  
+  {{< katex >}}CF_t{{</ katex >}} = the expected cash flow at time t  
+  _N_ = the investment's projected life, and  
+  _r_ = the discount rate aka rate of return aka opportunity cost of capital  
+
+- negative NPV projects should be rejected, and competing positive NPV projects selected by greater NPV
+- inputs must be in compatible time units - e.g. N is years, and r is annual rate
+  > example, review project that requires initial outlay of $2M ({{< katex >}}CF_0{{</ katex >}} = -$2M). The project expected to generate {{< katex >}}CF_1 {{</ katex >}} = $500K (at year 1), {{< katex >}}CF_2{{</ katex >}} = $750K, {{< katex >}}CF_3{{</ katex >}} = $1.35M. using r = 10% per annum (discount rate):  
+  > {{< katex block >}}NPV = -\$2 + \$0.50/(1.10)^1 + \$0.75/(1.10)^2 + \$1.35/(1.10)^3 = \$0.088655M{{</ katex >}}  
+  > since NPV > $0, project accepted; note that the discount rate chosen plays a big part in making NPV + vs -; justification required
+
+- _Internal Rate of Return (IRR)_ is the rate of return where the NPV is 0:
+{{< hint info >}}{{< katex >}}NPV = 0 = CF_0 + \frac{CF_1}{(1 + IRR)^1} + \frac{CF_2}{(1 + IRR)^2} + ... + \frac{CF_N}{(1 + IRR)^N}{{</ katex >}}{{</ hint >}}
+  Where, {{< katex >}}CF_N{{</ katex >}} is the cash flow at Nth year  
+- IRR is known as the _hurdle rate_ where the projected cash outflow = inflow, i.e. the rate of return that needs to be achieve breakeven; therefore, the cost of capital must be <= hurdle rate  
+  > e.g. a R&D project is projected to return $150K in perpetuity, with the the initial outlay of $1M, calculate the IRR  
+  > {{< katex >}}NPV = -\$1,000,000 + \frac{\$150,000}{IRR}{{</ katex >}} (PV of perpetuity = {{< katex >}}\frac{A}{r}{{< /katex >}})  
+  > {{< katex >}}NPV = 0 = -\$1,000,000 + \frac{\$150,000}{IRR}{{</ katex >}}  
+  > {{< katex >}}\$1,000,000 = \frac{\$150,000}{IRR}{{</ katex >}}  
+  > {{< katex >}}\therefore IRR = \frac{\$150,000}{\$1,000,000} = 15\%{{</ katex >}}  
+  > so if the cost of capital is < 15% then the project would have a positive cashflow
+
+- when IRR and NPV are conflicting, select using NPV - e.g. when IRR for project A > B, but NPV for B > A, then select project B; remember that we want to maximize $ returns, a greater IRR (percentage return) doesn't neccessarily mean greater return in $ terms
+
+##### Portfolio Return Measurement
+
+- _holding period return_ 
+- _money-weighted rate of return_ is essentially IRR in investment management speak, ie we solve for _r_
+  > e.g. I invested $200 for 1 share (t=0), and another share @ $225 (t=1), at t=2 (holding for 2 years), I liquidate the shares for $235 each ($470 total), and during the hold, I received $5 dividend from the 1st share (not reinvested) and at the end of 2nd year, I received $10 (2 x $5) in dividends, calculate the money-weighted rate of return (r):  
+  > {{< katex >}}\$200 + \frac{\$225}{(1 + r)} = \frac{\$5}{(1 + r)} + \frac{\$480}{(1 + r) ^ 2}{{</ katex >}} ($480 because we received $10 in dividend in the final year)  
+  > on the left, is our money outflows (invested), on the right is our money inflows (dividend + cash received when shares sold)  
+  > so essentially, our equation is: _PV(outflows) = PV(inflows)_  
+  > we apply discounting on both side of the equation: on the left side, we arrive at PV of $225 with: {{< katex >}}\frac{\$225}{(1+r)^1}{{</ katex >}} and on the right side, we arrive at PV of the dividends and liquidation with: {{< katex >}}\frac{\$5}{(1+r)^1}{{</ katex >}} and {{< katex >}}\frac{\$480}{(1+r)^2}{{</ katex >}}  
+- money-weighted rate of return _IS_ affected by addition/withdrawals of funds
+
+- _time-weighted rate of return_ _IS NOT_ affected by the addition/withdrawals of funds. Is preferred measurement.
+- in time-weighted rate of return, we solve for the rate of return r, for $1 invested, taking into account the return for each period, compounded, arriving at r by finding the [geometric mean](https://en.wikipedia.org/wiki/Geometric_mean) of the periodic returns :
+  > e.g. In the money-weighted rate of return example from above, if we take a closer look at each period (year 1 & 2), we have:  
+  > year 1 = 15% return: ($5 + $225 - $200) / $200 = 15%  
+  > year 2 = 6.67% return: ($10 + $470 - $450)/ $450 = 6.67%  
+  > so: {{< katex >}}(1 + r_{tw}) = (1.15)(1.0667){{</ katex >}}  
+  > {{< katex >}}r_{tw} = \sqrt{(1.15)(1.0667)} - 1 = 10.76%{{</ katex >}}  
+  > where {{< katex >}}r_{tw}{{</ katex >}} is the time-weighted rate of return
 
 ### S/3 - Application
 
@@ -123,13 +183,13 @@ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 
 ## Financial Reporting & Analysis (6 - 9)
 
-### S/6 - Financial Reporting and Analysis - Intro
+### S/6 - Intro
 
 ### S/7 - Income Statements, Balance Sheets & Cash Flow Statements
 
 ### S/8 - Inventories, Long-lived Assets, Income Taxes and Non-current Liabilities
 
-### S/9 - Financial Reporting Quality & Financial Statement Analysis
+### S/9 - Reporting Quality & Analysis
 
 ## Corporate Finance and Portfolio Management (10 - 12)
 
@@ -141,7 +201,7 @@ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 
 ## Equity and Fixed Income (13 - 16)
 
-### S/13 - Market Organization, Market Indexes and Market Efficiency
+### S/13 - Organization, Indices and Efficiency
 
 ### S/14 - Equity Analysis and Valuation
 
@@ -161,3 +221,4 @@ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
   > e.g. 8% per annum, but paid & compounded semiannually, the state rate is 8%, but the effective rate is [8.16%](#s2_EAR)
 - `discrete compounding`
 - `continuous compounding`
+- `nominal risk-free interest rate` - is the _risk-free rate_ + _inflation rate_; e.g. US Treasury Bill (T-Bill)
