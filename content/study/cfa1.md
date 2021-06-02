@@ -171,7 +171,15 @@ r = _real risk-free interest rate_ + (_inflation_ + _default_ + _liquidity_ + _m
   > year 2 = 6.67% return: ($10 + $470 - $450)/ $450 = 6.67%  
   > so: {{< katex >}}(1 + r_{tw}) = (1.15)(1.0667){{</ katex >}}  
   > {{< katex >}}r_{tw} = \sqrt{(1.15)(1.0667)} - 1 = 10.76%{{</ katex >}}  
-  > where {{< katex >}}r_{tw}{{</ katex >}} is the time-weighted rate of return
+  > where {{< katex >}}r_{tw}{{</ katex >}} is the time-weighted rate of return  
+
+- daily evaluation of the portfolio is accepted in the industry as sufficient valuation frequency for time-weighted rate of return. The daily return is calculated as follows:  
+  {{< hint info >}}{{< katex >}}r_t = \frac{\text{MVE}_t - \text{MVB}_t}{\text{MVB}_t}{{</ katex >}}{{</ hint >}}  
+  where, {{< katex >}}r_t{{</ katex >}} is the rate of return at day _t_,  
+  {{< katex >}}\text{MVB}_t{{</ katex >}} is the market value at beginning of day _t_  
+  {{< katex >}}\text{MVE}_t{{</ katex >}} is the market value at end of day _t_  
+  the time-weighted return {{< katex >}}r_{tw}{{</ katex >}} would be:  
+  {{< hint info >}}{{< katex >}}r_{tw} = [(1 + r_1) \times (1 + r_2) \times ... \times (1 + r_N)]^{\frac{1}{N}} - 1 {{</ katex >}}{{</ hint >}}
 
 ### S/3 - Application
 
@@ -222,3 +230,5 @@ r = _real risk-free interest rate_ + (_inflation_ + _default_ + _liquidity_ + _m
 - `discrete compounding`
 - `continuous compounding`
 - `nominal risk-free interest rate` - is the _risk-free rate_ + _inflation rate_; e.g. US Treasury Bill (T-Bill)
+- `geometric mean` is the mean (average) of the _product_ of a set of numbers (as opposed to arithmetic mean, which is the mean of the sum of a set of numbers):  
+  {{< katex >}}\left(\prod _{i=1}^{n}x_{i}\right)^{\frac {1}{n}}={\sqrt[{n}]{x_{1}x_{2}\cdots x_{n}}}{{</ katex >}}
