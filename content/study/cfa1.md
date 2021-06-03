@@ -223,7 +223,7 @@ r = _real risk-free interest rate_ + (_inflation_ + _default_ + _liquidity_ + _m
 | [ ] | d. properties of dataset presented as histogram / frequency polygon |
 | [ ] | e. central tendency - calculate mean, sample mean, arithmetic mean, geometric mean, weighted average/mean, harmonic mean, median, mode |
 | [ ] | f. quartiles, quintiles, deciles, percentiles |
-| [ ] | g. range, mean absolute deviation, variance and standard deviation of population of sample ||
+| [ ] | g. range, mean absolute deviation, variance and standard deviation of population of sample |
 | [ ] | h. _Chebyshev's_ inequality for proportion of observations falling within specified # of standard deviations |
 | [ ] | i. coefficient of variation, _Sharpe_ ratio |
 | [ ] | j. skewness, positive vs negative skewed distributions |
@@ -237,6 +237,31 @@ r = _real risk-free interest rate_ + (_inflation_ + _default_ + _liquidity_ + _m
 ### S/4 - Micro / Macro Economics
 
 ### S/5 - Monetary & Fiscal Policy, International Trade and Currency Exchange Rates
+
+#### R/18 Monetary and Fiscal Policy
+
+| [x] | Topic |
+| ----|-------|
+| [ ] | a. monetary vs fiscal policy |
+| [ ] | b. functions & definitions of money |
+| [ ] | c. money creation process |
+| [ ] | d. theories of demand / supply of money |
+| [ ] | e. _Fisher_ effect |
+| [ ] | f. roles & objectives of central banks |
+| [ ] | g. contrast costs of expected and unexpected inflation |
+| [ ] | h. tools used to implement monetary policy |
+| [ ] | i. monetary transmission mechanism |
+| [ ] | j. qualities of effective central banks |
+| [ ] | k. explain relationships between monetary policy <-> economic growth <-> inflation <-> interest <-> exchange rates |
+| [ ] | l. contrast use of inflation, interest rate, exchange rate targeting by central banks |
+| [ ] | m. expansionary policy vs contractionary monetary policy |
+| [ ] | n. limitations of monetary policy |
+| [ ] | o. roles & objectives of monetary policy |
+| [ ] | p. tools of fiscal policy, advantages and disadvantages |
+| [ ] | q. arguments for/against whether size of national debt relative to GDP matters? |
+| [ ] | r. how is fiscal policy implemented, any difficulties? |
+| [ ] | s. determine if fiscal policy is expansionary or contractionary |
+| [ ] | t. interactions between monetary and fiscal policy |
 
 ## Financial Reporting & Analysis (6 - 9)
 
