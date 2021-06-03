@@ -175,11 +175,60 @@ r = _real risk-free interest rate_ + (_inflation_ + _default_ + _liquidity_ + _m
 
 - daily evaluation of the portfolio is accepted in the industry as sufficient valuation frequency for time-weighted rate of return. The daily return is calculated as follows:  
   {{< hint info >}}{{< katex >}}r_t = \frac{\text{MVE}_t - \text{MVB}_t}{\text{MVB}_t}{{</ katex >}}{{</ hint >}}  
-  where, {{< katex >}}r_t{{</ katex >}} is the rate of return at day _t_,  
-  {{< katex >}}\text{MVB}_t{{</ katex >}} is the market value at beginning of day _t_  
-  {{< katex >}}\text{MVE}_t{{</ katex >}} is the market value at end of day _t_  
+  where:  
+  {{< katex >}}r_t{{</ katex >}} = the rate of return at day _t_,  
+  {{< katex >}}\text{MVB}_t{{</ katex >}} = the market value at beginning of day _t_  
+  {{< katex >}}\text{MVE}_t{{</ katex >}} = the market value at end of day _t_  
+
   the time-weighted return {{< katex >}}r_{tw}{{</ katex >}} would be:  
   {{< hint info >}}{{< katex >}}r_{tw} = [(1 + r_1) \times (1 + r_2) \times ... \times (1 + r_N)]^{\frac{1}{N}} - 1 {{</ katex >}}{{</ hint >}}
+
+##### Money Market Yields
+
+- _money market_ is the market for short-term debt instruments (one-year maturity or less). eg. US Treasury bill (T-bill), commercial paper (corp bonds), negotiable certificates of deposits
+- the _face value_ of a T-bill is the amount the US government promises to pay back to the investor at maturity. The investor doesn't pay the face value of the T-bill when they buy it, instead, they pay the face value minus _discount_
+- the discount is effectively the interest rate
+- T-bills are whats called _pure discount instruments_
+- T-bills are quoted on a _bank discount basis_ (annualizes based on 360-day year):  
+  {{< hint info >}}{{< katex >}}r_{bd} = \frac{D}{F} \times \frac{360}{t}{{</ katex >}}{{</ hint >}}
+  where:  
+  {{< katex >}}r_{bd}{{</ katex >}} = the annualized yield on a bank discount basis  
+  {{< katex >}}D{{</ katex >}} = the dollar discount on the face value  
+  {{< katex >}}F{{</ katex >}} = the face value  
+  {{< katex >}}t{{</ katex >}} = the amount of days left to maturity  
+  360 = number of days in a year (bank convention)  
+  > e.g. Suppose a T-bill with a face value (aka par value) of $100,000 and 150 days until maturity is selling for $98,000. What is the bank discount yield?  
+  > in this case, the dollar discount D is $2,000. The yield would be:  
+  > {{< katex >}}r_{bd} = \frac{\$2,000}{\$100,000} \times \frac{360}{150} = 4.8\%{{</ katex >}}  
+
+  > when the bond was originally issued, the investor would have purchased it for:  
+  > {{< katex >}}r_{bd} = 4.8\% = \frac{D}{\$100,000} \times \frac{360}{360}{{</ katex >}}  
+  > {{< katex >}}\therefore D = 4.8\% \times \$100,000 = \$4,800{{</ katex >}}  
+  > and so the investor paid: $100,000 - $4,800 = $95,200
+
+- bank discount rate does not show the actual return on the investment, 3 additional yields are listed in table below:  
+
+| Holding Period Yield (HPY) | Effective Annual Yield (EAY) | Money Market Yield |
+| ------------- |:-------------| -----|
+| {{< hint info >}}{{< katex >}}\text{HPY} = \frac{P_1 - P_0 + D_1}{P_0}{{</ katex >}}{{</ hint >}} | {{< hint info >}}{{< katex >}}\text{EAY} = (1 + \text{HPY})^{\frac{365}{t}} - 1{{</ katex >}}{{</ hint >}} | {{< hint info >}}{{< katex >}}r_{mm} = \frac{360r_{bd}}{360 - (t)(r_{bd})}{{</ katex >}}{{</ hint >}} |
+| yield for duration of hold | yield annualized (365 days) | {{< katex >}}r_{bd}{{</ katex >}} annualized (360 days) |
+
+#### R/8 - Statistical Concepts and Market Returns
+
+| [x] | Topic |
+| ----|-------|
+| [ ] | a. compare descriptive statistics vs inferential statistics; population vs sample; measurement scales |
+| [ ] | b. define parameter, sample statistic, frequency distribution |
+| [ ] | c. given frequency distribution, calculate relative frequencies, cumulative relative frequencies |
+| [ ] | d. properties of dataset presented as histogram / frequency polygon |
+| [ ] | e. central tendency - calculate mean, sample mean, arithmetic mean, geometric mean, weighted average/mean, harmonic mean, median, mode |
+| [ ] | f. quartiles, quintiles, deciles, percentiles |
+| [ ] | g. range, mean absolute deviation, variance and standard deviation of population of sample ||
+| [ ] | h. _Chebyshev's_ inequality for proportion of observations falling within specified # of standard deviations |
+| [ ] | i. coefficient of variation, _Sharpe_ ratio |
+| [ ] | j. skewness, positive vs negative skewed distributions |
+
+#### R/9 - Probability Concepts
 
 ### S/3 - Application
 
@@ -225,10 +274,10 @@ r = _real risk-free interest rate_ + (_inflation_ + _default_ + _liquidity_ + _m
 
 ## Glossary
 
+- `continuous compounding`
+- `discrete compounding`
 - `EAR` - Effective Annual Rate, is the actual annual rate being applied to the investment rather than the _stated annual rate_,
   > e.g. 8% per annum, but paid & compounded semiannually, the state rate is 8%, but the effective rate is [8.16%](#s2_EAR)
-- `discrete compounding`
-- `continuous compounding`
-- `nominal risk-free interest rate` - is the _risk-free rate_ + _inflation rate_; e.g. US Treasury Bill (T-Bill)
 - `geometric mean` is the mean (average) of the _product_ of a set of numbers (as opposed to arithmetic mean, which is the mean of the sum of a set of numbers):  
   {{< katex >}}\left(\prod _{i=1}^{n}x_{i}\right)^{\frac {1}{n}}={\sqrt[{n}]{x_{1}x_{2}\cdots x_{n}}}{{</ katex >}}
+- `nominal risk-free interest rate` - is the _risk-free rate_ + _inflation rate_; e.g. US Treasury Bill (T-Bill)
