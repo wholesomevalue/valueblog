@@ -25,3 +25,10 @@ title: "Dashboard"
 {{< rawhtml >}}
 <iframe src="https://sslecal2.forexprostools.com?columns=exc_flags,exc_currency,exc_importance,exc_actual,exc_forecast,exc_previous&features=datepicker,timezone,filters&countries=25,37,5&calType=week&timeZone=31&lang=70" width="100%" height="700" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0"></iframe><div class="poweredBy" style="font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 11px;color: #333333;text-decoration: none;">Real Time Economic Calendar provided by <a href="https://au.Investing.com/" rel="nofollow" target="_blank" style="font-size: 11px;color: #06529D; font-weight: bold;" class="underline_link">Investing.com Australia</a>.</span></div>
 {{< /rawhtml >}}
+
+## Follows
+
+### Macro Investors
+
+- Diego Parrilla - bubble vs anti-bubble
+  > check linkedin page on article about crypto
